@@ -11,7 +11,8 @@ import yaml
 from time import sleep
 
 # Global variables
-server = 'https://demo4.ipf.ipfabric.io/'
+# server = 'https://demo4.ipf.ipfabric.io/'
+server = 'https://10.0.8.15/'
 authData = { 'username': 'ipfabricdemo', 'password' : 'ipfabricdemo' }
 ansibleInventory = 'hosts.yaml'
 
@@ -19,7 +20,6 @@ ansibleInventory = 'hosts.yaml'
 snapshotId = '$last'
 devicesEndpoint = server + 'api/v1/tables/inventory/devices'
 devicesPayload = {
-#  'columns':["id","sn","hostname","siteKey","siteName","rd","stpDomain","loginIp","loginType","uptime","reload","memoryUtilization","vendor","platform","family","configReg","version","processor"],
   'columns':["hostname","siteName","loginIp","loginType","vendor","platform","family"],
   'filters':{},
   'pagination':{"limit":500,"start":0},
