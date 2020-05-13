@@ -12,7 +12,7 @@ from time import sleep
 
 # Global variables
 # server = 'https://demo4.ipf.ipfabric.io/'
-server = 'https://10.0.8.15/'
+server = 'https://10.0.8.15/' 
 authData = { 'username': 'ipfabricdemo', 'password' : 'ipfabricdemo' }
 ansibleInventory = 'hosts.yaml'
 
