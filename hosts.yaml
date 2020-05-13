@@ -1,0 +1,60 @@
+all:
+  children:
+    L1:
+      L1FW56:
+        ansible_connection: ssh
+        ansible_host: 10.241.255.56
+      L1R14:
+        ansible_connection: ssh
+        ansible_host: 10.241.255.14
+      L1R15:
+        ansible_connection: ssh
+        ansible_host: 10.241.255.15
+      L1R16:
+        ansible_connection: ssh
+        ansible_host: 10.241.255.16
+      L1R17:
+        ansible_connection: ssh
+        ansible_host: 10.241.1.17
+      L1R18:
+        ansible_connection: ssh
+        ansible_host: 10.241.255.18
+      L1R7:
+        ansible_connection: ssh
+        ansible_host: 10.241.80.11
+      L1SW3:
+        ansible_connection: ssh
+        ansible_host: 10.241.255.103
+      L1SW4:
+        ansible_connection: ssh
+        ansible_host: 10.241.255.104
+    cisco:
+      L1SW3:
+        ansible_connection: ssh
+        ansible_host: 10.241.255.103
+      L1SW4:
+        ansible_connection: ssh
+        ansible_host: 10.241.255.104
+    juniper:
+      L1FW56:
+        ansible_connection: ssh
+        ansible_host: 10.241.255.56
+      L1R14:
+        ansible_connection: ssh
+        ansible_host: 10.241.255.14
+      L1R15:
+        ansible_connection: ssh
+        ansible_host: 10.241.255.15
+      L1R16:
+        ansible_connection: ssh
+        ansible_host: 10.241.255.16
+      L1R17:
+        ansible_connection: ssh
+        ansible_host: 10.241.1.17
+      L1R18:
+        ansible_connection: ssh
+        ansible_host: 10.241.255.18
+      L1R7:
+        ansible_connection: ssh
+        ansible_host: 10.241.80.11
+
