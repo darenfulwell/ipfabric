@@ -5,8 +5,8 @@ Simple Python3 script for authenticating to IP Fabric's API and collecting inven
 from ipfapidemo import tokenRequest, getData
 
 # Starting with variables
-server = 'https://demo4.ipf.ipfabric.io/'
-authData = { 'username': 'ipfabricdemo', 'password' : 'ipfabricdemo' }
+server = 'https://server/'
+authData = { 'username': 'username', 'password' : 'password' }
 
 # Starting with endpont and payload variables
 snapshotId = '2d7cb154-5d37-4acd-873d-7958dec60817'
