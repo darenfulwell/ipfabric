@@ -2,7 +2,7 @@
 Simple Python3 script for changing IP Fabric settins and starting snapshots over API
 """
 # Built-in/Generic Imports
-from ipfapi import *
+from ipfapidemo import *
 
 # Starting with variables
 server = 'https://server/'

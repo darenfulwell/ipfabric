@@ -1,0 +1,6002 @@
+[
+    {
+        "hostname": {
+            "data": "L38AC10",
+            "severity": 0
+        },
+        "siteName": "L38",
+        "loginIp": "10.38.119.155",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39EXR5",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.255.105",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "ipf-net-sw",
+            "severity": 0
+        },
+        "siteName": "unknown",
+        "loginIp": "192.168.128.3",
+        "loginType": "api",
+        "vendor": "cisco",
+        "platform": "MS22P",
+        "family": "meraki"
+    },
+    {
+        "hostname": {
+            "data": "L51CR7",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.32.107",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-FW-CPUTM1",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.102.15",
+        "loginType": "ssh",
+        "vendor": "checkpoint",
+        "platform": "checkpoint-gaia",
+        "family": "gaia"
+    },
+    {
+        "hostname": {
+            "data": "L48SD3",
+            "severity": 0
+        },
+        "siteName": "L48",
+        "loginIp": "10.48.255.148",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L72AC26",
+            "severity": 0
+        },
+        "siteName": "L72",
+        "loginIp": "10.72.119.131",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L36AC47",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.149.133",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR35",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.35.135",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-HPA5500-SW2",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.102.14",
+        "loginType": "telnet",
+        "vendor": "hp",
+        "platform": "a5500",
+        "family": "comware"
+    },
+    {
+        "hostname": {
+            "data": "L62R12",
+            "severity": 0
+        },
+        "siteName": "L62",
+        "loginIp": "10.62.255.112",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L33R4",
+            "severity": 0
+        },
+        "siteName": "L33",
+        "loginIp": "10.33.112.104",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR59",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.255.159",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39AC121",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.11.101",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43SD84",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.253.142",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L81R8",
+            "severity": 0
+        },
+        "siteName": "L81",
+        "loginIp": "10.81.255.8",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L81R3",
+            "severity": 0
+        },
+        "siteName": "L81",
+        "loginIp": "10.81.255.3",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L64R4",
+            "severity": 0
+        },
+        "siteName": "L64",
+        "loginIp": "10.64.101.104",
+        "loginType": "ssh",
+        "vendor": "mikrotik",
+        "platform": "CHR",
+        "family": "routeros"
+    },
+    {
+        "hostname": {
+            "data": "L68CSR8",
+            "severity": 0
+        },
+        "siteName": "L68",
+        "loginIp": "10.68.255.108",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "x86_64_linux_iosd",
+        "family": "ios-xe"
+    },
+    {
+        "hostname": {
+            "data": "L36AC32",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.139.121",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21PE122",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.254.122",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC21",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.129.186",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L33JR5",
+            "severity": 0
+        },
+        "siteName": "L33",
+        "loginIp": "10.33.255.105",
+        "loginType": "ssh",
+        "vendor": "juniper",
+        "platform": "vmx",
+        "family": "junos"
+    },
+    {
+        "hostname": {
+            "data": "L37EXR2",
+            "severity": 0
+        },
+        "siteName": "L37",
+        "loginIp": "10.37.255.2",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L67CSR16",
+            "severity": 0
+        },
+        "siteName": "L67",
+        "loginIp": "10.67.255.116",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "x86_64_linux_iosd",
+        "family": "ios-xe"
+    },
+    {
+        "hostname": {
+            "data": "L64R6",
+            "severity": 0
+        },
+        "siteName": "L64",
+        "loginIp": "10.64.108.106",
+        "loginType": "ssh",
+        "vendor": "mikrotik",
+        "platform": "CHR",
+        "family": "routeros"
+    },
+    {
+        "hostname": {
+            "data": "L38AC20",
+            "severity": 0
+        },
+        "siteName": "L38",
+        "loginIp": "10.38.119.165",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L48AC21",
+            "severity": 0
+        },
+        "siteName": "L48",
+        "loginIp": "10.48.139.143",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43FWR4",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.255.104",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L68AC25",
+            "severity": 0
+        },
+        "siteName": "L68",
+        "loginIp": "10.68.119.164",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR66",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.255.166",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L72AC13",
+            "severity": 0
+        },
+        "siteName": "L72",
+        "loginIp": "10.72.129.173",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-WLC-A620",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.103.3",
+        "loginType": "ssh",
+        "vendor": "hp",
+        "platform": "620",
+        "family": "aruba"
+    },
+    {
+        "hostname": {
+            "data": "L39EXR3",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.255.103",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21PE192",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.39.254.53",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L47EXR1",
+            "severity": 0
+        },
+        "siteName": "L47",
+        "loginIp": "10.47.255.101",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L64EXR2",
+            "severity": 0
+        },
+        "siteName": "L64",
+        "loginIp": "10.64.255.102",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39EXR8",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.255.108",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L71FW9/ipf",
+            "severity": 0
+        },
+        "siteName": "L71",
+        "loginIp": "10.71.110.110",
+        "loginType": "ssh",
+        "vendor": "fortinet",
+        "platform": "vm64-kvm",
+        "family": "fortigate"
+    },
+    {
+        "hostname": {
+            "data": "L62SD26",
+            "severity": 0
+        },
+        "siteName": "L62",
+        "loginIp": "10.62.255.168",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L48AC8",
+            "severity": 0
+        },
+        "siteName": "L48",
+        "loginIp": "10.48.139.136",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-FPR-1010",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.110.44",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "1010",
+        "family": "ftd"
+    },
+    {
+        "hostname": {
+            "data": "HUA-LSW2",
+            "severity": 0
+        },
+        "siteName": "HUA",
+        "loginIp": "10.242.1.98",
+        "loginType": "telnet",
+        "vendor": "huawei",
+        "platform": "S3700-26C-HI",
+        "family": "vrp"
+    },
+    {
+        "hostname": {
+            "data": "L37AC15",
+            "severity": 0
+        },
+        "siteName": "L37",
+        "loginIp": "10.37.119.136",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L47AC20",
+            "severity": 0
+        },
+        "siteName": "L47",
+        "loginIp": "10.47.119.151",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC44",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.149.105",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC46",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.149.106",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51R5",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.255.105",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L66JR5",
+            "severity": 0
+        },
+        "siteName": "L66",
+        "loginIp": "10.66.255.105",
+        "loginType": "ssh",
+        "vendor": "juniper",
+        "platform": "vmx",
+        "family": "junos"
+    },
+    {
+        "hostname": {
+            "data": "L68R3",
+            "severity": 0
+        },
+        "siteName": "L68",
+        "loginIp": "10.68.255.103",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L38AC8",
+            "severity": 0
+        },
+        "siteName": "L38",
+        "loginIp": "10.38.119.153",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1R2",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.2.2",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L63AC8",
+            "severity": 0
+        },
+        "siteName": "L63",
+        "loginIp": "10.63.139.144",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39AC111",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.6.101",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L66AC22",
+            "severity": 0
+        },
+        "siteName": "L66",
+        "loginIp": "10.66.129.122",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39EXR28",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.255.128",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-ARUBA-AP-135-2",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.103.7",
+        "loginType": "lap",
+        "vendor": "hp",
+        "platform": "135",
+        "family": "aruba-lap"
+    },
+    {
+        "hostname": {
+            "data": "L51AR65",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.255.165",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC59",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.159.185",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L37AC12",
+            "severity": 0
+        },
+        "siteName": "L37",
+        "loginIp": "10.37.119.125",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L47R4",
+            "severity": 0
+        },
+        "siteName": "L47",
+        "loginIp": "10.47.107.104",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L47EXR2",
+            "severity": 0
+        },
+        "siteName": "L47",
+        "loginIp": "10.47.255.102",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39AC101",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.1.101",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L62SD18",
+            "severity": 0
+        },
+        "siteName": "L62",
+        "loginIp": "10.62.255.161",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L34EXR2",
+            "severity": 0
+        },
+        "siteName": "L34",
+        "loginIp": "10.34.255.102",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-SGE300",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.102.7",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "sg300-10pp-k9",
+        "family": "sg"
+    },
+    {
+        "hostname": {
+            "data": "L35EXR7",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.255.107",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L38R7",
+            "severity": 0
+        },
+        "siteName": "L38",
+        "loginIp": "10.38.255.107",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1FW1",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.1.104",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "asav30",
+        "family": "asa"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-FW-PA4020/vsys1",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.105.10",
+        "loginType": "ssh",
+        "vendor": "paloalto",
+        "platform": "pa-4020",
+        "family": "4000"
+    },
+    {
+        "hostname": {
+            "data": "L46EXR2",
+            "severity": 0
+        },
+        "siteName": "L46",
+        "loginIp": "10.46.255.2",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L33R10",
+            "severity": 0
+        },
+        "siteName": "L33",
+        "loginIp": "10.33.255.110",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR43",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.143.143",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L38AC17",
+            "severity": 0
+        },
+        "siteName": "L38",
+        "loginIp": "10.38.119.162",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21PE152",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.254.152",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L77EXR1",
+            "severity": 0
+        },
+        "siteName": "L77",
+        "loginIp": "10.77.255.1",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L72EXR2",
+            "severity": 0
+        },
+        "siteName": "L72",
+        "loginIp": "10.72.255.102",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L72R8",
+            "severity": 0
+        },
+        "siteName": "L72",
+        "loginIp": "10.72.255.108",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39AC125",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.15.101",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L62R8",
+            "severity": 0
+        },
+        "siteName": "L62",
+        "loginIp": "10.62.255.108",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC58",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.159.184",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L66AC2111",
+            "severity": 0
+        },
+        "siteName": "L66",
+        "loginIp": "10.66.129.121",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L66EXR1",
+            "severity": 0
+        },
+        "siteName": "L66",
+        "loginIp": "10.66.102.101",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR37",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.37.137",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1EOS1",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.1.21",
+        "loginType": "ssh",
+        "vendor": "arista",
+        "platform": "veos",
+        "family": "eos"
+    },
+    {
+        "hostname": {
+            "data": "L45R6",
+            "severity": 0
+        },
+        "siteName": "L45",
+        "loginIp": "10.45.255.106",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1R18",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.255.18",
+        "loginType": "ssh",
+        "vendor": "juniper",
+        "platform": "vmx",
+        "family": "junos"
+    },
+    {
+        "hostname": {
+            "data": "L36AC46",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.149.132",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39AC107",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.4.101",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L62SD25",
+            "severity": 0
+        },
+        "siteName": "L62",
+        "loginIp": "10.62.255.167",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L45R5",
+            "severity": 0
+        },
+        "siteName": "L45",
+        "loginIp": "10.45.109.105",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21C114",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.255.114",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-TS",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.110.11",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "c2600",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51R4",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.16.104",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L47AC10",
+            "severity": 0
+        },
+        "siteName": "L47",
+        "loginIp": "10.47.119.142",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L45R10",
+            "severity": 0
+        },
+        "siteName": "L45",
+        "loginIp": "10.45.255.110",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21C124",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.255.124",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L62EXR2",
+            "severity": 0
+        },
+        "siteName": "L62",
+        "loginIp": "10.62.255.102",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L71FW9/root",
+            "severity": 0
+        },
+        "siteName": "L71",
+        "loginIp": "10.71.111.110",
+        "loginType": "telnet",
+        "vendor": "fortinet",
+        "platform": "vm64-kvm",
+        "family": "fortigate"
+    },
+    {
+        "hostname": {
+            "data": "L34AC13",
+            "severity": 0
+        },
+        "siteName": "L34",
+        "loginIp": "10.34.129.139",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L34AC12",
+            "severity": 0
+        },
+        "siteName": "L34",
+        "loginIp": "10.34.129.138",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L31INR17",
+            "severity": 0
+        },
+        "siteName": "L31",
+        "loginIp": "10.31.49.117",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21C183",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.28.183",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L48ACC9",
+            "severity": 0
+        },
+        "siteName": "L48",
+        "loginIp": "10.48.139.137",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1XOS3",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.1.110",
+        "loginType": "telnet",
+        "vendor": "extreme",
+        "platform": "switch",
+        "family": "xos"
+    },
+    {
+        "hostname": {
+            "data": "L49AR22",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.122.122",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21PE161",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.66.254.1",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L38R5",
+            "severity": 0
+        },
+        "siteName": "L38",
+        "loginIp": "10.38.255.105",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L37NX5",
+            "severity": 0
+        },
+        "siteName": "L37",
+        "loginIp": "10.37.255.5",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "nx9000v",
+        "family": "nx-os"
+    },
+    {
+        "hostname": {
+            "data": "L38AC7",
+            "severity": 0
+        },
+        "siteName": "L38",
+        "loginIp": "10.38.119.152",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L67IOS17",
+            "severity": 0
+        },
+        "siteName": "L67",
+        "loginIp": "10.67.255.117",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "vios",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L47AC12",
+            "severity": 0
+        },
+        "siteName": "L47",
+        "loginIp": "10.47.119.172",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L35EXR14",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.255.114",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L47ACC19",
+            "severity": 0
+        },
+        "siteName": "L47",
+        "loginIp": "10.47.119.150",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L65EXR1",
+            "severity": 0
+        },
+        "siteName": "L65",
+        "loginIp": "10.65.255.101",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L38-vFPR1",
+            "severity": 0
+        },
+        "siteName": "L38",
+        "loginIp": "10.38.45.11",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "kvm",
+        "family": "ftd"
+    },
+    {
+        "hostname": {
+            "data": "L67JR8",
+            "severity": 0
+        },
+        "siteName": "L67",
+        "loginIp": "10.67.255.108",
+        "loginType": "ssh",
+        "vendor": "juniper",
+        "platform": "vmx",
+        "family": "junos"
+    },
+    {
+        "hostname": {
+            "data": "L39H138",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.27.102",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR47",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.255.147",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L67CSR15",
+            "severity": 0
+        },
+        "siteName": "L67",
+        "loginIp": "10.67.255.115",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "x86_64_linux_iosd",
+        "family": "ios-xe"
+    },
+    {
+        "hostname": {
+            "data": "L34R4",
+            "severity": 0
+        },
+        "siteName": "L34",
+        "loginIp": "10.34.255.104",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39EXR22",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.255.122",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L36AC56",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.159.108",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L64R7",
+            "severity": 0
+        },
+        "siteName": "L64",
+        "loginIp": "10.64.108.107",
+        "loginType": "telnet",
+        "vendor": "mikrotik",
+        "platform": "CHR",
+        "family": "routeros"
+    },
+    {
+        "hostname": {
+            "data": "L31FWR13",
+            "severity": 0
+        },
+        "siteName": "L31",
+        "loginIp": "10.31.47.113",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC56",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.159.182",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "Simply a prompt!",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.110.31",
+        "loginType": "ssh",
+        "vendor": "extreme",
+        "platform": "C2G124-48",
+        "family": "enterasys"
+    },
+    {
+        "hostname": {
+            "data": "L43AC5",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.149.205",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR52",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.255.152",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L34ACC21",
+            "severity": 0
+        },
+        "siteName": "L34",
+        "loginIp": "10.34.119.132",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L48AC12",
+            "severity": 0
+        },
+        "siteName": "L48",
+        "loginIp": "10.48.139.140",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L72R3",
+            "severity": 0
+        },
+        "siteName": "L72",
+        "loginIp": "10.72.255.103",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L35AC114",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.119.174",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L31EXR1",
+            "severity": 0
+        },
+        "siteName": "L31",
+        "loginIp": "10.31.255.101",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L65EXR2",
+            "severity": 0
+        },
+        "siteName": "L65",
+        "loginIp": "10.65.255.102",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L81R6",
+            "severity": 0
+        },
+        "siteName": "L81",
+        "loginIp": "10.81.255.6",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L35AC172",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.179.186",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L36AC38",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.139.126",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L67CSW1",
+            "severity": 0
+        },
+        "siteName": "L67",
+        "loginIp": "10.67.255.1",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "vios_l2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L36AC24",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.129.115",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC48",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.149.108",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC53",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.159.180",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1R16",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.255.16",
+        "loginType": "ssh",
+        "vendor": "juniper",
+        "platform": "vsrx",
+        "family": "junos"
+    },
+    {
+        "hostname": {
+            "data": "L1FW4",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.255.119",
+        "loginType": "ssh",
+        "vendor": "paloalto",
+        "platform": "pa-vm",
+        "family": "vm"
+    },
+    {
+        "hostname": {
+            "data": "L36AC29",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.129.119",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L63AC3",
+            "severity": 0
+        },
+        "siteName": "L63",
+        "loginIp": "10.63.129.142",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L77R10-LEAF4",
+            "severity": 0
+        },
+        "siteName": "L77",
+        "loginIp": "10.77.255.10",
+        "loginType": "ssh",
+        "vendor": "arista",
+        "platform": "veos",
+        "family": "eos"
+    },
+    {
+        "hostname": {
+            "data": "L1R14",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.255.14",
+        "loginType": "ssh",
+        "vendor": "juniper",
+        "platform": "vmx",
+        "family": "junos"
+    },
+    {
+        "hostname": {
+            "data": "L43AC95",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.159.176",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L49AR37",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.137.137",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-MTIK-DHCPC 123",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.110.253",
+        "loginType": "ssh",
+        "vendor": "mikrotik",
+        "platform": "RB750GL",
+        "family": "routeros"
+    },
+    {
+        "hostname": {
+            "data": "L49AR31",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.31.131",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39EXR1",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.255.101",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC42",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.149.203",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L68AC13",
+            "severity": 0
+        },
+        "siteName": "L68",
+        "loginIp": "10.68.129.172",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21PE112",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.41.254.5",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L47R3",
+            "severity": 0
+        },
+        "siteName": "L47",
+        "loginIp": "10.47.105.103",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L48AC14",
+            "severity": 0
+        },
+        "siteName": "L48",
+        "loginIp": "10.48.139.142",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L35AC86",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.189.195",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L68ACC21",
+            "severity": 0
+        },
+        "siteName": "L68",
+        "loginIp": "10.68.119.166",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L49AR34",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.255.134",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L35EXR13",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.255.113",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC51",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.159.178",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L33AC13",
+            "severity": 0
+        },
+        "siteName": "L33",
+        "loginIp": "10.33.150.13",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1R13",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.255.13",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC29",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.129.193",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L68CSR9",
+            "severity": 0
+        },
+        "siteName": "L68",
+        "loginIp": "10.68.255.109",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "x86_64_linux_iosd",
+        "family": "ios-xe"
+    },
+    {
+        "hostname": {
+            "data": "L67P13",
+            "severity": 0
+        },
+        "siteName": "L67",
+        "loginIp": "10.67.255.113",
+        "loginType": "ssh",
+        "vendor": "juniper",
+        "platform": "vsrx",
+        "family": "junos"
+    },
+    {
+        "hostname": {
+            "data": "L49AR38",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.138.138",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43ACC102",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.129.171",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L81R5",
+            "severity": 0
+        },
+        "siteName": "L81",
+        "loginIp": "10.81.255.5",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21RR2",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.5.2",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L62R15",
+            "severity": 0
+        },
+        "siteName": "L62",
+        "loginIp": "10.62.11.115",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-HPE1920",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.105.7",
+        "loginType": "ssh",
+        "vendor": "hp",
+        "platform": "1920",
+        "family": "comware"
+    },
+    {
+        "hostname": {
+            "data": "L51AR27",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.27.127",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L71FW10",
+            "severity": 0
+        },
+        "siteName": "L71",
+        "loginIp": "10.71.106.111",
+        "loginType": "ssh",
+        "vendor": "fortinet",
+        "platform": "vm64-kvm",
+        "family": "fortigate"
+    },
+    {
+        "hostname": {
+            "data": "L38AC18",
+            "severity": 0
+        },
+        "siteName": "L38",
+        "loginIp": "10.38.119.163",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39H110",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.5.102",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L67EXR2",
+            "severity": 0
+        },
+        "siteName": "L67",
+        "loginIp": "10.67.255.102",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L62SD22",
+            "severity": 0
+        },
+        "siteName": "L62",
+        "loginIp": "10.62.255.164",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21PE182",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.48.254.5",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "ipf-net-fw",
+            "severity": 0
+        },
+        "siteName": "unknown",
+        "loginIp": "10.8.1.122",
+        "loginType": "api",
+        "vendor": "cisco",
+        "platform": "MX80",
+        "family": "meraki"
+    },
+    {
+        "hostname": {
+            "data": "L48AC23",
+            "severity": 0
+        },
+        "siteName": "L48",
+        "loginIp": "10.48.139.145",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR30",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.130.130",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-WLC-A7005",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.104.3",
+        "loginType": "ssh",
+        "vendor": "hp",
+        "platform": "7005",
+        "family": "aruba"
+    },
+    {
+        "hostname": {
+            "data": "L1EOS3",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.255.23",
+        "loginType": "telnet",
+        "vendor": "arista",
+        "platform": "veos",
+        "family": "eos"
+    },
+    {
+        "hostname": {
+            "data": "L45R3",
+            "severity": 0
+        },
+        "siteName": "L45",
+        "loginIp": "10.45.116.103",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L62SD23",
+            "severity": 0
+        },
+        "siteName": "L62",
+        "loginIp": "10.62.255.165",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L37SD8",
+            "severity": 0
+        },
+        "siteName": "L37",
+        "loginIp": "10.37.110.118",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR40",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.140.140",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L72R7",
+            "severity": 0
+        },
+        "siteName": "L72",
+        "loginIp": "10.72.93.107",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43SD85",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.253.154",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR39",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.255.139",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L36EXR2",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.255.102",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR49",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.149.149",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L66JFW10",
+            "severity": 0
+        },
+        "siteName": "L66",
+        "loginIp": "10.66.255.110",
+        "loginType": "ssh",
+        "vendor": "juniper",
+        "platform": "vsrx",
+        "family": "junos"
+    },
+    {
+        "hostname": {
+            "data": "L66JFW9",
+            "severity": 0
+        },
+        "siteName": "L66",
+        "loginIp": "10.66.255.109",
+        "loginType": "telnet",
+        "vendor": "juniper",
+        "platform": "vsrx",
+        "family": "junos"
+    },
+    {
+        "hostname": {
+            "data": "L38AC11",
+            "severity": 0
+        },
+        "siteName": "L38",
+        "loginIp": "10.38.119.156",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR26",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.255.126",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L66EXR2",
+            "severity": 0
+        },
+        "siteName": "L66",
+        "loginIp": "10.66.104.102",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L33R8",
+            "severity": 0
+        },
+        "siteName": "L33",
+        "loginIp": "10.33.108.108",
+        "loginType": "ssh",
+        "vendor": "arista",
+        "platform": "veos",
+        "family": "eos"
+    },
+    {
+        "hostname": {
+            "data": "L43AC22",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.129.187",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC92",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.129.170",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39EXR23",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.255.123",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L33NX3",
+            "severity": 0
+        },
+        "siteName": "L33",
+        "loginIp": "10.33.111.103",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "nx9000v",
+        "family": "nx-os"
+    },
+    {
+        "hostname": {
+            "data": "L71R3",
+            "severity": 0
+        },
+        "siteName": "L71",
+        "loginIp": "10.71.255.103",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21C143",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.24.143",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L35AC151",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.159.182",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39AC135",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.25.101",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L66ACC23",
+            "severity": 0
+        },
+        "siteName": "L66",
+        "loginIp": "10.66.129.123",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HUA-AR1",
+            "severity": 0
+        },
+        "siteName": "HUA",
+        "loginIp": "10.242.255.1",
+        "loginType": "ssh",
+        "vendor": "huawei",
+        "platform": "AR1220",
+        "family": "vrp"
+    },
+    {
+        "hostname": {
+            "data": "L43AC32",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.139.195",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1R5",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.255.5",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "",
+        "family": "ios-xr"
+    },
+    {
+        "hostname": {
+            "data": "L21C144",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.142.144",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L68CSR7",
+            "severity": 0
+        },
+        "siteName": "L68",
+        "loginIp": "10.68.255.107",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "x86_64_linux_iosd",
+        "family": "ios-xe"
+    },
+    {
+        "hostname": {
+            "data": "L45R4",
+            "severity": 0
+        },
+        "siteName": "L45",
+        "loginIp": "10.45.118.104",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L36AC51",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.159.104",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1R1",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.255.1",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC26",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.129.190",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43SD82",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.253.122",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC103",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.139.173",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L63AC6",
+            "severity": 0
+        },
+        "siteName": "L63",
+        "loginIp": "10.63.139.141",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L38AC14",
+            "severity": 0
+        },
+        "siteName": "L38",
+        "loginIp": "10.38.119.159",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L49CR7",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.31.107",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L48ACC135",
+            "severity": 0
+        },
+        "siteName": "L48",
+        "loginIp": "10.48.139.135",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39H132",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.21.102",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L62SD24",
+            "severity": 0
+        },
+        "siteName": "L62",
+        "loginIp": "10.62.255.166",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L62R6",
+            "severity": 0
+        },
+        "siteName": "L62",
+        "loginIp": "10.62.255.106",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39AC105",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.3.101",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1XOS1",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.1.108",
+        "loginType": "telnet",
+        "vendor": "extreme",
+        "platform": "switch",
+        "family": "xos"
+    },
+    {
+        "hostname": {
+            "data": "L64R5",
+            "severity": 0
+        },
+        "siteName": "L64",
+        "loginIp": "10.64.255.105",
+        "loginType": "telnet",
+        "vendor": "mikrotik",
+        "platform": "CHR",
+        "family": "routeros"
+    },
+    {
+        "hostname": {
+            "data": "L81R11",
+            "severity": 0
+        },
+        "siteName": "L81",
+        "loginIp": "10.81.255.1",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L45EXR1",
+            "severity": 0
+        },
+        "siteName": "L45",
+        "loginIp": "10.45.255.101",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21C154",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.255.154",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L34AC23",
+            "severity": 0
+        },
+        "siteName": "L34",
+        "loginIp": "10.34.119.134",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21C14",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.48.14",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC27",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.129.191",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-AP-1242AG",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.109.81",
+        "loginType": "lap",
+        "vendor": "cisco",
+        "platform": "air-lap1242ag-e-k9",
+        "family": "lap"
+    },
+    {
+        "hostname": {
+            "data": "L66JR6",
+            "severity": 0
+        },
+        "siteName": "L66",
+        "loginIp": "10.66.255.106",
+        "loginType": "ssh",
+        "vendor": "juniper",
+        "platform": "vmx",
+        "family": "junos"
+    },
+    {
+        "hostname": {
+            "data": "L1R11",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.255.11",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "c7200",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L36AC52",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.159.105",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L38R4",
+            "severity": 0
+        },
+        "siteName": "L38",
+        "loginIp": "10.38.255.104",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC38",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.139.100",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1SW3",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.255.103",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L33XR11",
+            "severity": 0
+        },
+        "siteName": "L33",
+        "loginIp": "10.33.255.111",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "",
+        "family": "ios-xr"
+    },
+    {
+        "hostname": {
+            "data": "L36AC34",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.139.123",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L35ACC83",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.189.192",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L47AC14",
+            "severity": 0
+        },
+        "siteName": "L47",
+        "loginIp": "10.47.119.125",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39EXR24",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.255.124",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR32",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.255.132",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L81R4",
+            "severity": 0
+        },
+        "siteName": "L81",
+        "loginIp": "10.81.255.4",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR63",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.255.163",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L52EXR2",
+            "severity": 0
+        },
+        "siteName": "L52",
+        "loginIp": "10.52.255.102",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39H136",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.25.102",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L35AC173",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.179.187",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L66R4",
+            "severity": 0
+        },
+        "siteName": "L66",
+        "loginIp": "10.66.255.104",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L35AC87",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.189.196",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L46DR7",
+            "severity": 0
+        },
+        "siteName": "L46",
+        "loginIp": "10.46.255.7",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L49R3",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.255.103",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L49AR24",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.124.124",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L36AC42",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.149.129",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC33",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.139.196",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L77R6-SPINE2",
+            "severity": 0
+        },
+        "siteName": "L77",
+        "loginIp": "10.77.67.6",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "",
+        "family": "ios-xr"
+    },
+    {
+        "hostname": {
+            "data": "L36AC10",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.129.103",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51R3",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.11.103",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L71R4",
+            "severity": 0
+        },
+        "siteName": "L71",
+        "loginIp": "10.71.100.104",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC37",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.139.199",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L63EXR2",
+            "severity": 0
+        },
+        "siteName": "L63",
+        "loginIp": "10.63.2.102",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L36AC43",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.149.130",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21PE121",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.255.121",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L37NX6",
+            "severity": 0
+        },
+        "siteName": "L37",
+        "loginIp": "10.37.255.6",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "nx9000v",
+        "family": "nx-os"
+    },
+    {
+        "hostname": {
+            "data": "L49EXR2",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.255.102",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L35AC175",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.179.189",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-FW-RBSH1",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.127.100",
+        "loginType": "ssh",
+        "vendor": "riverbed",
+        "platform": "550",
+        "family": "steelhead"
+    },
+    {
+        "hostname": {
+            "data": "L64R3",
+            "severity": 0
+        },
+        "siteName": "L64",
+        "loginIp": "10.64.104.103",
+        "loginType": "ssh",
+        "vendor": "mikrotik",
+        "platform": "CHR",
+        "family": "routeros"
+    },
+    {
+        "hostname": {
+            "data": "L49AR36",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.255.136",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L62SD19",
+            "severity": 0
+        },
+        "siteName": "L62",
+        "loginIp": "10.62.255.162",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L62R7",
+            "severity": 0
+        },
+        "siteName": "L62",
+        "loginIp": "10.62.255.107",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC24",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.129.189",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR50",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.50.150",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21PE111",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.255.111",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39EXR14",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.255.114",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L35AC174",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.179.188",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51EXR1",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.254.2",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L63AC1",
+            "severity": 0
+        },
+        "siteName": "L63",
+        "loginIp": "10.63.119.138",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L35AC85",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.189.194",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L47AC21",
+            "severity": 0
+        },
+        "siteName": "L47",
+        "loginIp": "10.47.119.167",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HUA-AR3",
+            "severity": 0
+        },
+        "siteName": "HUA",
+        "loginIp": "10.242.1.2",
+        "loginType": "ssh",
+        "vendor": "huawei",
+        "platform": "AR2220",
+        "family": "vrp"
+    },
+    {
+        "hostname": {
+            "data": "L37AC13",
+            "severity": 0
+        },
+        "siteName": "L37",
+        "loginIp": "10.37.119.134",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L48SD5",
+            "severity": 0
+        },
+        "siteName": "L48",
+        "loginIp": "10.48.255.146",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L62SD21",
+            "severity": 0
+        },
+        "siteName": "L62",
+        "loginIp": "10.62.255.163",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L38EXR1",
+            "severity": 0
+        },
+        "siteName": "L38",
+        "loginIp": "10.38.255.101",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L77EXR2",
+            "severity": 0
+        },
+        "siteName": "L77",
+        "loginIp": "10.77.255.2",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR24",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.255.124",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L45XR12",
+            "severity": 0
+        },
+        "siteName": "L45",
+        "loginIp": "10.45.255.112",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "",
+        "family": "ios-xr"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-C871",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.105.16",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "c870",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43EXR1",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.255.101",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-HP2920",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.102.18",
+        "loginType": "ssh",
+        "vendor": "hp",
+        "platform": "2920",
+        "family": "arubasw"
+    },
+    {
+        "hostname": {
+            "data": "L67XR5",
+            "severity": 0
+        },
+        "siteName": "L67",
+        "loginIp": "10.67.255.105",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "",
+        "family": "ios-xr"
+    },
+    {
+        "hostname": {
+            "data": "L36AC44",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.149.131",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L36AC21",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.129.112",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39EXR11",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.255.111",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1R6.lab.ipfabric.io",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.7.6",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "nx7000",
+        "family": "nx-os"
+    },
+    {
+        "hostname": {
+            "data": "L39AC123",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.13.101",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC52",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.159.179",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L49R5",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.255.105",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L68AC11",
+            "severity": 0
+        },
+        "siteName": "L68",
+        "loginIp": "10.68.129.170",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L45EXR2",
+            "severity": 0
+        },
+        "siteName": "L45",
+        "loginIp": "10.45.255.102",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC31",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.139.194",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR60",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.160.160",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-FW-C5510/test-context-1",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.110.9",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "5510",
+        "family": "asa"
+    },
+    {
+        "hostname": {
+            "data": "L35AC171",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.179.185",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21RR1",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.5.1",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L33EXR1",
+            "severity": 0
+        },
+        "siteName": "L33",
+        "loginIp": "10.33.255.101",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1R17",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.1.17",
+        "loginType": "ssh",
+        "vendor": "juniper",
+        "platform": "vmx",
+        "family": "junos"
+    },
+    {
+        "hostname": {
+            "data": "L46DR8",
+            "severity": 0
+        },
+        "siteName": "L46",
+        "loginIp": "10.46.3.8",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21C163",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.255.163",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1R7",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.80.11",
+        "loginType": "ssh",
+        "vendor": "juniper",
+        "platform": "vmx",
+        "family": "junos"
+    },
+    {
+        "hostname": {
+            "data": "L36AC57",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.159.109",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1R3",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.1.3",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "x86_64_linux_iosd",
+        "family": "ios-xe"
+    },
+    {
+        "hostname": {
+            "data": "L38R3",
+            "severity": 0
+        },
+        "siteName": "L38",
+        "loginIp": "10.38.255.103",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39AC133",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.23.101",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L47AC7",
+            "severity": 0
+        },
+        "siteName": "L47",
+        "loginIp": "10.47.119.122",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L36AC22",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.129.113",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR55",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.255.155",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR42",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.142.142",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HUA-AR2",
+            "severity": 0
+        },
+        "siteName": "HUA",
+        "loginIp": "10.242.255.2",
+        "loginType": "telnet",
+        "vendor": "huawei",
+        "platform": "AR2240",
+        "family": "vrp"
+    },
+    {
+        "hostname": {
+            "data": "L45AC13",
+            "severity": 0
+        },
+        "siteName": "L45",
+        "loginIp": "10.45.159.150",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1SW4",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.255.104",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L45R7",
+            "severity": 0
+        },
+        "siteName": "L45",
+        "loginIp": "10.45.121.107",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L46EXR1",
+            "severity": 0
+        },
+        "siteName": "L46",
+        "loginIp": "10.46.4.1",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L34AC11",
+            "severity": 0
+        },
+        "siteName": "L34",
+        "loginIp": "10.34.129.137",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "ipf-net-ap",
+            "severity": 0
+        },
+        "siteName": "unknown",
+        "loginIp": "192.168.128.6",
+        "loginType": "api",
+        "vendor": "cisco",
+        "platform": "MR32",
+        "family": "meraki"
+    },
+    {
+        "hostname": {
+            "data": "L36FWR4",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.255.104",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR21",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.21.121",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L34AC26",
+            "severity": 0
+        },
+        "siteName": "L34",
+        "loginIp": "10.34.119.106",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L36SD8",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.149.1",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "aruba-ap-135-1",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.103.6",
+        "loginType": "lap",
+        "vendor": "hp",
+        "platform": "135",
+        "family": "aruba-lap"
+    },
+    {
+        "hostname": {
+            "data": "L62SD28",
+            "severity": 0
+        },
+        "siteName": "L62",
+        "loginIp": "10.62.255.170",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L35SD81",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.255.198",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L48ACC10",
+            "severity": 0
+        },
+        "siteName": "L48",
+        "loginIp": "10.48.139.138",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43SD73",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.253.34",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L47AC11",
+            "severity": 0
+        },
+        "siteName": "L47",
+        "loginIp": "10.47.119.153",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L81R10",
+            "severity": 0
+        },
+        "siteName": "L81",
+        "loginIp": "10.81.255.10",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L81R9",
+            "severity": 0
+        },
+        "siteName": "L81",
+        "loginIp": "10.81.255.9",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L33R9",
+            "severity": 0
+        },
+        "siteName": "L33",
+        "loginIp": "10.33.255.109",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L67EXR1",
+            "severity": 0
+        },
+        "siteName": "L67",
+        "loginIp": "10.67.255.101",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L37AC16",
+            "severity": 0
+        },
+        "siteName": "L37",
+        "loginIp": "10.37.119.137",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L49AR21",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.121.121",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L36AC53",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.159.106",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L47AC13",
+            "severity": 0
+        },
+        "siteName": "L47",
+        "loginIp": "10.47.119.173",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L47R5",
+            "severity": 0
+        },
+        "siteName": "L47",
+        "loginIp": "10.47.255.105",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L36AC59",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.159.111",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L47AC8",
+            "severity": 0
+        },
+        "siteName": "L47",
+        "loginIp": "10.47.119.123",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HUA-LSW1",
+            "severity": 0
+        },
+        "siteName": "HUA",
+        "loginIp": "10.242.1.99",
+        "loginType": "ssh",
+        "vendor": "huawei",
+        "platform": "S5700-28C-HI",
+        "family": "vrp"
+    },
+    {
+        "hostname": {
+            "data": "L47R6",
+            "severity": 0
+        },
+        "siteName": "L47",
+        "loginIp": "10.47.109.106",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L38AC21",
+            "severity": 0
+        },
+        "siteName": "L38",
+        "loginIp": "10.38.119.166",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21C184",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.255.184",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1FW56",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.255.56",
+        "loginType": "ssh",
+        "vendor": "juniper",
+        "platform": "vsrx",
+        "family": "junos"
+    },
+    {
+        "hostname": {
+            "data": "L49AR32",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.255.132",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-ARUBA-AP-125",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.103.5",
+        "loginType": "lap",
+        "vendor": "hp",
+        "platform": "125",
+        "family": "aruba-lap"
+    },
+    {
+        "hostname": {
+            "data": "L51AR58",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.255.158",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L34ACC22",
+            "severity": 0
+        },
+        "siteName": "L34",
+        "loginIp": "10.34.119.133",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L48AC22",
+            "severity": 0
+        },
+        "siteName": "L48",
+        "loginIp": "10.48.139.144",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21C133",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.255.133",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L31R16",
+            "severity": 0
+        },
+        "siteName": "L31",
+        "loginIp": "10.31.51.116",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1FW5",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.21.5",
+        "loginType": "ssh",
+        "vendor": "paloalto",
+        "platform": "pa-vm",
+        "family": "vm"
+    },
+    {
+        "hostname": {
+            "data": "L51AR57",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.157.157",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L36AC27",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.129.117",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L67P11",
+            "severity": 0
+        },
+        "siteName": "L67",
+        "loginIp": "10.67.255.111",
+        "loginType": "ssh",
+        "vendor": "juniper",
+        "platform": "vsrx",
+        "family": "junos"
+    },
+    {
+        "hostname": {
+            "data": "L31FWR14",
+            "severity": 0
+        },
+        "siteName": "L31",
+        "loginIp": "10.31.255.114",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39H134",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.23.102",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39AC117",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.9.101",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1SW1",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.1.101",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43SD75",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.253.54",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L49AR33",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.33.133",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L31EXR2",
+            "severity": 0
+        },
+        "siteName": "L31",
+        "loginIp": "10.31.255.102",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21PE142",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.254.142",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR36",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.136.136",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-A2530",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.102.17",
+        "loginType": "ssh",
+        "vendor": "hp",
+        "platform": "2530",
+        "family": "arubasw"
+    },
+    {
+        "hostname": {
+            "data": "L1SW2",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.255.102",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "vios_l2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L49AR27",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.127.127",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L47AC18",
+            "severity": 0
+        },
+        "siteName": "L47",
+        "loginIp": "10.47.119.145",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21PE131",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.43.254.1",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC54",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.159.181",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L68AC24",
+            "severity": 0
+        },
+        "siteName": "L68",
+        "loginIp": "10.68.119.169",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC34",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.139.197",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21C193",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.255.193",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21C174",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.47.174",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L38AC12",
+            "severity": 0
+        },
+        "siteName": "L38",
+        "loginIp": "10.38.119.157",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L38AC16",
+            "severity": 0
+        },
+        "siteName": "L38",
+        "loginIp": "10.38.119.161",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L33SW1",
+            "severity": 0
+        },
+        "siteName": "L33",
+        "loginIp": "10.33.242.2",
+        "loginType": "ssh",
+        "vendor": "arista",
+        "platform": "veos",
+        "family": "eos"
+    },
+    {
+        "hostname": {
+            "data": "L21PE141",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.254.141",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L36FWR3",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.255.103",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR46",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.255.146",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR54",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.255.154",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L47AC9",
+            "severity": 0
+        },
+        "siteName": "L47",
+        "loginIp": "10.47.119.141",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L72AC11",
+            "severity": 0
+        },
+        "siteName": "L72",
+        "loginIp": "10.72.129.162",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L35EXR5",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.255.105",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC6",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.149.206",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21C194",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.39.194",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39EXR15",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.255.115",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L68ACC22",
+            "severity": 0
+        },
+        "siteName": "L68",
+        "loginIp": "10.68.119.167",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L77R3-CORE1",
+            "severity": 0
+        },
+        "siteName": "L77",
+        "loginIp": "10.77.13.3",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21C13",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.255.13",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L35SD82",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.255.199",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR22",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.255.122",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L63SD2",
+            "severity": 0
+        },
+        "siteName": "L63",
+        "loginIp": "10.63.255.147",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-WLC-C4400",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.109.3",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "4400",
+        "family": "wlc-air"
+    },
+    {
+        "hostname": {
+            "data": "L72R9",
+            "severity": 0
+        },
+        "siteName": "L72",
+        "loginIp": "10.72.255.109",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39EXR27",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.255.127",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR56",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.56.156",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21PE191",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.39.254.41",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L72AC23",
+            "severity": 0
+        },
+        "siteName": "L72",
+        "loginIp": "10.72.119.134",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L37EXR1",
+            "severity": 0
+        },
+        "siteName": "L37",
+        "loginIp": "10.37.255.1",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC28",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.129.192",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L68AC12",
+            "severity": 0
+        },
+        "siteName": "L68",
+        "loginIp": "10.68.129.171",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21PE172",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.254.172",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L38AC13",
+            "severity": 0
+        },
+        "siteName": "L38",
+        "loginIp": "10.38.119.158",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1Quagga1",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.255.34",
+        "loginType": "ssh",
+        "vendor": "quagga",
+        "platform": "linux",
+        "family": null
+    },
+    {
+        "hostname": {
+            "data": "L36AC41",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.149.128",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21C123",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.255.123",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L62SD27",
+            "severity": 0
+        },
+        "siteName": "L62",
+        "loginIp": "10.62.255.169",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L34AC24",
+            "severity": 0
+        },
+        "siteName": "L34",
+        "loginIp": "10.34.119.136",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L49R4",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.255.104",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L34CSR9",
+            "severity": 0
+        },
+        "siteName": "L34",
+        "loginIp": "10.34.255.109",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "x86_64_linux_iosd",
+        "family": "ios-xe"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-JEX2200-SW1",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.110.17",
+        "loginType": "ssh",
+        "vendor": "juniper",
+        "platform": "ex2200-24t-4g",
+        "family": "junos"
+    },
+    {
+        "hostname": {
+            "data": "L51AR45",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.45.145",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39AC137",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.27.101",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC57",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.159.183",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L71EXR2",
+            "severity": 0
+        },
+        "siteName": "L71",
+        "loginIp": "10.71.103.102",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L62R10",
+            "severity": 0
+        },
+        "siteName": "L62",
+        "loginIp": "10.62.255.110",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L67JR7",
+            "severity": 0
+        },
+        "siteName": "L67",
+        "loginIp": "10.67.101.107",
+        "loginType": "ssh",
+        "vendor": "juniper",
+        "platform": "vmx",
+        "family": "junos"
+    },
+    {
+        "hostname": {
+            "data": "L36AC54",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.159.107",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L63AC4",
+            "severity": 0
+        },
+        "siteName": "L63",
+        "loginIp": "10.63.129.143",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43SD72",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.253.22",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L49AR25",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.25.125",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L48SD6",
+            "severity": 0
+        },
+        "siteName": "L48",
+        "loginIp": "10.48.253.82",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39EXR17",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.255.117",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1LB1",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.21.101",
+        "loginType": "ssh",
+        "vendor": "f5",
+        "platform": "",
+        "family": "big-ip"
+    },
+    {
+        "hostname": {
+            "data": "L38AC15",
+            "severity": 0
+        },
+        "siteName": "L38",
+        "loginIp": "10.38.119.160",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L37SD7",
+            "severity": 0
+        },
+        "siteName": "L37",
+        "loginIp": "10.37.255.150",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L49R6",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.18.106",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39AC113",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.7.101",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L77R5-SPINE1",
+            "severity": 0
+        },
+        "siteName": "L77",
+        "loginIp": "10.77.35.5",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "",
+        "family": "ios-xr"
+    },
+    {
+        "hostname": {
+            "data": "L21C134",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.43.134",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L72EXR1",
+            "severity": 0
+        },
+        "siteName": "L72",
+        "loginIp": "10.72.255.101",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-DELL2048",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.102.21",
+        "loginType": "telnet",
+        "vendor": "dell",
+        "platform": "N2048",
+        "family": "powerconnect"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-C3750-STACK",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.110.3",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "c3750e",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L35AC143",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.149.181",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21C12",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.2.12",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L62R14",
+            "severity": 0
+        },
+        "siteName": "L62",
+        "loginIp": "10.62.10.114",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L49AR23",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.255.123",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1EOS2",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.1.22",
+        "loginType": "ssh",
+        "vendor": "arista",
+        "platform": "veos",
+        "family": "eos"
+    },
+    {
+        "hostname": {
+            "data": "L49EXR1",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.255.101",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L34CSR10",
+            "severity": 0
+        },
+        "siteName": "L34",
+        "loginIp": "10.34.255.110",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "x86_64_linux_iosd",
+        "family": "ios-xe"
+    },
+    {
+        "hostname": {
+            "data": "L43AC23",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.129.188",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L49AR39",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.139.139",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L72AC24",
+            "severity": 0
+        },
+        "siteName": "L72",
+        "loginIp": "10.72.119.161",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "HWLAB-FW-PA4020/vsys2",
+            "severity": 0
+        },
+        "siteName": "HWLAB",
+        "loginIp": "192.168.105.10",
+        "loginType": "ssh",
+        "vendor": "paloalto",
+        "platform": "pa-4020",
+        "family": "4000"
+    },
+    {
+        "hostname": {
+            "data": "L36AC49",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.149.135",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L47AC17",
+            "severity": 0
+        },
+        "siteName": "L47",
+        "loginIp": "10.47.119.139",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR31",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.31.131",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43SD74",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.253.42",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39EXR6",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.255.106",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L81EXR1",
+            "severity": 0
+        },
+        "siteName": "L81",
+        "loginIp": "10.81.255.101",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR53",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.153.153",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L35EXR16",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.255.116",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39EXR25",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.255.125",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR51",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.51.151",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L68EXR2",
+            "severity": 0
+        },
+        "siteName": "L68",
+        "loginIp": "10.68.255.102",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L33R6",
+            "severity": 0
+        },
+        "siteName": "L33",
+        "loginIp": "10.33.255.106",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L36AC31",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.139.120",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L68CSR10",
+            "severity": 0
+        },
+        "siteName": "L68",
+        "loginIp": "10.68.129.110",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "x86_64_linux_iosd",
+        "family": "ios-xe"
+    },
+    {
+        "hostname": {
+            "data": "L77R4-CORE2",
+            "severity": 0
+        },
+        "siteName": "L77",
+        "loginIp": "10.77.34.4",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L21C164",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.255.164",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L52-SW3",
+            "severity": 0
+        },
+        "siteName": "L52",
+        "loginIp": "10.52.255.113",
+        "loginType": "telnet",
+        "vendor": "hp",
+        "platform": "vsr1000",
+        "family": "comware"
+    },
+    {
+        "hostname": {
+            "data": "L36AC5",
+            "severity": 0
+        },
+        "siteName": "L36",
+        "loginIp": "10.36.159.100",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39EXR13",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.255.113",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L34CSR8",
+            "severity": 0
+        },
+        "siteName": "L34",
+        "loginIp": "10.34.255.108",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "x86_64_linux_iosd",
+        "family": "ios-xe"
+    },
+    {
+        "hostname": {
+            "data": "L39AC115",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.8.101",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L72AC12",
+            "severity": 0
+        },
+        "siteName": "L72",
+        "loginIp": "10.72.129.163",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L35AC113",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.119.173",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L1R4",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.1.4",
+        "loginType": "ssh",
+        "vendor": "hp",
+        "platform": "vsr1000",
+        "family": "comware"
+    },
+    {
+        "hostname": {
+            "data": "L62R4",
+            "severity": 0
+        },
+        "siteName": "L62",
+        "loginIp": "10.62.255.104",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43FWR3",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.1.103",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39AC109",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.5.101",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L51AR41",
+            "severity": 0
+        },
+        "siteName": "L51",
+        "loginIp": "10.51.255.141",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L68AC23",
+            "severity": 0
+        },
+        "siteName": "L68",
+        "loginIp": "10.68.119.168",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L49CR8",
+            "severity": 0
+        },
+        "siteName": "L49",
+        "loginIp": "10.49.131.108",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L48EXR1",
+            "severity": 0
+        },
+        "siteName": "L48",
+        "loginIp": "10.48.255.101",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L35AC162",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.169.184",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L67RR14",
+            "severity": 0
+        },
+        "siteName": "L67",
+        "loginIp": "10.67.255.114",
+        "loginType": "ssh",
+        "vendor": "juniper",
+        "platform": "vmx",
+        "family": "junos"
+    },
+    {
+        "hostname": {
+            "data": "L21C153",
+            "severity": 0
+        },
+        "siteName": "IPF_MPLS",
+        "loginIp": "10.21.15.153",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L37R4",
+            "severity": 0
+        },
+        "siteName": "L37",
+        "loginIp": "10.37.255.4",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L35EXR9",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.255.109",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L39AC131",
+            "severity": 0
+        },
+        "siteName": "L39",
+        "loginIp": "10.39.21.101",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L68AC26",
+            "severity": 0
+        },
+        "siteName": "L68",
+        "loginIp": "10.68.119.165",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L35EXR2",
+            "severity": 0
+        },
+        "siteName": "L35",
+        "loginIp": "10.35.255.102",
+        "loginType": "telnet",
+        "vendor": "cisco",
+        "platform": "i86bi_linux",
+        "family": "ios"
+    },
+    {
+        "hostname": {
+            "data": "L43AC93",
+            "severity": 0
+        },
+        "siteName": "L43",
+        "loginIp": "10.43.139.172",
+        "loginType": "ssh",
+        "vendor": "cisco",
+        "platform": "i86bi_linuxl2",
+        "family": "ios"
+    }
+]

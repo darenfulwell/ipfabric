@@ -2,7 +2,7 @@
 Simple Python3 scriptlet for testing E2E over API in the IP Fabric platform.
 """
 # Built-in/Generic Imports
-from ipfapi import tokenRequest, e2ePath
+from ipfapidemo import tokenRequest, e2ePath
 # Basic variables
 server = 'https://server/'
 authData = { 'username': 'username', 'password' : 'password' }

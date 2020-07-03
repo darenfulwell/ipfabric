@@ -5,15 +5,16 @@ Simple Python3 script for retrieving devices from the last snapshot and exportin
 """
 
 # Built-in/Generic Imports
-from ipfapi import tokenRequest, getData
+from ipfapidemo import tokenRequest, getData
 import json
 import yaml
 from time import sleep
 
 # Global variables
-# server = 'https://demo4.ipf.ipfabric.io/'
-server = 'https://10.0.8.15/' 
+server = 'https://demo4.ipf.ipfabric.io/'
+# server = 'https://10.0.8.15/' 
 authData = { 'username': 'ipfabricdemo', 'password' : 'ipfabricdemo' }
+ipfabricInventory = 'hosts.json'
 ansibleInventory = 'hosts.yaml'
 
 # API call variables
@@ -34,11 +35,14 @@ headers = { 'Authorization' : 'Bearer ' + tokens['accessToken'], 'Content-Type':
 # API call to pull device list
 devices = getData(devicesEndpoint, headers, devicesPayload)
 
-# Open Ansible inventory
+# Open inventory files
 f=open(ansibleInventory,'w')
+g=open(ipfabricInventory,'w')
 
 # Extract device info from JSON returned from API
 devs=json.loads(devices.content)["data"]
+print(json.dumps(devs,indent=4), file=g)
+g.close()
 
 inventory={}
 
@@ -54,21 +58,21 @@ for dev in devs:
     
     # Create vendor grouping
     if not (v in inventory):
-        inventory[v]={}
+        inventory[v]={'hosts':{}}
 
     # Add devices to vendor group
-    inventory[v][h]={}
-    inventory[v][h]['ansible_host']=i
-    inventory[v][h]['ansible_connection']=c
+    inventory[v]['hosts'][h]={}
+    inventory[v]['hosts'][h]['ansible_host']=i
+    inventory[v]['hosts'][h]['ansible_connection']=c
 
     # Create site grouping
     if not (s in inventory):
-        inventory[s]={}
+        inventory[s]={'hosts':{}}
 
     # Add devices to site group
-    inventory[s][h]={}
-    inventory[s][h]['ansible_host']=i
-    inventory[s][h]['ansible_connection']=c
+    inventory[s]['hosts'][h]={}
+    inventory[s]['hosts'][h]['ansible_host']=i
+    inventory[s]['hosts'][h]['ansible_connection']=c
 
 # write inventory in YAML to text file and close
 print (yaml.dump({'all':{'children':inventory}}),file=f)

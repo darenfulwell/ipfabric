@@ -2,7 +2,7 @@
 Simple Python3 script for authenticating to IP Fabric's API and collecting inventory data
 """
 # Built-in/Generic Imports
-from ipfapi import tokenRequest, getData
+from ipfapidemo import tokenRequest, getData
 
 # Starting with variables
 server = 'https://demo4.ipf.ipfabric.io/'
