@@ -1,0 +1,390 @@
+{
+	"info": {
+		"_postman_id": "79a42bd9-048e-4101-b459-d909bf1af3ea",
+		"name": "IPFabric",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "0. Auth",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"id": "7263d695-c15f-4060-be2b-a89d799f926f",
+						"exec": [
+							"var data = pm.response.json();\r",
+							"pm.environment.set(\"token\", data[\"accessToken\"]);\r",
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"protocolProfileBehavior": {
+				"followAuthorizationHeader": true
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\":\"{{username}}\",\r\n    \"password\":\"{{password}}\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{hostIP}}{{URL}}auth/login",
+					"protocol": "https",
+					"host": [
+						"{{hostIP}}{{URL}}auth"
+					],
+					"path": [
+						"login"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "1. device list",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"columns\": [\"sn\",\"hostname\",\"siteName\",\"loginIp\",\"loginType\",\"uptime\",\"vendor\",\"platform\",\"family\",\"version\"],\r\n  \"filters\": {},\r\n  \"pagination\": {\"limit\": 20,\"start\": 0},\r\n  \"snapshot\": \"$last\",\r\n  \"reports\": \"/inventory/devices\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{hostIP}}{{URL}}tables/inventory/devices",
+					"protocol": "https",
+					"host": [
+						"{{hostIP}}{{URL}}tables"
+					],
+					"path": [
+						"inventory",
+						"devices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2. device list by site",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"columns\": [\"sn\",\"hostname\",\"siteName\",\"loginIp\",\"loginType\",\"uptime\",\"vendor\",\"platform\",\"family\",\"version\"],\r\n  \"filters\": {\"siteName\":[\"like\",\"38\"]},\r\n  \"pagination\": {\"limit\": 20,\"start\": 0},\r\n  \"snapshot\": \"$last\",\r\n  \"reports\": \"/inventory/devices\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{hostIP}}{{URL}}tables/inventory/devices",
+					"protocol": "https",
+					"host": [
+						"{{hostIP}}{{URL}}tables"
+					],
+					"path": [
+						"inventory",
+						"devices"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3. device list by family & OS",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"columns\":[\"id\",\"sn\",\"hostname\",\"siteKey\",\"siteName\",\"vendor\",\"platform\",\"family\",\"version\"],\r\n    \"filters\":{\"platform\":[\"like\",\"nx9000v\"],\"version\":[\"like\",\"9.2(2)\"]},\r\n    \"pagination\":{\"limit\":15,\"start\":0},\r\n    \"snapshot\":\"$last\",\r\n    \"reports\":\"/inventory/devices\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{hostIP}}{{URL}}tables/inventory/devices",
+					"protocol": "https",
+					"host": [
+						"{{hostIP}}{{URL}}tables"
+					],
+					"path": [
+						"inventory",
+						"devices"
+					],
+					"query": [
+						{
+							"key": "Content-type",
+							"value": "application-type/json",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "4. host list",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"columns\":[\"id\", \"accessPoints\", \"dnsName\", \"edges\", \"gateways\", \"ip\", \"mac\", \"siteKey\", \"siteName\", \"vendor\", \"vlan\", \"vrf\"],\r\n    \"filters\":{},\r\n    \"pagination\":{\"limit\":15,\"start\":0},\r\n    \"snapshot\":\"$last\",\r\n    \"reports\":\"/addressing/hosts\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{hostIP}}{{URL}}tables/addressing/hosts",
+					"protocol": "https",
+					"host": [
+						"{{hostIP}}{{URL}}tables"
+					],
+					"path": [
+						"addressing",
+						"hosts"
+					],
+					"query": [
+						{
+							"key": "Content-type",
+							"value": "application-type/json",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "5. wireless host list",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"columns\":[\"id\", \"apName\", \"apSn\", \"bssid\", \"bytesRate\", \"client\", \"clientIp\", \"controller\", \"controllerSn\", \"inBytesRate\", \"inPktsRate\", \"outBytesRate\", \"outPktsRate\", \"pktsRate\", \"policyManagerState\", \"rssi\", \"signalToNoiseRatio\", \"siteKey\", \"siteName\", \"ssid\", \"state\"],\r\n    \"filters\":{},\r\n    \"pagination\":{\"limit\":15,\"start\":0},\r\n    \"snapshot\":\"$last\",\r\n    \"reports\":\"/wireless/clients\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{hostIP}}{{URL}}tables/wireless/clients",
+					"protocol": "https",
+					"host": [
+						"{{hostIP}}{{URL}}tables"
+					],
+					"path": [
+						"wireless",
+						"clients"
+					],
+					"query": [
+						{
+							"key": "Content-type",
+							"value": "application-type/json",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "6. configuration list",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"columns\":[\"_id\", \"hash\", \"hostname\", \"lastChange\", \"lastCheck\", \"reason\", \"sn\", \"status\"],\r\n    \"filters\":{},\r\n    \"pagination\":{\"limit\":15,\"start\":0},\r\n    \"snapshot\":\"$last\",\r\n    \"reports\":\"/management/configuration\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{hostIP}}{{URL}}tables/management/configuration",
+					"protocol": "https",
+					"host": [
+						"{{hostIP}}{{URL}}tables"
+					],
+					"path": [
+						"management",
+						"configuration"
+					],
+					"query": [
+						{
+							"key": "Content-type",
+							"value": "application-type/json",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "7. configuration download",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true,
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{hostIP}}{{URL}}tables/management/configuration/download?hash=caa42d2201adafd2e0be3f21ece3512f041fb700",
+					"protocol": "https",
+					"host": [
+						"{{hostIP}}{{URL}}tables"
+					],
+					"path": [
+						"management",
+						"configuration",
+						"download"
+					],
+					"query": [
+						{
+							"key": "Content-type",
+							"value": "application-type/json",
+							"disabled": true
+						},
+						{
+							"key": "hash",
+							"value": "caa42d2201adafd2e0be3f21ece3512f041fb700"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "9. snapshots",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {}
+			},
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"columns\":[\"_id\", \"hash\", \"hostname\", \"lastChange\", \"lastCheck\", \"reason\", \"sn\", \"status\"],\r\n    \"filters\":{},\r\n    \"pagination\":{\"limit\":15,\"start\":0},\r\n    \"snapshot\":\"$last\",\r\n    \"reports\":\"/management/configuration\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://{{hostIP}}{{URL}}tables/management/configuration",
+					"protocol": "https",
+					"host": [
+						"{{hostIP}}{{URL}}tables"
+					],
+					"path": [
+						"management",
+						"configuration"
+					],
+					"query": [
+						{
+							"key": "Content-type",
+							"value": "application-type/json",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "bearer",
+		"bearer": [
+			{
+				"key": "token",
+				"value": "{{token}}",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "fb094c0a-0732-404a-aeab-d15dadccdca2",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "c19bb1b7-8524-4afd-be8b-56b797a4142f",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"protocolProfileBehavior": {}
+}
