@@ -1,0 +1,26 @@
+INFO:root:2020-07-27 09:50:45.123344User authenticated successfully
+INFO:root:2020-07-27 09:50:45.631077Successfully gathered data from: https://demo4.ipf.ipfabric.io/api/v1/tables/inventory/devices
+INFO:root:2020-07-27 18:26:53.054496 User authenticated successfully
+INFO:root:2020-07-27 18:26:53.159220 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-07-27 18:39:16.262658 User authenticated successfully
+INFO:root:2020-07-27 18:39:16.366430 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-07-30 00:27:15.275365 User authenticated successfully
+INFO:root:2020-07-30 00:28:18.069563 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-07-30 00:33:16.448183 User authenticated successfully
+INFO:root:2020-07-30 00:33:16.576831 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-07-30 00:35:03.346558 User authenticated successfully
+INFO:root:2020-07-30 00:35:03.480223 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-07-30 01:21:23.397682 User authenticated successfully
+INFO:root:2020-07-30 01:21:23.498756 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-07-30 01:31:20.455898 User authenticated successfully
+INFO:root:2020-07-30 01:31:20.558740 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-07-30 01:32:21.956400 YAML format inventory successfully written to hosts.yaml
+INFO:root:2020-07-30 01:34:24.677218 User authenticated successfully
+INFO:root:2020-07-30 01:34:24.800125 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-07-30 01:34:24.813914 YAML format inventory successfully written to hosts.yaml
+INFO:root:2020-07-30 01:35:32.411672 User authenticated successfully
+INFO:root:2020-07-30 01:35:32.509596 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-07-30 01:35:32.601590 YAML format inventory successfully written to stdout
+INFO:root:2020-07-30 01:35:50.537652 User authenticated successfully
+INFO:root:2020-07-30 01:35:50.656109 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-07-30 01:35:50.873361 JSON format inventory successfully written to stdout

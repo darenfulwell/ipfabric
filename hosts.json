@@ -1,0 +1,72 @@
+[
+    {
+        "hostname": {
+            "data": "L1EOS2",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.255.22",
+        "loginType": "ssh",
+        "vendor": "arista"
+    },
+    {
+        "hostname": {
+            "data": "L33R8",
+            "severity": 0
+        },
+        "siteName": "L33",
+        "loginIp": "10.33.108.108",
+        "loginType": "ssh",
+        "vendor": "arista"
+    },
+    {
+        "hostname": {
+            "data": "L77R10-LEAF4",
+            "severity": 0
+        },
+        "siteName": "L77",
+        "loginIp": "10.77.255.10",
+        "loginType": "ssh",
+        "vendor": "arista"
+    },
+    {
+        "hostname": {
+            "data": "L77R9-LEAF3",
+            "severity": 0
+        },
+        "siteName": "L77",
+        "loginIp": "10.77.10.9",
+        "loginType": "ssh",
+        "vendor": "arista"
+    },
+    {
+        "hostname": {
+            "data": "L1EOS1",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.1.21",
+        "loginType": "telnet",
+        "vendor": "arista"
+    },
+    {
+        "hostname": {
+            "data": "L1EOS3",
+            "severity": 0
+        },
+        "siteName": "L1",
+        "loginIp": "10.241.255.23",
+        "loginType": "telnet",
+        "vendor": "arista"
+    },
+    {
+        "hostname": {
+            "data": "L33SW1",
+            "severity": 0
+        },
+        "siteName": "L33",
+        "loginIp": "10.33.242.2",
+        "loginType": "ssh",
+        "vendor": "arista"
+    }
+]
