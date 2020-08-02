@@ -73,3 +73,103 @@ INFO:root:2020-08-02 01:45:42.424884 User authenticated successfully
 INFO:root:2020-08-02 01:45:42.509657 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
 INFO:root:2020-08-02 01:48:20.197783 User authenticated successfully
 INFO:root:2020-08-02 01:48:35.255980 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 02:00:15.624201 User authenticated successfully
+INFO:root:2020-08-02 02:00:15.721937 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 02:00:15.738901 JSON format inventory successfully written to stdout
+INFO:root:2020-08-02 11:53:19.535493 User authenticated successfully
+INFO:root:2020-08-02 11:53:19.625008 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 11:53:19.627003 JSON format inventory successfully written to hosts.json
+INFO:root:2020-08-02 12:02:12.892595 User authenticated successfully
+INFO:root:2020-08-02 12:02:12.990177 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 12:02:51.261087 Parameter error calling getIPFInventory
+INFO:root:2020-08-02 12:03:07.630181 User authenticated successfully
+INFO:root:2020-08-02 12:03:07.762401 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 12:03:46.735571 Parameter error calling getIPFInventory
+INFO:root:2020-08-02 12:04:05.025617 User authenticated successfully
+INFO:root:2020-08-02 12:04:05.153467 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 12:05:01.641312 Parameter error calling getIPFInventory
+INFO:root:2020-08-02 12:05:46.610952 User authenticated successfully
+INFO:root:2020-08-02 12:05:46.708626 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 12:08:04.571079 Parameter error calling getIPFInventory
+INFO:root:2020-08-02 12:08:19.711770 User authenticated successfully
+INFO:root:2020-08-02 12:08:20.187783 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 12:08:20.187783 Parameter error calling getIPFInventory
+INFO:root:2020-08-02 12:18:11.476296 User authenticated successfully
+INFO:root:2020-08-02 12:18:11.574665 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 12:18:11.575612 JSON format inventory successfully written to hosts.json
+INFO:root:2020-08-02 12:18:58.920871 User authenticated successfully
+INFO:root:2020-08-02 12:18:59.003683 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 12:20:42.926080 JSON format inventory successfully written to hosts.json
+INFO:root:2020-08-02 12:21:17.000338 User authenticated successfully
+INFO:root:2020-08-02 12:21:17.117577 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 12:23:07.900396 JSON format inventory successfully written to hosts.json
+INFO:root:2020-08-02 12:28:35.367337 User authenticated successfully
+INFO:root:2020-08-02 12:28:35.478359 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 12:28:35.497249 JSON format inventory successfully written to hosts.json
+INFO:root:2020-08-02 12:29:49.058223 User authenticated successfully
+INFO:root:2020-08-02 12:29:49.173659 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 12:29:49.191983 JSON format inventory successfully written to hosts.json
+INFO:root:2020-08-02 12:39:33.108488 User authenticated successfully
+INFO:root:2020-08-02 12:39:33.212808 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 12:39:33.215800 Parameter error calling getIPFInventory
+INFO:root:2020-08-02 12:39:34.242705 User authenticated successfully
+INFO:root:2020-08-02 12:39:34.353693 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 12:39:34.357003 Parameter error calling getIPFInventory
+INFO:root:2020-08-02 12:40:26.781883 User authenticated successfully
+INFO:root:2020-08-02 12:40:26.893902 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 12:42:28.825847 Parameter error calling getIPFInventory
+INFO:root:2020-08-02 12:42:47.872980 User authenticated successfully
+INFO:root:2020-08-02 12:42:48.020371 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 12:47:50.493490 User authenticated successfully
+INFO:root:2020-08-02 12:47:50.618294 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 12:48:38.605378 Parameter error calling getIPFInventory
+INFO:root:2020-08-02 12:50:04.554976 User authenticated successfully
+INFO:root:2020-08-02 12:50:04.675434 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 12:51:10.702589 User authenticated successfully
+INFO:root:2020-08-02 12:51:10.900173 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 12:53:59.579422 Parameter error calling getIPFInventory
+INFO:root:2020-08-02 12:56:01.881309 User authenticated successfully
+INFO:root:2020-08-02 12:56:02.046898 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 12:56:02.187293 JSON format inventory successfully written to hosts.json
+INFO:root:2020-08-02 15:07:43.247758 Parameter error calling getIPFInventory
+INFO:root:2020-08-02 15:08:10.014902 User authenticated successfully
+INFO:root:2020-08-02 15:08:10.131437 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 15:08:10.133816 JSON format inventory successfully written to hosts.json
+INFO:root:2020-08-02 16:03:38.414938 User authenticated successfully
+INFO:root:2020-08-02 16:03:38.508687 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 16:03:38.509685 Parameter error calling getIPFInventory
+INFO:root:2020-08-02 16:04:57.586608 User authenticated successfully
+INFO:root:2020-08-02 16:04:57.720247 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 16:09:51.576953 User authenticated successfully
+INFO:root:2020-08-02 16:09:51.657249 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 16:13:32.445941 User authenticated successfully
+INFO:root:2020-08-02 16:13:47.188015 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 16:15:29.922702 User authenticated successfully
+INFO:root:2020-08-02 16:15:30.028420 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 16:17:46.349302 Error writing JSON format inventory to hosts.json
+INFO:root:2020-08-02 16:19:26.416700 User authenticated successfully
+INFO:root:2020-08-02 16:19:26.508456 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 16:23:04.406561 Error writing JSON format inventory to hosts.json
+INFO:root:2020-08-02 16:24:12.603283 User authenticated successfully
+INFO:root:2020-08-02 16:24:12.699028 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 16:24:12.723962 Error writing JSON format inventory to hosts.json
+INFO:root:2020-08-02 16:25:10.446045 User authenticated successfully
+INFO:root:2020-08-02 16:25:10.585669 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 16:28:10.809644 User authenticated successfully
+INFO:root:2020-08-02 16:28:10.889675 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 16:29:36.797991 JSON format inventory successfully written to hosts.json
+INFO:root:2020-08-02 16:31:06.988181 User authenticated successfully
+INFO:root:2020-08-02 16:31:07.105866 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 16:31:07.124815 JSON format inventory successfully written to hosts.json
+INFO:root:2020-08-02 16:33:19.017323 User authenticated successfully
+INFO:root:2020-08-02 16:33:19.132017 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 16:33:19.147973 JSON format inventory successfully written to hosts.json
+INFO:root:2020-08-02 16:38:59.091388 User authenticated successfully
+INFO:root:2020-08-02 16:38:59.214052 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 16:38:59.233001 JSON format inventory successfully written to hosts.json
+INFO:root:2020-08-02 16:39:44.951060 User authenticated successfully
+INFO:root:2020-08-02 16:39:45.090686 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 16:39:45.114623 JSON format inventory successfully written to hosts.json
+INFO:root:2020-08-02 16:42:23.099438 User authenticated successfully
+INFO:root:2020-08-02 16:42:23.226099 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 16:42:23.246046 JSON format inventory successfully written to hosts.json

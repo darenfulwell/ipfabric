@@ -1,72 +1,4163 @@
-[
-    {
-        "hostname": {
-            "data": "L1EOS2",
-            "severity": 0
-        },
-        "siteName": "L1",
-        "loginIp": "10.241.255.22",
-        "loginType": "ssh",
-        "vendor": "arista"
+{
+    "all": {
+        "children": {
+            "ungrouped": {},
+            "mikrotik": {
+                "hosts": [
+                    "L64R4",
+                    "L52DHCP2",
+                    "L64R6",
+                    "L64R7",
+                    "L64R5",
+                    "HWLAB",
+                    "HWLAB-MTIK-DHCPC 123",
+                    "L52DHCP1",
+                    "L64R3",
+                    "L64R8"
+                ]
+            },
+            "L64": {
+                "hosts": [
+                    "L64R4",
+                    "L64R6",
+                    "L64R7",
+                    "L64R5",
+                    "L64R3",
+                    "L64R8"
+                ]
+            },
+            "cisco": {
+                "hosts": [
+                    "L68AC11",
+                    "L43AC92",
+                    "L51AR41",
+                    "L47AC18",
+                    "L51AR50",
+                    "L51AR59",
+                    "L81EXR2",
+                    "L51AR57",
+                    "L35EXR16",
+                    "L72AC11",
+                    "L36AC36",
+                    "L62SD28",
+                    "L37NX6",
+                    "L43SD73",
+                    "L68R4",
+                    "HWLAB-SGE300",
+                    "L36AC27",
+                    "L43AC34",
+                    "HWLAB-TS",
+                    "L77EXR1",
+                    "L35ACC84",
+                    "L31R16",
+                    "L39AC121",
+                    "L31INR17",
+                    "L43AC21",
+                    "L39EXR11",
+                    "L51AR28",
+                    "L51AR65",
+                    "L39H122",
+                    "L1FW1",
+                    "L63AC8",
+                    "L47AC16",
+                    "L51AR31",
+                    "L62SD29",
+                    "L39AC113",
+                    "L36AC38",
+                    "L35AC151",
+                    "L51AR51",
+                    "L33R7",
+                    "L62SD25",
+                    "L36SD8",
+                    "L39EXR13",
+                    "L68ACC21",
+                    "L43AC94",
+                    "L49AR39",
+                    "L81EXR1",
+                    "L35AC111",
+                    "L43AC51",
+                    "L43FWR3",
+                    "L38AC16",
+                    "L63AC4",
+                    "L43AC44",
+                    "L33R6",
+                    "L35EXR15",
+                    "L36AC56",
+                    "L51AR56",
+                    "L63AC7",
+                    "L77R7-LEAF1",
+                    "L51AR38",
+                    "L39H124",
+                    "L51AR36",
+                    "L36AC37",
+                    "L63EXR2",
+                    "L48EXR1",
+                    "L38AC11",
+                    "L62SD24",
+                    "L39EXR7",
+                    "L62SD22",
+                    "L36AC46",
+                    "L34AC26",
+                    "L62R3",
+                    "L35EXR1",
+                    "L68AC26",
+                    "L45R6",
+                    "L45R7",
+                    "L62RHUB2",
+                    "L31FWR14",
+                    "L33AC13",
+                    "L62RHUB1",
+                    "L45R3",
+                    "L36AC53",
+                    "L49AR29",
+                    "L43SD83",
+                    "L72AC24",
+                    "L39AC101",
+                    "L39H134",
+                    "L31FWR13",
+                    "L49AR36",
+                    "L49AR28",
+                    "L43ACC105",
+                    "L38R8",
+                    "L49AR24",
+                    "L45R8",
+                    "L49AR23",
+                    "L77R4-CORE2",
+                    "L47ACC19",
+                    "L35AC88",
+                    "L38AC21",
+                    "L39AC107",
+                    "L48AC21",
+                    "L35AC91",
+                    "L43AC23",
+                    "L48AC23",
+                    "L43AC27",
+                    "L35AC172",
+                    "L62SD19",
+                    "L39H132",
+                    "L39EXR9",
+                    "L36AC24",
+                    "L35EXR9",
+                    "L43AC104",
+                    "L51AR68",
+                    "L43SD82",
+                    "L62R8",
+                    "L34AC24",
+                    "L48EXR2",
+                    "HWLAB-AP-1242AG",
+                    "L51AR25",
+                    "L35AC141",
+                    "L39AC133",
+                    "L34AC12",
+                    "L49R4",
+                    "L72ACC21",
+                    "L62R5",
+                    "L38AC15",
+                    "L63AC6",
+                    "L37AC14",
+                    "L51AR60",
+                    "L39EXR25",
+                    "L68AC12",
+                    "L38R5",
+                    "L43AC29",
+                    "L36AC23",
+                    "L39H110",
+                    "L62R10",
+                    "L49AR27",
+                    "L39EXR12",
+                    "L51AR54",
+                    "L43AC22",
+                    "L72AC13",
+                    "L47AC17",
+                    "L43ACC102",
+                    "L43AC6",
+                    "L49AR34",
+                    "L39EXR5",
+                    "L38-vFPR1",
+                    "L51AR42",
+                    "L51R6",
+                    "L63SD2",
+                    "L77R8-LEAF2",
+                    "L48ACC9",
+                    "L34CSR9",
+                    "L1R9",
+                    "L45EXR1",
+                    "L35AC174",
+                    "L35AC161",
+                    "L39EXR28",
+                    "L49AR21",
+                    "L51AR55",
+                    "L51AR62",
+                    "L39H136",
+                    "L36AC10",
+                    "L34AC23",
+                    "L37EXR1",
+                    "L81R12",
+                    "L37R4",
+                    "L39EXR26",
+                    "L36AC52",
+                    "L49R6",
+                    "L43AC49",
+                    "L51AR32",
+                    "L37SD8",
+                    "L33NX3.ipf.local",
+                    "L48AC8",
+                    "L49AR35",
+                    "L39AC135",
+                    "L49AR37",
+                    "L51AR66",
+                    "L37AC13",
+                    "L34AC13",
+                    "L66ACC23",
+                    "L39EXR21",
+                    "L35AC113",
+                    "L38AC9",
+                    "L62R9",
+                    "L51AR44",
+                    "L37NX5",
+                    "L51AR34",
+                    "L49AR31",
+                    "L36AC34",
+                    "L39EXR14",
+                    "L43AC53",
+                    "L63AC5",
+                    "L36AC31",
+                    "L49AR22",
+                    "L77R12-LEAF6",
+                    "L39H102",
+                    "L35AC173",
+                    "L72R8",
+                    "L63SD1",
+                    "L51CR7",
+                    "L51AR33",
+                    "L36AC54",
+                    "L36AC49",
+                    "L36AC28",
+                    "L52-SW1",
+                    "L51AR30",
+                    "L43AC47",
+                    "L36AC5",
+                    "L35AC112",
+                    "L62EXR2",
+                    "L34AC11",
+                    "L38AC22",
+                    "L49AR32",
+                    "L49AR25",
+                    "L51AR37",
+                    "L47AC13",
+                    "L51AR22",
+                    "L36AC42",
+                    "L49AR26",
+                    "L39H104",
+                    "L36AC57",
+                    "L39H108",
+                    "L68AC24",
+                    "L49CR8",
+                    "L45R4",
+                    "L51AR53",
+                    "L62R7",
+                    "L43AC52",
+                    "L49AR38",
+                    "L51R5",
+                    "L39AC123",
+                    "L63EXR1",
+                    "L1R10",
+                    "L39H116",
+                    "L51AR21",
+                    "L48AC12",
+                    "L39EXR2",
+                    "L47AC12",
+                    "L36SD7",
+                    "L47AC21",
+                    "L36AC22",
+                    "L63AC2",
+                    "L68CSR10",
+                    "L43AC26",
+                    "L39EXR24",
+                    "L36AC29",
+                    "L39H118",
+                    "L39AC117",
+                    "L62SD27",
+                    "L81R10",
+                    "L36AC51",
+                    "L47AC8",
+                    "L43AC103",
+                    "L43AC54",
+                    "L49R3",
+                    "L43AC93",
+                    "L35AC85",
+                    "L38AC14",
+                    "L39EXR8",
+                    "L39AC109",
+                    "L39H106",
+                    "L51AR43",
+                    "L43AC56",
+                    "L48AC14",
+                    "L43AC43",
+                    "L68R3",
+                    "L36AC6",
+                    "L35AC171",
+                    "L43SD85",
+                    "L39EXR17",
+                    "L37EXR2",
+                    "L51AR61",
+                    "L39H138",
+                    "L35AC175",
+                    "L34CSR10",
+                    "L51AR67",
+                    "L62SD26",
+                    "L39EXR27",
+                    "L72R7",
+                    "L62R13",
+                    "L35EXR13",
+                    "L37SD7",
+                    "L48AC11",
+                    "L51AR58",
+                    "L37R3",
+                    "L35AC87",
+                    "L71EXR1",
+                    "L48ACC10",
+                    "L34ACC22",
+                    "L39EXR22",
+                    "L51AR39",
+                    "L35AC92",
+                    "L71R4",
+                    "L68AC13",
+                    "L36AC32",
+                    "L39EXR23",
+                    "L62R12",
+                    "L51AR47",
+                    "L49R5",
+                    "L48SD3",
+                    "L39AC111",
+                    "L47AC14",
+                    "L48ACC135",
+                    "L49EXR2",
+                    "L1R3",
+                    "L43AC42",
+                    "L47AC9",
+                    "L38AC10",
+                    "L43AC28",
+                    "L33R9",
+                    "L45R5",
+                    "L45AC13",
+                    "L36AC33",
+                    "L36AC47",
+                    "L1SW2",
+                    "L39AC127",
+                    "L51AR40",
+                    "L43AC59",
+                    "L63AC3",
+                    "L43AC41",
+                    "L1R6.lab.ipfabric.io",
+                    "L43AC48",
+                    "L35ACC83",
+                    "L51EXR2",
+                    "L47R4",
+                    "L38AC12",
+                    "L38AC8",
+                    "L72R9",
+                    "L77R11-LEAF5",
+                    "L51AR46",
+                    "L62R14",
+                    "L39H112",
+                    "L66AC2111",
+                    "L43AC46",
+                    "L51AR24",
+                    "L47R5",
+                    "L38AC20",
+                    "L35AC115",
+                    "L35AC143",
+                    "L35AC121",
+                    "L72AC23",
+                    "L48SD4",
+                    "L1SW3",
+                    "L43AC58",
+                    "L47AC15",
+                    "L72AC26",
+                    "L43SD74",
+                    "L34ACC21",
+                    "L51AR64",
+                    "L62R6",
+                    "L33EXR1",
+                    "L36AC59",
+                    "L51EXR1",
+                    "L49CR7",
+                    "L62EXR1",
+                    "L72R10",
+                    "L39H126",
+                    "L71R3",
+                    "L1SW4",
+                    "L38AC18",
+                    "L72AC12",
+                    "L51CR8",
+                    "L39AC103",
+                    "L34AC25",
+                    "L63RFW",
+                    "L1R2",
+                    "L62R11",
+                    "L62SD23",
+                    "L66AC22",
+                    "L37AC16",
+                    "HWLAB-WLC-C4400",
+                    "L68ACC22",
+                    "L68EXR2",
+                    "L35SD82",
+                    "L68AC23",
+                    "L49AR33",
+                    "L35SD81",
+                    "L51AR52",
+                    "L43AC57",
+                    "L43AC36",
+                    "L43SD84",
+                    "L43FWR4",
+                    "L39H128",
+                    "L39H114",
+                    "L48SD6",
+                    "L35AC86",
+                    "L47AC20",
+                    "L39AC115",
+                    "L35AC162",
+                    "L35AC131",
+                    "L39EXR15",
+                    "L43EXR1",
+                    "L39EXR16",
+                    "L37AC15",
+                    "L36AC48",
+                    "L31R15",
+                    "L43AC32",
+                    "L39AC131",
+                    "L36AC26",
+                    "L51AR49",
+                    "L72AC25",
+                    "L43AC38",
+                    "L35AC122",
+                    "L39EXR18",
+                    "L43AC5",
+                    "L36AC39",
+                    "L66EXR2",
+                    "L38ACC19",
+                    "L43AC39",
+                    "L35EXR2",
+                    "L43SD75",
+                    "L51AR35",
+                    "L38AC17",
+                    "L48AC22",
+                    "L47R3",
+                    "L71EXR2",
+                    "L66R3",
+                    "L35EXR5",
+                    "L77R3-CORE1",
+                    "L34EXR1",
+                    "L51AR63",
+                    "L62R15",
+                    "L62R4",
+                    "L35EXR14",
+                    "L47AC7",
+                    "L62SD18",
+                    "L35EXR6",
+                    "L36AC41",
+                    "L45R9",
+                    "HWLAB-C3750-STACK",
+                    "L35EXR11",
+                    "L51R4",
+                    "L35AC114",
+                    "L38AC13",
+                    "L47R6",
+                    "L36AC44",
+                    "L51R3",
+                    "L51AR48",
+                    "L43AC24",
+                    "L72ACC22",
+                    "L48SD5",
+                    "L36AC43",
+                    "L47AC11",
+                    "L68AC25",
+                    "L43AC33",
+                    "L43AC31",
+                    "L36AC58",
+                    "L43AC95",
+                    "L39EXR6",
+                    "L47EXR2",
+                    "L35AC142",
+                    "L35EXR7",
+                    "L43AC37",
+                    "L39AC105",
+                    "L43SD72",
+                    "L39AC125",
+                    "L36AC21",
+                    "L37AC12",
+                    "L51AR27"
+                ]
+            },
+            "L68": {
+                "hosts": [
+                    "L68AC11",
+                    "L68R4",
+                    "L68ACC21",
+                    "L68AC26",
+                    "L68AC12",
+                    "L68AC24",
+                    "L68CSR10",
+                    "L68R3",
+                    "L68AC13",
+                    "L68ACC22",
+                    "L68EXR2",
+                    "L68AC23",
+                    "L68AC25"
+                ]
+            },
+            "L43": {
+                "hosts": [
+                    "L43AC92",
+                    "L43SD73",
+                    "L43AC34",
+                    "L43AC21",
+                    "L43AC94",
+                    "L43AC51",
+                    "L43FWR3",
+                    "L43AC44",
+                    "L43SD83",
+                    "L43ACC105",
+                    "L43AC23",
+                    "L43AC27",
+                    "L43AC104",
+                    "L43SD82",
+                    "L43AC29",
+                    "L43AC22",
+                    "L43ACC102",
+                    "L43AC6",
+                    "L43AC49",
+                    "L43AC53",
+                    "L43AC47",
+                    "L43AC52",
+                    "L43AC26",
+                    "L43AC103",
+                    "L43AC54",
+                    "L43AC93",
+                    "L43AC56",
+                    "L43AC43",
+                    "L43SD85",
+                    "L43AC42",
+                    "L43AC28",
+                    "L43AC59",
+                    "L43AC41",
+                    "L43AC48",
+                    "L43AC46",
+                    "L43AC58",
+                    "L43SD74",
+                    "L43AC57",
+                    "L43AC36",
+                    "L43SD84",
+                    "L43FWR4",
+                    "L43EXR1",
+                    "L43AC32",
+                    "L43AC38",
+                    "L43AC5",
+                    "L43AC39",
+                    "L43SD75",
+                    "L43AC24",
+                    "L43AC33",
+                    "L43AC31",
+                    "L43AC95",
+                    "L43AC37",
+                    "L43SD72"
+                ]
+            },
+            "L51": {
+                "hosts": [
+                    "L51AR41",
+                    "L51AR50",
+                    "L51AR59",
+                    "L51AR57",
+                    "L51AR28",
+                    "L51AR65",
+                    "L51AR31",
+                    "L51AR51",
+                    "L51AR56",
+                    "L51AR38",
+                    "L51AR36",
+                    "L51AR68",
+                    "L51AR25",
+                    "L51AR60",
+                    "L51AR54",
+                    "L51AR42",
+                    "L51R6",
+                    "L51AR55",
+                    "L51AR62",
+                    "L51AR32",
+                    "L51AR66",
+                    "L51AR44",
+                    "L51AR34",
+                    "L51CR7",
+                    "L51AR33",
+                    "L51AR30",
+                    "L51AR37",
+                    "L51AR22",
+                    "L51AR53",
+                    "L51R5",
+                    "L51AR21",
+                    "L51AR43",
+                    "L51AR61",
+                    "L51AR67",
+                    "L51AR58",
+                    "L51AR39",
+                    "L51AR47",
+                    "L51AR40",
+                    "L51EXR2",
+                    "L51AR46",
+                    "L51AR24",
+                    "L51AR64",
+                    "L51EXR1",
+                    "L51CR8",
+                    "L51AR52",
+                    "L51AR49",
+                    "L51AR35",
+                    "L51AR63",
+                    "L51R4",
+                    "L51R3",
+                    "L51AR48",
+                    "L51AR27"
+                ]
+            },
+            "L47": {
+                "hosts": [
+                    "L47AC18",
+                    "L47AC16",
+                    "L47ACC19",
+                    "L47AC17",
+                    "L47AC13",
+                    "L47AC12",
+                    "L47AC21",
+                    "L47AC8",
+                    "L47AC14",
+                    "L47AC9",
+                    "L47R4",
+                    "L47R5",
+                    "L47AC15",
+                    "L47AC20",
+                    "L47R3",
+                    "L47AC7",
+                    "L47R6",
+                    "L47AC11",
+                    "L47EXR2"
+                ]
+            },
+            "L81": {
+                "hosts": [
+                    "L81EXR2",
+                    "L81EXR1",
+                    "L81R12",
+                    "L81R10"
+                ]
+            },
+            "L35": {
+                "hosts": [
+                    "L35EXR16",
+                    "L35ACC84",
+                    "L35AC151",
+                    "L35AC111",
+                    "L35EXR15",
+                    "L35EXR1",
+                    "L35AC88",
+                    "L35AC91",
+                    "L35AC172",
+                    "L35EXR9",
+                    "L35AC141",
+                    "L35AC174",
+                    "L35AC161",
+                    "L35AC113",
+                    "L35AC173",
+                    "L35AC112",
+                    "L35AC85",
+                    "L35AC171",
+                    "L35AC175",
+                    "L35EXR13",
+                    "L35AC87",
+                    "L35AC92",
+                    "L35ACC83",
+                    "L35AC115",
+                    "L35AC143",
+                    "L35AC121",
+                    "L35SD82",
+                    "L35SD81",
+                    "L35AC86",
+                    "L35AC162",
+                    "L35AC131",
+                    "L35AC122",
+                    "L35EXR2",
+                    "L35EXR5",
+                    "L35EXR14",
+                    "L35EXR6",
+                    "L35EXR11",
+                    "L35AC114",
+                    "L35AC142",
+                    "L35EXR7"
+                ]
+            },
+            "L72": {
+                "hosts": [
+                    "L72AC11",
+                    "L72AC24",
+                    "L72ACC21",
+                    "L72AC13",
+                    "L72R8",
+                    "L72R7",
+                    "L72R9",
+                    "L72AC23",
+                    "L72AC26",
+                    "L72R10",
+                    "L72AC12",
+                    "L72AC25",
+                    "L72ACC22"
+                ]
+            },
+            "L36": {
+                "hosts": [
+                    "L36AC36",
+                    "L36AC27",
+                    "L36AC38",
+                    "L36SD8",
+                    "L36AC56",
+                    "L36AC37",
+                    "L36AC46",
+                    "L36AC53",
+                    "L36AC24",
+                    "L36AC23",
+                    "L36AC10",
+                    "L36AC52",
+                    "L36AC34",
+                    "L36AC31",
+                    "L36AC54",
+                    "L36AC49",
+                    "L36AC28",
+                    "L36AC5",
+                    "L36AC42",
+                    "L36AC57",
+                    "L36SD7",
+                    "L36AC22",
+                    "L36AC29",
+                    "L36AC51",
+                    "L36AC6",
+                    "L36AC32",
+                    "L36AC33",
+                    "L36AC47",
+                    "L36AC59",
+                    "L36AC48",
+                    "L36AC26",
+                    "L36AC39",
+                    "L36AC41",
+                    "L36AC44",
+                    "L36AC43",
+                    "L36AC58",
+                    "L36AC21"
+                ]
+            },
+            "L62": {
+                "hosts": [
+                    "L62SD28",
+                    "L62SD29",
+                    "L62SD25",
+                    "L62SD24",
+                    "L62SD22",
+                    "L62R3",
+                    "L62RHUB2",
+                    "L62RHUB1",
+                    "L62SD19",
+                    "L62R8",
+                    "L62R5",
+                    "L62R10",
+                    "L62R9",
+                    "L62EXR2",
+                    "L62R7",
+                    "L62SD27",
+                    "L62SD26",
+                    "L62R13",
+                    "L62R12",
+                    "L62R14",
+                    "L62R6",
+                    "L62EXR1",
+                    "L62R11",
+                    "L62SD23",
+                    "L62R15",
+                    "L62R4",
+                    "L62SD18"
+                ]
+            },
+            "L37": {
+                "hosts": [
+                    "L37NX6",
+                    "L37AC14",
+                    "L37EXR1",
+                    "L37R4",
+                    "L37SD8",
+                    "L37AC13",
+                    "L37NX5",
+                    "L37EXR2",
+                    "L37SD7",
+                    "L37R3",
+                    "L37AC16",
+                    "L37AC15",
+                    "L37AC12"
+                ]
+            },
+            "HWLAB": {
+                "hosts": [
+                    "HWLAB-SGE300",
+                    "HWLAB-TS",
+                    "HWLAB-WLC-A7005",
+                    "HWLAB-AP-1242AG",
+                    "HWLAB",
+                    "HWLAB-MTIK-DHCPC 123",
+                    "HWLAB-WLC-C4400",
+                    "HWLAB-C3750-STACK"
+                ]
+            },
+            "dell": {
+                "hosts": [
+                    "L65FTOS9"
+                ]
+            },
+            "L65": {
+                "hosts": [
+                    "L65FTOS9"
+                ]
+            },
+            "L77": {
+                "hosts": [
+                    "L77EXR1",
+                    "L77R7-LEAF1",
+                    "L77R4-CORE2",
+                    "L77R10-LEAF4",
+                    "L77R8-LEAF2",
+                    "L77R9-LEAF3",
+                    "L77R12-LEAF6",
+                    "L77R11-LEAF5",
+                    "L77R3-CORE1"
+                ]
+            },
+            "arista": {
+                "hosts": [
+                    "L1EOS2",
+                    "L33R8",
+                    "L77R10-LEAF4",
+                    "L77R9-LEAF3",
+                    "L1EOS1",
+                    "L1EOS3",
+                    "L33SW1"
+                ]
+            },
+            "L1": {
+                "hosts": [
+                    "L1EOS2",
+                    "L1FW1",
+                    "L1R4",
+                    "L1R16",
+                    "L1XOS1",
+                    "L1R9",
+                    "L1R18",
+                    "L1FW4",
+                    "L1EOS1",
+                    "L1R17",
+                    "L1R14",
+                    "L1R10",
+                    "L1R3",
+                    "L1FW3",
+                    "L1R7",
+                    "L1SW2",
+                    "L1EOS3",
+                    "L1R6.lab.ipfabric.io",
+                    "L1SW3",
+                    "L1SW4",
+                    "L1R2",
+                    "L1fw8",
+                    "L1Quagga1",
+                    "L1FW5",
+                    "L1FW56"
+                ]
+            },
+            "L31": {
+                "hosts": [
+                    "L31R16",
+                    "L31INR17",
+                    "L31FWR14",
+                    "L31FWR13",
+                    "L31R15"
+                ]
+            },
+            "L39": {
+                "hosts": [
+                    "L39AC121",
+                    "L39EXR11",
+                    "L39H122",
+                    "L39AC113",
+                    "L39EXR13",
+                    "L39H124",
+                    "L39EXR7",
+                    "L39AC101",
+                    "L39H134",
+                    "L39AC107",
+                    "L39H132",
+                    "L39EXR9",
+                    "L39AC133",
+                    "L39EXR25",
+                    "L39H110",
+                    "L39EXR12",
+                    "L39EXR5",
+                    "L39EXR28",
+                    "L39H136",
+                    "L39EXR26",
+                    "L39AC135",
+                    "L39EXR21",
+                    "L39EXR14",
+                    "L39H102",
+                    "L39H104",
+                    "L39H108",
+                    "L39AC123",
+                    "L39H116",
+                    "L39EXR2",
+                    "L39EXR24",
+                    "L39H118",
+                    "L39AC117",
+                    "L39EXR8",
+                    "L39AC109",
+                    "L39H106",
+                    "L39EXR17",
+                    "L39H138",
+                    "L39EXR27",
+                    "L39EXR22",
+                    "L39EXR23",
+                    "L39AC111",
+                    "L39AC127",
+                    "L39H112",
+                    "L39H126",
+                    "L39AC103",
+                    "L39H128",
+                    "L39H114",
+                    "L39AC115",
+                    "L39EXR15",
+                    "L39EXR16",
+                    "L39AC131",
+                    "L39EXR18",
+                    "L39EXR6",
+                    "L39AC105",
+                    "L39AC125"
+                ]
+            },
+            "L33": {
+                "hosts": [
+                    "L33R8",
+                    "L33R7",
+                    "L33R6",
+                    "L33AC13",
+                    "L33NX3.ipf.local",
+                    "L33JR5",
+                    "L33R9",
+                    "L33SW1",
+                    "L33EXR1"
+                ]
+            },
+            "L63": {
+                "hosts": [
+                    "L63AC8",
+                    "L63AC4",
+                    "L63AC7",
+                    "L63EXR2",
+                    "L63AC6",
+                    "L63SD2",
+                    "L63AC5",
+                    "L63SD1",
+                    "L63EXR1",
+                    "L63AC2",
+                    "L63AC3",
+                    "L63RFW"
+                ]
+            },
+            "L52": {
+                "hosts": [
+                    "L52DHCP2",
+                    "L52-SW3",
+                    "L52-SW1",
+                    "L52DHCP1"
+                ]
+            },
+            "hp": {
+                "hosts": [
+                    "L1R4",
+                    "HWLAB-WLC-A7005",
+                    "L52-SW3"
+                ]
+            },
+            "L49": {
+                "hosts": [
+                    "L49AR39",
+                    "L49AR29",
+                    "L49AR36",
+                    "L49AR28",
+                    "L49AR24",
+                    "L49AR23",
+                    "L49R4",
+                    "L49AR27",
+                    "L49AR34",
+                    "L49AR21",
+                    "L49R6",
+                    "L49AR35",
+                    "L49AR37",
+                    "L49AR31",
+                    "L49AR22",
+                    "L49AR32",
+                    "L49AR25",
+                    "L49AR26",
+                    "L49CR8",
+                    "L49AR38",
+                    "L49R3",
+                    "L49R5",
+                    "L49EXR2",
+                    "L49CR7",
+                    "L49AR33"
+                ]
+            },
+            "L38": {
+                "hosts": [
+                    "L38AC16",
+                    "L38AC11",
+                    "L38R8",
+                    "L38AC21",
+                    "L38AC15",
+                    "L38R5",
+                    "L38-vFPR1",
+                    "L38AC9",
+                    "L38AC22",
+                    "L38AC14",
+                    "L38AC10",
+                    "L38AC12",
+                    "L38AC8",
+                    "L38AC20",
+                    "L38AC18",
+                    "L38ACC19",
+                    "L38AC17",
+                    "L38AC13"
+                ]
+            },
+            "L48": {
+                "hosts": [
+                    "L48EXR1",
+                    "L48AC21",
+                    "L48AC23",
+                    "L48EXR2",
+                    "L48ACC9",
+                    "L48AC8",
+                    "L48AC12",
+                    "L48AC14",
+                    "L48AC11",
+                    "L48ACC10",
+                    "L48SD3",
+                    "L48ACC135",
+                    "L48SD4",
+                    "L48SD6",
+                    "L48AC22",
+                    "L48SD5"
+                ]
+            },
+            "L34": {
+                "hosts": [
+                    "L34AC26",
+                    "L34AC24",
+                    "L34AC12",
+                    "L34CSR9",
+                    "L34AC23",
+                    "L34AC13",
+                    "L34AC11",
+                    "L34CSR10",
+                    "L34ACC22",
+                    "L34ACC21",
+                    "L34AC25",
+                    "L34EXR1"
+                ]
+            },
+            "L45": {
+                "hosts": [
+                    "L45R6",
+                    "L45R7",
+                    "L45R3",
+                    "L45R8",
+                    "L45EXR1",
+                    "L45R4",
+                    "L45R5",
+                    "L45AC13",
+                    "L45R9"
+                ]
+            },
+            "juniper": {
+                "hosts": [
+                    "L1R16",
+                    "L66JFW10",
+                    "L1R18",
+                    "L1R17",
+                    "L33JR5",
+                    "L1R14",
+                    "L66JR5",
+                    "L1R7",
+                    "L66JFW9",
+                    "L66JR6",
+                    "L1FW56"
+                ]
+            },
+            "extreme": {
+                "hosts": [
+                    "L1XOS1"
+                ]
+            },
+            "fortinet": {
+                "hosts": [
+                    "L71FW5_hasAVeryLongHostname",
+                    "L1FW3",
+                    "L71FW10"
+                ]
+            },
+            "L71": {
+                "hosts": [
+                    "L71FW5_hasAVeryLongHostname",
+                    "L71EXR1",
+                    "L71R4",
+                    "L71FW10",
+                    "L71R3",
+                    "L71EXR2"
+                ]
+            },
+            "L66": {
+                "hosts": [
+                    "L66JFW10",
+                    "L66ACC23",
+                    "L66JR5",
+                    "L66JFW9",
+                    "L66AC2111",
+                    "L66AC22",
+                    "L66JR6",
+                    "L66EXR2",
+                    "L66R3"
+                ]
+            },
+            "paloalto": {
+                "hosts": [
+                    "L1FW4",
+                    "L1FW5"
+                ]
+            },
+            "checkpoint": {
+                "hosts": [
+                    "L1fw8"
+                ]
+            },
+            "quagga": {
+                "hosts": [
+                    "L1Quagga1"
+                ]
+            }
+        }
     },
-    {
-        "hostname": {
-            "data": "L33R8",
-            "severity": 0
-        },
-        "siteName": "L33",
-        "loginIp": "10.33.108.108",
-        "loginType": "ssh",
-        "vendor": "arista"
-    },
-    {
-        "hostname": {
-            "data": "L77R10-LEAF4",
-            "severity": 0
-        },
-        "siteName": "L77",
-        "loginIp": "10.77.255.10",
-        "loginType": "ssh",
-        "vendor": "arista"
-    },
-    {
-        "hostname": {
-            "data": "L77R9-LEAF3",
-            "severity": 0
-        },
-        "siteName": "L77",
-        "loginIp": "10.77.10.9",
-        "loginType": "ssh",
-        "vendor": "arista"
-    },
-    {
-        "hostname": {
-            "data": "L1EOS1",
-            "severity": 0
-        },
-        "siteName": "L1",
-        "loginIp": "10.241.1.21",
-        "loginType": "telnet",
-        "vendor": "arista"
-    },
-    {
-        "hostname": {
-            "data": "L1EOS3",
-            "severity": 0
-        },
-        "siteName": "L1",
-        "loginIp": "10.241.255.23",
-        "loginType": "telnet",
-        "vendor": "arista"
-    },
-    {
-        "hostname": {
-            "data": "L33SW1",
-            "severity": 0
-        },
-        "siteName": "L33",
-        "loginIp": "10.33.242.2",
-        "loginType": "ssh",
-        "vendor": "arista"
+    "_meta": {
+        "hostvars": {
+            "L64R4": {
+                "ansible_host": "10.64.101.104",
+                "ansible_connection": "ssh",
+                "sn": "y71yo9tDKHJ",
+                "version": "6.45.6"
+            },
+            "L68AC11": {
+                "ansible_host": "10.68.129.170",
+                "ansible_connection": "ssh",
+                "sn": "87606040",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L43AC92": {
+                "ansible_host": "10.43.129.170",
+                "ansible_connection": "telnet",
+                "sn": "70462053",
+                "version": "15.2(20170809:194209)"
+            },
+            "L51AR41": {
+                "ansible_host": "10.51.255.141",
+                "ansible_connection": "telnet",
+                "sn": "83970089",
+                "version": "15.2(4)M1"
+            },
+            "L47AC18": {
+                "ansible_host": "10.47.119.145",
+                "ansible_connection": "telnet",
+                "sn": "77019879",
+                "version": "15.2(20170809:194209)"
+            },
+            "L51AR50": {
+                "ansible_host": "10.51.50.150",
+                "ansible_connection": "ssh",
+                "sn": "83988530",
+                "version": "15.2(4)M1"
+            },
+            "L51AR59": {
+                "ansible_host": "10.51.255.159",
+                "ansible_connection": "telnet",
+                "sn": "84006971",
+                "version": "15.2(4)M1"
+            },
+            "L81EXR2": {
+                "ansible_host": "10.81.255.102",
+                "ansible_connection": "telnet",
+                "sn": "73424908",
+                "version": "15.5(2)T"
+            },
+            "L51AR57": {
+                "ansible_host": "10.51.157.157",
+                "ansible_connection": "telnet",
+                "sn": "84002873",
+                "version": "15.2(4)M1"
+            },
+            "L35EXR16": {
+                "ansible_host": "10.35.255.116",
+                "ansible_connection": "ssh",
+                "sn": "90210320",
+                "version": "15.2(4)M1"
+            },
+            "L72AC11": {
+                "ansible_host": "10.72.129.162",
+                "ansible_connection": "telnet",
+                "sn": "70853412",
+                "version": "15.2(20170809:194209)"
+            },
+            "L36AC36": {
+                "ansible_host": "10.36.139.124",
+                "ansible_connection": "telnet",
+                "sn": "82866702",
+                "version": "15.2(20170809:194209)"
+            },
+            "L62SD28": {
+                "ansible_host": "10.62.255.170",
+                "ansible_connection": "telnet",
+                "sn": "95951619",
+                "version": "15.2(CML_NIGHTLY_20151103)FLO_DSGS7"
+            },
+            "L37NX6": {
+                "ansible_host": "10.37.255.6",
+                "ansible_connection": "ssh",
+                "sn": "95NTBMDWWTP",
+                "version": "9.2(2)"
+            },
+            "L43SD73": {
+                "ansible_host": "10.43.253.34",
+                "ansible_connection": "ssh",
+                "sn": "70453857",
+                "version": "15.2(20170809:194209)"
+            },
+            "L68R4": {
+                "ansible_host": "10.68.255.104",
+                "ansible_connection": "telnet",
+                "sn": "85991428",
+                "version": "15.2(4)M1"
+            },
+            "HWLAB-SGE300": {
+                "ansible_host": "192.168.102.7",
+                "ansible_connection": "ssh",
+                "sn": "PSZ21111F8D",
+                "version": "1.4.8.6"
+            },
+            "L65FTOS9": {
+                "ansible_host": "10.65.233.2",
+                "ansible_connection": "ssh",
+                "sn": "10.65.233.2",
+                "version": "9.8.0.0"
+            },
+            "L36AC27": {
+                "ansible_host": "10.36.129.117",
+                "ansible_connection": "telnet",
+                "sn": "82852359",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43AC34": {
+                "ansible_host": "10.43.139.197",
+                "ansible_connection": "telnet",
+                "sn": "70517376",
+                "version": "15.2(20170809:194209)"
+            },
+            "HWLAB-TS": {
+                "ansible_host": "192.168.110.11",
+                "ansible_connection": "telnet",
+                "sn": "JAD053404EV",
+                "version": "12.2(26c)"
+            },
+            "L77EXR1": {
+                "ansible_host": "10.77.255.1",
+                "ansible_connection": "telnet",
+                "sn": "75499521",
+                "version": "15.2(4)M5.3"
+            },
+            "L35ACC84": {
+                "ansible_host": "10.35.189.193",
+                "ansible_connection": "ssh",
+                "sn": "91632326",
+                "version": "15.2(20170809:194209)"
+            },
+            "L1EOS2": {
+                "ansible_host": "10.241.255.22",
+                "ansible_connection": "ssh",
+                "sn": "FAB81C00002",
+                "version": "4.14.5F"
+            },
+            "L31R16": {
+                "ansible_host": "10.31.51.116",
+                "ansible_connection": "telnet",
+                "sn": "69238800",
+                "version": "15.2(4)M1"
+            },
+            "L39AC121": {
+                "ansible_host": "10.39.11.101",
+                "ansible_connection": "telnet",
+                "sn": "79078100",
+                "version": "15.2(20170809:194209)"
+            },
+            "L33R8": {
+                "ansible_host": "10.33.108.108",
+                "ansible_connection": "ssh",
+                "sn": "5000.00ba.c6f8",
+                "version": "4.21.1.1F"
+            },
+            "L31INR17": {
+                "ansible_host": "10.31.49.117",
+                "ansible_connection": "ssh",
+                "sn": "69240849",
+                "version": "15.2(4)M1"
+            },
+            "L43AC21": {
+                "ansible_host": "10.43.129.186",
+                "ansible_connection": "telnet",
+                "sn": "70494837",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39EXR11": {
+                "ansible_host": "10.39.254.42",
+                "ansible_connection": "ssh",
+                "sn": "77617163",
+                "version": "15.2(4)M1"
+            },
+            "L51AR28": {
+                "ansible_host": "10.51.128.128",
+                "ansible_connection": "telnet",
+                "sn": "83943452",
+                "version": "15.2(4)M1"
+            },
+            "L51AR65": {
+                "ansible_host": "10.51.255.165",
+                "ansible_connection": "telnet",
+                "sn": "84019265",
+                "version": "15.2(4)M1"
+            },
+            "L39H122": {
+                "ansible_host": "10.39.11.102",
+                "ansible_connection": "telnet",
+                "sn": "77844602",
+                "version": "12.4(20090407:185408)"
+            },
+            "L1FW1": {
+                "ansible_host": "10.241.1.104",
+                "ansible_connection": "ssh",
+                "sn": "9A0MD0N6T4F",
+                "version": "9.5(2)204"
+            },
+            "L63AC8": {
+                "ansible_host": "10.63.139.144",
+                "ansible_connection": "telnet",
+                "sn": "93874957",
+                "version": "15.2(20170809:194209)"
+            },
+            "L47AC16": {
+                "ansible_host": "10.47.119.135",
+                "ansible_connection": "ssh",
+                "sn": "77015781",
+                "version": "15.2(20170809:194209)"
+            },
+            "L51AR31": {
+                "ansible_host": "10.51.31.131",
+                "ansible_connection": "telnet",
+                "sn": "83949599",
+                "version": "15.2(4)M1"
+            },
+            "L62SD29": {
+                "ansible_host": "10.62.255.160",
+                "ansible_connection": "telnet",
+                "sn": "95953668",
+                "version": "15.2(CML_NIGHTLY_20151103)FLO_DSGS7"
+            },
+            "L39AC113": {
+                "ansible_host": "10.39.7.101",
+                "ansible_connection": "ssh",
+                "sn": "79071953",
+                "version": "15.2(20170809:194209)"
+            },
+            "L36AC38": {
+                "ansible_host": "10.36.139.126",
+                "ansible_connection": "telnet",
+                "sn": "82870800",
+                "version": "15.2(20170809:194209)"
+            },
+            "L52DHCP2": {
+                "ansible_host": "10.52.99.1",
+                "ansible_connection": "telnet",
+                "sn": "/ZG1Mg0hltG",
+                "version": "6.45.6"
+            },
+            "L35AC151": {
+                "ansible_host": "10.35.159.182",
+                "ansible_connection": "telnet",
+                "sn": "91605689",
+                "version": "15.2(20170809:194209)"
+            },
+            "L51AR51": {
+                "ansible_host": "10.51.51.151",
+                "ansible_connection": "telnet",
+                "sn": "83990579",
+                "version": "15.2(4)M1"
+            },
+            "L33R7": {
+                "ansible_host": "10.33.255.107",
+                "ansible_connection": "ssh",
+                "sn": "71317511",
+                "version": "15.2(4)M1"
+            },
+            "L62SD25": {
+                "ansible_host": "10.62.255.167",
+                "ansible_connection": "telnet",
+                "sn": "95945472",
+                "version": "15.2(20170809:194209)"
+            },
+            "L1R4": {
+                "ansible_host": "10.241.1.4",
+                "ansible_connection": "ssh",
+                "sn": "500000050000108319011715",
+                "version": "7.1.064"
+            },
+            "L36SD8": {
+                "ansible_host": "10.36.149.1",
+                "ansible_connection": "telnet",
+                "sn": "82819575",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39EXR13": {
+                "ansible_host": "10.39.255.113",
+                "ansible_connection": "ssh",
+                "sn": "77621261",
+                "version": "15.2(4)M1"
+            },
+            "L68ACC21": {
+                "ansible_host": "10.68.119.166",
+                "ansible_connection": "telnet",
+                "sn": "87597844",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L43AC94": {
+                "ansible_host": "10.43.149.174",
+                "ansible_connection": "ssh",
+                "sn": "70470249",
+                "version": "15.2(20170809:194209)"
+            },
+            "L49AR39": {
+                "ansible_host": "10.49.139.139",
+                "ansible_connection": "ssh",
+                "sn": "81868839",
+                "version": "15.2(4)M1"
+            },
+            "L81EXR1": {
+                "ansible_host": "10.81.255.101",
+                "ansible_connection": "ssh",
+                "sn": "73422859",
+                "version": "15.5(2)T"
+            },
+            "L35AC111": {
+                "ansible_host": "10.35.119.171",
+                "ansible_connection": "ssh",
+                "sn": "91583150",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43AC51": {
+                "ansible_host": "10.43.159.178",
+                "ansible_connection": "ssh",
+                "sn": "70478445",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43FWR3": {
+                "ansible_host": "10.43.1.103",
+                "ansible_connection": "telnet",
+                "sn": "69212163",
+                "version": "15.2(4)M1"
+            },
+            "L38AC16": {
+                "ansible_host": "10.38.119.161",
+                "ansible_connection": "ssh",
+                "sn": "72423971",
+                "version": "15.2(20170809:194209)"
+            },
+            "L63AC4": {
+                "ansible_host": "10.63.129.143",
+                "ansible_connection": "ssh",
+                "sn": "93872908",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43AC44": {
+                "ansible_host": "10.43.149.105",
+                "ansible_connection": "telnet",
+                "sn": "70533768",
+                "version": "15.2(20170809:194209)"
+            },
+            "L33R6": {
+                "ansible_host": "10.33.255.106",
+                "ansible_connection": "ssh",
+                "sn": "71315462",
+                "version": "15.2(4)M1"
+            },
+            "L35EXR15": {
+                "ansible_host": "10.35.255.115",
+                "ansible_connection": "ssh",
+                "sn": "90208271",
+                "version": "15.2(4)M1"
+            },
+            "L36AC56": {
+                "ansible_host": "10.36.159.108",
+                "ansible_connection": "telnet",
+                "sn": "82833918",
+                "version": "15.2(20170809:194209)"
+            },
+            "L51AR56": {
+                "ansible_host": "10.51.56.156",
+                "ansible_connection": "ssh",
+                "sn": "84000824",
+                "version": "15.2(4)M1"
+            },
+            "L63AC7": {
+                "ansible_host": "10.63.139.145",
+                "ansible_connection": "telnet",
+                "sn": "93877006",
+                "version": "15.2(20170809:194209)"
+            },
+            "L77R7-LEAF1": {
+                "ansible_host": "10.77.10.7",
+                "ansible_connection": "ssh",
+                "sn": "90SI3YA0F1L",
+                "version": "9.2(2)"
+            },
+            "L51AR38": {
+                "ansible_host": "10.51.38.138",
+                "ansible_connection": "ssh",
+                "sn": "83963942",
+                "version": "15.2(4)M1"
+            },
+            "HWLAB-WLC-A7005": {
+                "ansible_host": "192.168.104.3",
+                "ansible_connection": "ssh",
+                "sn": "CP0022659",
+                "version": "8.2.0.1"
+            },
+            "L39H124": {
+                "ansible_host": "10.39.13.102",
+                "ansible_connection": "telnet",
+                "sn": "77848700",
+                "version": "12.4(20090407:185408)"
+            },
+            "L51AR36": {
+                "ansible_host": "10.51.136.136",
+                "ansible_connection": "ssh",
+                "sn": "83959844",
+                "version": "15.2(4)M1"
+            },
+            "L36AC37": {
+                "ansible_host": "10.36.139.125",
+                "ansible_connection": "ssh",
+                "sn": "82868751",
+                "version": "15.2(20170809:194209)"
+            },
+            "L63EXR2": {
+                "ansible_host": "10.63.2.102",
+                "ansible_connection": "telnet",
+                "sn": "92278786",
+                "version": "15.4(2)T"
+            },
+            "L48EXR1": {
+                "ansible_host": "10.48.255.101",
+                "ansible_connection": "ssh",
+                "sn": "79693825",
+                "version": "15.2(4)M1"
+            },
+            "L38AC11": {
+                "ansible_host": "10.38.119.156",
+                "ansible_connection": "ssh",
+                "sn": "72413726",
+                "version": "15.2(20170809:194209)"
+            },
+            "L62SD24": {
+                "ansible_host": "10.62.255.166",
+                "ansible_connection": "ssh",
+                "sn": "95943423",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39EXR7": {
+                "ansible_host": "10.39.255.107",
+                "ansible_connection": "telnet",
+                "sn": "77608967",
+                "version": "15.2(4)M1"
+            },
+            "L62SD22": {
+                "ansible_host": "10.62.255.164",
+                "ansible_connection": "telnet",
+                "sn": "95939325",
+                "version": "15.2(CML_NIGHTLY_20151103)FLO_DSGS7"
+            },
+            "L36AC46": {
+                "ansible_host": "10.36.149.132",
+                "ansible_connection": "telnet",
+                "sn": "82883094",
+                "version": "15.2(20170809:194209)"
+            },
+            "L34AC26": {
+                "ansible_host": "10.34.119.106",
+                "ansible_connection": "telnet",
+                "sn": "78983846",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L62R3": {
+                "ansible_host": "10.62.255.103",
+                "ansible_connection": "telnet",
+                "sn": "94377987",
+                "version": "15.4(2)T"
+            },
+            "L35EXR1": {
+                "ansible_host": "10.35.255.101",
+                "ansible_connection": "ssh",
+                "sn": "90179585",
+                "version": "15.2(4)M1"
+            },
+            "L68AC26": {
+                "ansible_host": "10.68.119.165",
+                "ansible_connection": "telnet",
+                "sn": "87595795",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L45R6": {
+                "ansible_host": "10.45.255.106",
+                "ansible_connection": "ssh",
+                "sn": "73412614",
+                "version": "15.2(4)M1"
+            },
+            "L45R7": {
+                "ansible_host": "10.45.121.107",
+                "ansible_connection": "telnet",
+                "sn": "73414663",
+                "version": "15.2(4)M1"
+            },
+            "L62RHUB2": {
+                "ansible_host": "10.62.255.117",
+                "ansible_connection": "telnet",
+                "sn": "94406673",
+                "version": "15.4(2)T"
+            },
+            "L31FWR14": {
+                "ansible_host": "10.31.255.114",
+                "ansible_connection": "telnet",
+                "sn": "69234702",
+                "version": "15.2(4)M1"
+            },
+            "L33AC13": {
+                "ansible_host": "10.33.150.13",
+                "ansible_connection": "telnet",
+                "sn": "72688292",
+                "version": "15.2(20170809:194209)"
+            },
+            "L62RHUB1": {
+                "ansible_host": "10.62.255.116",
+                "ansible_connection": "telnet",
+                "sn": "94404624",
+                "version": "15.4(2)T"
+            },
+            "L45R3": {
+                "ansible_host": "10.45.116.103",
+                "ansible_connection": "ssh",
+                "sn": "73406467",
+                "version": "15.2(4)M1"
+            },
+            "L36AC53": {
+                "ansible_host": "10.36.159.106",
+                "ansible_connection": "ssh",
+                "sn": "82829820",
+                "version": "15.2(20170809:194209)"
+            },
+            "L49AR29": {
+                "ansible_host": "10.49.29.129",
+                "ansible_connection": "telnet",
+                "sn": "81848349",
+                "version": "15.2(4)M1"
+            },
+            "L43SD83": {
+                "ansible_host": "10.43.253.134",
+                "ansible_connection": "ssh",
+                "sn": "70455906",
+                "version": "15.2(20170809:194209)"
+            },
+            "L72AC24": {
+                "ansible_host": "10.72.119.161",
+                "ansible_connection": "telnet",
+                "sn": "70851363",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39AC101": {
+                "ansible_host": "10.39.1.101",
+                "ansible_connection": "ssh",
+                "sn": "79059659",
+                "version": "15.2(20170809:194209)"
+            },
+            "L1R16": {
+                "ansible_host": "10.241.255.16",
+                "ansible_connection": "ssh",
+                "sn": "c1fe86417440",
+                "version": "12.1X46-D25.7"
+            },
+            "L39H134": {
+                "ansible_host": "10.39.23.102",
+                "ansible_connection": "telnet",
+                "sn": "77869190",
+                "version": "12.4(20090407:185408)"
+            },
+            "L31FWR13": {
+                "ansible_host": "10.31.47.113",
+                "ansible_connection": "telnet",
+                "sn": "69232653",
+                "version": "15.2(4)M1"
+            },
+            "L49AR36": {
+                "ansible_host": "10.49.255.136",
+                "ansible_connection": "telnet",
+                "sn": "81862692",
+                "version": "15.2(4)M1"
+            },
+            "L49AR28": {
+                "ansible_host": "10.49.128.128",
+                "ansible_connection": "telnet",
+                "sn": "81846300",
+                "version": "15.2(4)M1"
+            },
+            "L43ACC105": {
+                "ansible_host": "10.43.159.177",
+                "ansible_connection": "telnet",
+                "sn": "70476396",
+                "version": "15.2(20170809:194209)"
+            },
+            "L38R8": {
+                "ansible_host": "10.38.47.8",
+                "ansible_connection": "telnet",
+                "sn": "71323658",
+                "version": "15.2(4)M1"
+            },
+            "L52-SW3": {
+                "ansible_host": "10.52.255.113",
+                "ansible_connection": "telnet",
+                "sn": "5000520a0000f0d220052812",
+                "version": "7.1.064"
+            },
+            "L49AR24": {
+                "ansible_host": "10.49.124.124",
+                "ansible_connection": "telnet",
+                "sn": "81838104",
+                "version": "15.2(4)M1"
+            },
+            "L45R8": {
+                "ansible_host": "10.45.122.108",
+                "ansible_connection": "ssh",
+                "sn": "73416712",
+                "version": "15.2(4)M1"
+            },
+            "L49AR23": {
+                "ansible_host": "10.49.255.123",
+                "ansible_connection": "telnet",
+                "sn": "81836055",
+                "version": "15.2(4)M1"
+            },
+            "L77R4-CORE2": {
+                "ansible_host": "10.77.34.4",
+                "ansible_connection": "telnet",
+                "sn": "75513864",
+                "version": "15.5(2)T"
+            },
+            "L47ACC19": {
+                "ansible_host": "10.47.119.150",
+                "ansible_connection": "telnet",
+                "sn": "77021928",
+                "version": "15.2(20170809:194209)"
+            },
+            "L35AC88": {
+                "ansible_host": "10.35.189.197",
+                "ansible_connection": "telnet",
+                "sn": "91640522",
+                "version": "15.2(20170809:194209)"
+            },
+            "L64R6": {
+                "ansible_host": "10.64.108.106",
+                "ansible_connection": "ssh",
+                "sn": "KKGhrNHP3rK",
+                "version": "6.45.6"
+            },
+            "L38AC21": {
+                "ansible_host": "10.38.119.166",
+                "ansible_connection": "ssh",
+                "sn": "72434216",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39AC107": {
+                "ansible_host": "10.39.4.101",
+                "ansible_connection": "ssh",
+                "sn": "79065806",
+                "version": "15.2(20170809:194209)"
+            },
+            "L48AC21": {
+                "ansible_host": "10.48.139.143",
+                "ansible_connection": "telnet",
+                "sn": "81246967",
+                "version": "15.2(20170809:194209)"
+            },
+            "L35AC91": {
+                "ansible_host": "10.35.189.91",
+                "ansible_connection": "ssh",
+                "sn": "91622081",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43AC23": {
+                "ansible_host": "10.43.129.188",
+                "ansible_connection": "telnet",
+                "sn": "70498935",
+                "version": "15.2(20170809:194209)"
+            },
+            "L48AC23": {
+                "ansible_host": "10.48.139.145",
+                "ansible_connection": "telnet",
+                "sn": "81251065",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43AC27": {
+                "ansible_host": "10.43.129.191",
+                "ansible_connection": "telnet",
+                "sn": "70505082",
+                "version": "15.2(20170809:194209)"
+            },
+            "L35AC172": {
+                "ansible_host": "10.35.179.186",
+                "ansible_connection": "telnet",
+                "sn": "91613885",
+                "version": "15.2(20170809:194209)"
+            },
+            "L62SD19": {
+                "ansible_host": "10.62.255.162",
+                "ansible_connection": "telnet",
+                "sn": "95935227",
+                "version": "15.2(CML_NIGHTLY_20151103)FLO_DSGS7"
+            },
+            "L39H132": {
+                "ansible_host": "10.39.21.102",
+                "ansible_connection": "telnet",
+                "sn": "77865092",
+                "version": "12.4(20090407:185408)"
+            },
+            "L1XOS1": {
+                "ansible_host": "10.241.1.108",
+                "ansible_connection": "telnet",
+                "sn": "123456",
+                "version": "22.4.1.4"
+            },
+            "L39EXR9": {
+                "ansible_host": "10.39.255.109",
+                "ansible_connection": "ssh",
+                "sn": "77613065",
+                "version": "15.2(4)M1"
+            },
+            "L36AC24": {
+                "ansible_host": "10.36.129.115",
+                "ansible_connection": "telnet",
+                "sn": "82848261",
+                "version": "15.2(20170809:194209)"
+            },
+            "L35EXR9": {
+                "ansible_host": "10.35.255.109",
+                "ansible_connection": "telnet",
+                "sn": "90195977",
+                "version": "15.2(4)M1"
+            },
+            "L43AC104": {
+                "ansible_host": "10.43.149.175",
+                "ansible_connection": "ssh",
+                "sn": "70472298",
+                "version": "15.2(20170809:194209)"
+            },
+            "L51AR68": {
+                "ansible_host": "10.51.168.168",
+                "ansible_connection": "telnet",
+                "sn": "84025412",
+                "version": "15.2(4)M1"
+            },
+            "L43SD82": {
+                "ansible_host": "10.43.253.122",
+                "ansible_connection": "ssh",
+                "sn": "70451808",
+                "version": "15.2(20170809:194209)"
+            },
+            "L62R8": {
+                "ansible_host": "10.62.255.108",
+                "ansible_connection": "telnet",
+                "sn": "94388232",
+                "version": "15.4(2)T"
+            },
+            "L34AC24": {
+                "ansible_host": "10.34.119.136",
+                "ansible_connection": "telnet",
+                "sn": "78992042",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L48EXR2": {
+                "ansible_host": "10.48.255.102",
+                "ansible_connection": "telnet",
+                "sn": "79695874",
+                "version": "15.2(4)M1"
+            },
+            "HWLAB-AP-1242AG": {
+                "ansible_host": "192.168.109.81",
+                "ansible_connection": "lap",
+                "sn": "FCZ162880UU",
+                "version": "7.0.252.0"
+            },
+            "L51AR25": {
+                "ansible_host": "10.51.25.125",
+                "ansible_connection": "ssh",
+                "sn": "83937305",
+                "version": "15.2(4)M1"
+            },
+            "L35AC141": {
+                "ansible_host": "10.35.149.179",
+                "ansible_connection": "telnet",
+                "sn": "91599542",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39AC133": {
+                "ansible_host": "10.39.23.101",
+                "ansible_connection": "telnet",
+                "sn": "79088345",
+                "version": "15.2(20170809:194209)"
+            },
+            "L34AC12": {
+                "ansible_host": "10.34.129.138",
+                "ansible_connection": "ssh",
+                "sn": "78996140",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L49R4": {
+                "ansible_host": "10.49.255.104",
+                "ansible_connection": "telnet",
+                "sn": "81797124",
+                "version": "15.2(4)M1"
+            },
+            "L72ACC21": {
+                "ansible_host": "10.72.119.132",
+                "ansible_connection": "telnet",
+                "sn": "70845216",
+                "version": "15.2(20170809:194209)"
+            },
+            "L62R5": {
+                "ansible_host": "10.62.255.105",
+                "ansible_connection": "telnet",
+                "sn": "94382085",
+                "version": "15.4(2)T"
+            },
+            "L38AC15": {
+                "ansible_host": "10.38.119.160",
+                "ansible_connection": "ssh",
+                "sn": "72421922",
+                "version": "15.2(20170809:194209)"
+            },
+            "L63AC6": {
+                "ansible_host": "10.63.139.141",
+                "ansible_connection": "ssh",
+                "sn": "93868810",
+                "version": "15.2(20170809:194209)"
+            },
+            "L37AC14": {
+                "ansible_host": "10.37.119.135",
+                "ansible_connection": "telnet",
+                "sn": "98138927",
+                "version": "15.2(20170809:194209)"
+            },
+            "L51AR60": {
+                "ansible_host": "10.51.160.160",
+                "ansible_connection": "telnet",
+                "sn": "84009020",
+                "version": "15.2(4)M1"
+            },
+            "L39EXR25": {
+                "ansible_host": "10.39.255.125",
+                "ansible_connection": "ssh",
+                "sn": "77645849",
+                "version": "15.2(4)M1"
+            },
+            "L68AC12": {
+                "ansible_host": "10.68.129.171",
+                "ansible_connection": "ssh",
+                "sn": "87608089",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L38R5": {
+                "ansible_host": "10.38.255.105",
+                "ansible_connection": "telnet",
+                "sn": "71313413",
+                "version": "15.2(4)M1"
+            },
+            "L43AC29": {
+                "ansible_host": "10.43.129.193",
+                "ansible_connection": "telnet",
+                "sn": "70509180",
+                "version": "15.2(20170809:194209)"
+            },
+            "L36AC23": {
+                "ansible_host": "10.36.129.114",
+                "ansible_connection": "telnet",
+                "sn": "82846212",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39H110": {
+                "ansible_host": "10.39.5.102",
+                "ansible_connection": "telnet",
+                "sn": "77820014",
+                "version": "12.4(20090407:185408)"
+            },
+            "L64R7": {
+                "ansible_host": "10.64.108.107",
+                "ansible_connection": "telnet",
+                "sn": "gJvD5osHHEC",
+                "version": "6.45.6"
+            },
+            "L62R10": {
+                "ansible_host": "10.62.255.110",
+                "ansible_connection": "telnet",
+                "sn": "94392330",
+                "version": "15.4(2)T"
+            },
+            "L49AR27": {
+                "ansible_host": "10.49.127.127",
+                "ansible_connection": "telnet",
+                "sn": "81844251",
+                "version": "15.2(4)M1"
+            },
+            "L39EXR12": {
+                "ansible_host": "10.39.11.12",
+                "ansible_connection": "telnet",
+                "sn": "77619212",
+                "version": "15.2(4)M1"
+            },
+            "L71FW5_hasAVeryLongHostname": {
+                "ansible_host": "10.71.109.105",
+                "ansible_connection": "ssh",
+                "sn": "FOSVM1QWZRUM4EB7",
+                "version": "6.2.0,build0866"
+            },
+            "L51AR54": {
+                "ansible_host": "10.51.255.154",
+                "ansible_connection": "telnet",
+                "sn": "83996726",
+                "version": "15.2(4)M1"
+            },
+            "L43AC22": {
+                "ansible_host": "10.43.129.187",
+                "ansible_connection": "ssh",
+                "sn": "70496886",
+                "version": "15.2(20170809:194209)"
+            },
+            "L72AC13": {
+                "ansible_host": "10.72.129.173",
+                "ansible_connection": "ssh",
+                "sn": "70857510",
+                "version": "15.2(20170809:194209)"
+            },
+            "L47AC17": {
+                "ansible_host": "10.47.119.139",
+                "ansible_connection": "telnet",
+                "sn": "77017830",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43ACC102": {
+                "ansible_host": "10.43.129.171",
+                "ansible_connection": "ssh",
+                "sn": "70464102",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43AC6": {
+                "ansible_host": "10.43.149.206",
+                "ansible_connection": "telnet",
+                "sn": "70443612",
+                "version": "15.2(20170809:194209)"
+            },
+            "L49AR34": {
+                "ansible_host": "10.49.255.134",
+                "ansible_connection": "telnet",
+                "sn": "81858594",
+                "version": "15.2(4)M1"
+            },
+            "L39EXR5": {
+                "ansible_host": "10.39.255.105",
+                "ansible_connection": "telnet",
+                "sn": "77604869",
+                "version": "15.2(4)M1"
+            },
+            "L77R10-LEAF4": {
+                "ansible_host": "10.77.255.10",
+                "ansible_connection": "ssh",
+                "sn": "5000.00d8.ac19",
+                "version": "4.21.1.1F"
+            },
+            "L38-vFPR1": {
+                "ansible_host": "10.38.45.11",
+                "ansible_connection": "ssh",
+                "sn": "9ATE6S21QFE",
+                "version": "6.6.0, ASA: 9.14(1)1"
+            },
+            "L51AR42": {
+                "ansible_host": "10.51.142.142",
+                "ansible_connection": "telnet",
+                "sn": "83972138",
+                "version": "15.2(4)M1"
+            },
+            "L51R6": {
+                "ansible_host": "10.51.16.106",
+                "ansible_connection": "telnet",
+                "sn": "83898374",
+                "version": "15.2(4)M1"
+            },
+            "L63SD2": {
+                "ansible_host": "10.63.255.147",
+                "ansible_connection": "telnet",
+                "sn": "93860614",
+                "version": "15.2(CML_NIGHTLY_20151103)FLO_DSGS7"
+            },
+            "L77R8-LEAF2": {
+                "ansible_host": "10.77.10.8",
+                "ansible_connection": "ssh",
+                "sn": "9W3XUYRCR3A",
+                "version": "9.2(2)"
+            },
+            "L48ACC9": {
+                "ansible_host": "10.48.139.137",
+                "ansible_connection": "telnet",
+                "sn": "81234673",
+                "version": "15.2(20170809:194209)"
+            },
+            "L34CSR9": {
+                "ansible_host": "10.34.255.109",
+                "ansible_connection": "telnet",
+                "sn": "9E0FLRJHN7A",
+                "version": "03.16.00.S"
+            },
+            "L1R9": {
+                "ansible_host": "10.241.8.9",
+                "ansible_connection": "ssh",
+                "sn": "69230604",
+                "version": "15.5(2)T"
+            },
+            "L45EXR1": {
+                "ansible_host": "10.45.255.101",
+                "ansible_connection": "telnet",
+                "sn": "73402369",
+                "version": "15.2(4)M1"
+            },
+            "L77R9-LEAF3": {
+                "ansible_host": "10.77.10.9",
+                "ansible_connection": "ssh",
+                "sn": "5000.0088.fe27",
+                "version": "4.21.1.1F"
+            },
+            "L35AC174": {
+                "ansible_host": "10.35.179.188",
+                "ansible_connection": "ssh",
+                "sn": "91617983",
+                "version": "15.2(20170809:194209)"
+            },
+            "L66JFW10": {
+                "ansible_host": "10.66.255.110",
+                "ansible_connection": "ssh",
+                "sn": "ee9a52ff29f9",
+                "version": "12.1X46-D25.7"
+            },
+            "L35AC161": {
+                "ansible_host": "10.35.169.183",
+                "ansible_connection": "ssh",
+                "sn": "91607738",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39EXR28": {
+                "ansible_host": "10.39.255.128",
+                "ansible_connection": "telnet",
+                "sn": "77651996",
+                "version": "15.2(4)M1"
+            },
+            "L49AR21": {
+                "ansible_host": "10.49.121.121",
+                "ansible_connection": "telnet",
+                "sn": "81831957",
+                "version": "15.2(4)M1"
+            },
+            "L51AR55": {
+                "ansible_host": "10.51.155.155",
+                "ansible_connection": "telnet",
+                "sn": "83998775",
+                "version": "15.2(4)M1"
+            },
+            "L51AR62": {
+                "ansible_host": "10.51.255.162",
+                "ansible_connection": "ssh",
+                "sn": "84013118",
+                "version": "15.2(4)M1"
+            },
+            "L39H136": {
+                "ansible_host": "10.39.25.102",
+                "ansible_connection": "telnet",
+                "sn": "77873288",
+                "version": "12.4(20090407:185408)"
+            },
+            "L36AC10": {
+                "ansible_host": "10.36.129.103",
+                "ansible_connection": "telnet",
+                "sn": "82823673",
+                "version": "15.2(20170809:194209)"
+            },
+            "L34AC23": {
+                "ansible_host": "10.34.119.134",
+                "ansible_connection": "ssh",
+                "sn": "78989993",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L37EXR1": {
+                "ansible_host": "10.37.255.1",
+                "ansible_connection": "telnet",
+                "sn": "96471041",
+                "version": "15.4(2)T4"
+            },
+            "L81R12": {
+                "ansible_host": "10.81.3.2",
+                "ansible_connection": "ssh",
+                "sn": "73404418",
+                "version": "15.5(2)T"
+            },
+            "L37R4": {
+                "ansible_host": "10.37.2.4",
+                "ansible_connection": "telnet",
+                "sn": "96477188",
+                "version": "15.2(4)M5.3"
+            },
+            "L39EXR26": {
+                "ansible_host": "10.39.255.126",
+                "ansible_connection": "ssh",
+                "sn": "77647898",
+                "version": "15.2(4)M1"
+            },
+            "L36AC52": {
+                "ansible_host": "10.36.159.105",
+                "ansible_connection": "ssh",
+                "sn": "82827771",
+                "version": "15.2(20170809:194209)"
+            },
+            "L1R18": {
+                "ansible_host": "10.241.255.18",
+                "ansible_connection": "ssh",
+                "sn": "VM5C0551C063",
+                "version": "17.2R1.13"
+            },
+            "L49R6": {
+                "ansible_host": "10.49.18.106",
+                "ansible_connection": "ssh",
+                "sn": "81801222",
+                "version": "15.2(4)M1"
+            },
+            "L64R5": {
+                "ansible_host": "10.64.255.105",
+                "ansible_connection": "telnet",
+                "sn": "matgYVjf//J",
+                "version": "6.45.6"
+            },
+            "L43AC49": {
+                "ansible_host": "10.43.149.109",
+                "ansible_connection": "telnet",
+                "sn": "70541964",
+                "version": "15.2(20170809:194209)"
+            },
+            "L51AR32": {
+                "ansible_host": "10.51.255.132",
+                "ansible_connection": "telnet",
+                "sn": "83951648",
+                "version": "15.2(4)M1"
+            },
+            "L37SD8": {
+                "ansible_host": "10.37.110.118",
+                "ansible_connection": "telnet",
+                "sn": "98134829",
+                "version": "15.2(20170809:194209)"
+            },
+            "L33NX3.ipf.local": {
+                "ansible_host": "10.33.111.103",
+                "ansible_connection": "ssh",
+                "sn": "9YUCZ6EHNWQ",
+                "version": "9.2(2)"
+            },
+            "L48AC8": {
+                "ansible_host": "10.48.139.136",
+                "ansible_connection": "ssh",
+                "sn": "81224428",
+                "version": "15.2(20170809:194209)"
+            },
+            "L49AR35": {
+                "ansible_host": "10.49.135.135",
+                "ansible_connection": "telnet",
+                "sn": "81860643",
+                "version": "15.2(4)M1"
+            },
+            "L1FW4": {
+                "ansible_host": "10.241.255.119",
+                "ansible_connection": "ssh",
+                "sn": "A2FCE28E-F782-4BEB-81B5-26C142F18AAF",
+                "version": "8.0.5"
+            },
+            "L39AC135": {
+                "ansible_host": "10.39.25.101",
+                "ansible_connection": "ssh",
+                "sn": "79090394",
+                "version": "15.2(20170809:194209)"
+            },
+            "L49AR37": {
+                "ansible_host": "10.49.137.137",
+                "ansible_connection": "telnet",
+                "sn": "81864741",
+                "version": "15.2(4)M1"
+            },
+            "L51AR66": {
+                "ansible_host": "10.51.255.166",
+                "ansible_connection": "telnet",
+                "sn": "84021314",
+                "version": "15.2(4)M1"
+            },
+            "L37AC13": {
+                "ansible_host": "10.37.119.134",
+                "ansible_connection": "telnet",
+                "sn": "98140976",
+                "version": "15.2(20170809:194209)"
+            },
+            "L34AC13": {
+                "ansible_host": "10.34.129.139",
+                "ansible_connection": "ssh",
+                "sn": "78998189",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L66ACC23": {
+                "ansible_host": "10.66.129.123",
+                "ansible_connection": "telnet",
+                "sn": "72911633",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L39EXR21": {
+                "ansible_host": "10.39.255.121",
+                "ansible_connection": "ssh",
+                "sn": "77637653",
+                "version": "15.2(4)M1"
+            },
+            "L35AC113": {
+                "ansible_host": "10.35.119.173",
+                "ansible_connection": "telnet",
+                "sn": "91587248",
+                "version": "15.2(20170809:194209)"
+            },
+            "L1EOS1": {
+                "ansible_host": "10.241.1.21",
+                "ansible_connection": "telnet",
+                "sn": "0000.0024.76c6",
+                "version": "4.21.1.1F"
+            },
+            "L38AC9": {
+                "ansible_host": "10.38.119.154",
+                "ansible_connection": "ssh",
+                "sn": "72409628",
+                "version": "15.2(20170809:194209)"
+            },
+            "L62R9": {
+                "ansible_host": "10.62.255.109",
+                "ansible_connection": "telnet",
+                "sn": "94390281",
+                "version": "15.4(2)T"
+            },
+            "L51AR44": {
+                "ansible_host": "10.51.144.144",
+                "ansible_connection": "telnet",
+                "sn": "83976236",
+                "version": "15.2(4)M1"
+            },
+            "L37NX5": {
+                "ansible_host": "10.37.255.5",
+                "ansible_connection": "ssh",
+                "sn": "9QHFOYYOFC0",
+                "version": "9.2(2)"
+            },
+            "L51AR34": {
+                "ansible_host": "10.51.255.134",
+                "ansible_connection": "telnet",
+                "sn": "83955746",
+                "version": "15.2(4)M1"
+            },
+            "L49AR31": {
+                "ansible_host": "10.49.31.131",
+                "ansible_connection": "telnet",
+                "sn": "81852447",
+                "version": "15.2(4)M1"
+            },
+            "L36AC34": {
+                "ansible_host": "10.36.139.123",
+                "ansible_connection": "telnet",
+                "sn": "82864653",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39EXR14": {
+                "ansible_host": "10.39.255.114",
+                "ansible_connection": "ssh",
+                "sn": "77623310",
+                "version": "15.2(4)M1"
+            },
+            "L43AC53": {
+                "ansible_host": "10.43.159.180",
+                "ansible_connection": "telnet",
+                "sn": "70482543",
+                "version": "15.2(20170809:194209)"
+            },
+            "L63AC5": {
+                "ansible_host": "10.63.129.140",
+                "ansible_connection": "ssh",
+                "sn": "93866761",
+                "version": "15.2(20170809:194209)"
+            },
+            "L36AC31": {
+                "ansible_host": "10.36.139.120",
+                "ansible_connection": "telnet",
+                "sn": "82858506",
+                "version": "15.2(20170809:194209)"
+            },
+            "L49AR22": {
+                "ansible_host": "10.49.122.122",
+                "ansible_connection": "telnet",
+                "sn": "81834006",
+                "version": "15.2(4)M1"
+            },
+            "L77R12-LEAF6": {
+                "ansible_host": "10.77.255.12",
+                "ansible_connection": "telnet",
+                "sn": "9HSVSJPXSWU",
+                "version": "16.06.05"
+            },
+            "L39H102": {
+                "ansible_host": "10.39.1.102",
+                "ansible_connection": "telnet",
+                "sn": "77803622",
+                "version": "12.4(20090407:185408)"
+            },
+            "L35AC173": {
+                "ansible_host": "10.35.179.187",
+                "ansible_connection": "ssh",
+                "sn": "91615934",
+                "version": "15.2(20170809:194209)"
+            },
+            "L72R8": {
+                "ansible_host": "10.72.94.108",
+                "ansible_connection": "telnet",
+                "sn": "69222408",
+                "version": "15.2(4)M1"
+            },
+            "L63SD1": {
+                "ansible_host": "10.63.4.1",
+                "ansible_connection": "telnet",
+                "sn": "93858565",
+                "version": "15.2(CML_NIGHTLY_20151103)FLO_DSGS7"
+            },
+            "L51CR7": {
+                "ansible_host": "10.51.32.107",
+                "ansible_connection": "telnet",
+                "sn": "83900423",
+                "version": "15.2(4)M1"
+            },
+            "L51AR33": {
+                "ansible_host": "10.51.133.133",
+                "ansible_connection": "telnet",
+                "sn": "83953697",
+                "version": "15.2(4)M1"
+            },
+            "L36AC54": {
+                "ansible_host": "10.36.159.107",
+                "ansible_connection": "telnet",
+                "sn": "82831869",
+                "version": "15.2(20170809:194209)"
+            },
+            "L36AC49": {
+                "ansible_host": "10.36.149.135",
+                "ansible_connection": "telnet",
+                "sn": "82889241",
+                "version": "15.2(20170809:194209)"
+            },
+            "L1R17": {
+                "ansible_host": "10.241.1.17",
+                "ansible_connection": "ssh",
+                "sn": "VM5C054CB72C",
+                "version": "17.2R1.13"
+            },
+            "L36AC28": {
+                "ansible_host": "10.36.129.118",
+                "ansible_connection": "ssh",
+                "sn": "82854408",
+                "version": "15.2(20170809:194209)"
+            },
+            "L52-SW1": {
+                "ansible_host": "10.52.255.103",
+                "ansible_connection": "telnet",
+                "sn": "9ZCWIKQGT9G",
+                "version": "15.2(4.0.55)E"
+            },
+            "L51AR30": {
+                "ansible_host": "10.51.130.130",
+                "ansible_connection": "ssh",
+                "sn": "83947550",
+                "version": "15.2(4)M1"
+            },
+            "L33JR5": {
+                "ansible_host": "10.33.115.105",
+                "ansible_connection": "ssh",
+                "sn": "VM5E4C0A6062",
+                "version": "17.2R1.13"
+            },
+            "L43AC47": {
+                "ansible_host": "10.43.149.107",
+                "ansible_connection": "ssh",
+                "sn": "70537866",
+                "version": "15.2(20170809:194209)"
+            },
+            "L36AC5": {
+                "ansible_host": "10.36.159.100",
+                "ansible_connection": "telnet",
+                "sn": "82813428",
+                "version": "15.2(20170809:194209)"
+            },
+            "L35AC112": {
+                "ansible_host": "10.35.119.172",
+                "ansible_connection": "telnet",
+                "sn": "91585199",
+                "version": "15.2(20170809:194209)"
+            },
+            "L62EXR2": {
+                "ansible_host": "10.62.255.102",
+                "ansible_connection": "telnet",
+                "sn": "94375938",
+                "version": "15.4(2)T"
+            },
+            "L34AC11": {
+                "ansible_host": "10.34.129.137",
+                "ansible_connection": "telnet",
+                "sn": "78994091",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L38AC22": {
+                "ansible_host": "10.38.47.22",
+                "ansible_connection": "telnet",
+                "sn": "71319560",
+                "version": "15.2(20170809:194209)"
+            },
+            "L49AR32": {
+                "ansible_host": "10.49.255.132",
+                "ansible_connection": "ssh",
+                "sn": "81854496",
+                "version": "15.2(4)M1"
+            },
+            "L49AR25": {
+                "ansible_host": "10.49.25.125",
+                "ansible_connection": "ssh",
+                "sn": "81840153",
+                "version": "15.2(4)M1"
+            },
+            "L51AR37": {
+                "ansible_host": "10.51.37.137",
+                "ansible_connection": "ssh",
+                "sn": "83961893",
+                "version": "15.2(4)M1"
+            },
+            "L47AC13": {
+                "ansible_host": "10.47.119.173",
+                "ansible_connection": "ssh",
+                "sn": "77009634",
+                "version": "15.2(20170809:194209)"
+            },
+            "L51AR22": {
+                "ansible_host": "10.51.255.122",
+                "ansible_connection": "telnet",
+                "sn": "83931158",
+                "version": "15.2(4)M1"
+            },
+            "L36AC42": {
+                "ansible_host": "10.36.149.129",
+                "ansible_connection": "telnet",
+                "sn": "82876947",
+                "version": "15.2(20170809:194209)"
+            },
+            "L1R14": {
+                "ansible_host": "10.241.255.14",
+                "ansible_connection": "ssh",
+                "sn": "VM5B363326A5",
+                "version": "17.2R1.13"
+            },
+            "L49AR26": {
+                "ansible_host": "10.49.26.126",
+                "ansible_connection": "ssh",
+                "sn": "81842202",
+                "version": "15.2(4)M1"
+            },
+            "L39H104": {
+                "ansible_host": "10.39.2.102",
+                "ansible_connection": "telnet",
+                "sn": "77807720",
+                "version": "12.4(20090407:185408)"
+            },
+            "L36AC57": {
+                "ansible_host": "10.36.159.109",
+                "ansible_connection": "ssh",
+                "sn": "82835967",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39H108": {
+                "ansible_host": "10.39.4.102",
+                "ansible_connection": "telnet",
+                "sn": "77815916",
+                "version": "12.4(20090407:185408)"
+            },
+            "L68AC24": {
+                "ansible_host": "10.68.119.169",
+                "ansible_connection": "telnet",
+                "sn": "87603991",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L49CR8": {
+                "ansible_host": "10.49.131.108",
+                "ansible_connection": "telnet",
+                "sn": "81805320",
+                "version": "15.2(4)M1"
+            },
+            "L45R4": {
+                "ansible_host": "10.45.118.104",
+                "ansible_connection": "ssh",
+                "sn": "73408516",
+                "version": "15.2(4)M1"
+            },
+            "L51AR53": {
+                "ansible_host": "10.51.153.153",
+                "ansible_connection": "ssh",
+                "sn": "83994677",
+                "version": "15.2(4)M1"
+            },
+            "L62R7": {
+                "ansible_host": "10.62.255.107",
+                "ansible_connection": "telnet",
+                "sn": "94386183",
+                "version": "15.4(2)T"
+            },
+            "L43AC52": {
+                "ansible_host": "10.43.159.179",
+                "ansible_connection": "telnet",
+                "sn": "70480494",
+                "version": "15.2(20170809:194209)"
+            },
+            "L49AR38": {
+                "ansible_host": "10.49.138.138",
+                "ansible_connection": "ssh",
+                "sn": "81866790",
+                "version": "15.2(4)M1"
+            },
+            "L51R5": {
+                "ansible_host": "10.51.255.105",
+                "ansible_connection": "telnet",
+                "sn": "83896325",
+                "version": "15.2(4)M1"
+            },
+            "L39AC123": {
+                "ansible_host": "10.39.13.101",
+                "ansible_connection": "telnet",
+                "sn": "79080149",
+                "version": "15.2(20170809:194209)"
+            },
+            "L63EXR1": {
+                "ansible_host": "10.63.4.101",
+                "ansible_connection": "telnet",
+                "sn": "92276737",
+                "version": "15.4(2)T"
+            },
+            "L1R10": {
+                "ansible_host": "10.241.255.10",
+                "ansible_connection": "telnet",
+                "sn": "FTX0945W0MY",
+                "version": "12.4(15)T14"
+            },
+            "L39H116": {
+                "ansible_host": "10.39.8.102",
+                "ansible_connection": "telnet",
+                "sn": "77832308",
+                "version": "12.4(20090407:185408)"
+            },
+            "L51AR21": {
+                "ansible_host": "10.51.21.121",
+                "ansible_connection": "telnet",
+                "sn": "83929109",
+                "version": "15.2(4)M1"
+            },
+            "L48AC12": {
+                "ansible_host": "10.48.139.140",
+                "ansible_connection": "telnet",
+                "sn": "81240820",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39EXR2": {
+                "ansible_host": "10.39.255.102",
+                "ansible_connection": "telnet",
+                "sn": "77598722",
+                "version": "15.2(4)M1"
+            },
+            "L47AC12": {
+                "ansible_host": "10.47.119.172",
+                "ansible_connection": "telnet",
+                "sn": "77007585",
+                "version": "15.2(20170809:194209)"
+            },
+            "L36SD7": {
+                "ansible_host": "10.36.255.136",
+                "ansible_connection": "telnet",
+                "sn": "82817526",
+                "version": "15.2(20170809:194209)"
+            },
+            "L47AC21": {
+                "ansible_host": "10.47.119.167",
+                "ansible_connection": "ssh",
+                "sn": "77026026",
+                "version": "15.2(20170809:194209)"
+            },
+            "L66JR5": {
+                "ansible_host": "10.66.255.105",
+                "ansible_connection": "ssh",
+                "sn": "VM5BE43E1DF7",
+                "version": "14.1R4.8"
+            },
+            "L36AC22": {
+                "ansible_host": "10.36.129.113",
+                "ansible_connection": "ssh",
+                "sn": "82844163",
+                "version": "15.2(20170809:194209)"
+            },
+            "L63AC2": {
+                "ansible_host": "10.63.149.139",
+                "ansible_connection": "ssh",
+                "sn": "93864712",
+                "version": "15.2(20170809:194209)"
+            },
+            "L68CSR10": {
+                "ansible_host": "10.68.129.110",
+                "ansible_connection": "ssh",
+                "sn": "9IBQVAGSTMR",
+                "version": "03.12.02.S"
+            },
+            "L43AC26": {
+                "ansible_host": "10.43.129.190",
+                "ansible_connection": "telnet",
+                "sn": "70503033",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39EXR24": {
+                "ansible_host": "10.39.255.124",
+                "ansible_connection": "telnet",
+                "sn": "77643800",
+                "version": "15.2(4)M1"
+            },
+            "L36AC29": {
+                "ansible_host": "10.36.129.119",
+                "ansible_connection": "telnet",
+                "sn": "82856457",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39H118": {
+                "ansible_host": "10.39.9.102",
+                "ansible_connection": "telnet",
+                "sn": "77836406",
+                "version": "12.4(20090407:185408)"
+            },
+            "L39AC117": {
+                "ansible_host": "10.39.9.101",
+                "ansible_connection": "telnet",
+                "sn": "79076051",
+                "version": "15.2(20170809:194209)"
+            },
+            "L62SD27": {
+                "ansible_host": "10.62.255.169",
+                "ansible_connection": "telnet",
+                "sn": "95949570",
+                "version": "15.2(20170809:194209)"
+            },
+            "L81R10": {
+                "ansible_host": "10.81.255.10",
+                "ansible_connection": "telnet",
+                "sn": "73420810",
+                "version": "15.5(2)T"
+            },
+            "L36AC51": {
+                "ansible_host": "10.36.159.104",
+                "ansible_connection": "telnet",
+                "sn": "82825722",
+                "version": "15.2(20170809:194209)"
+            },
+            "L47AC8": {
+                "ansible_host": "10.47.119.123",
+                "ansible_connection": "telnet",
+                "sn": "76999389",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43AC103": {
+                "ansible_host": "10.43.139.173",
+                "ansible_connection": "ssh",
+                "sn": "70468200",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43AC54": {
+                "ansible_host": "10.43.159.181",
+                "ansible_connection": "ssh",
+                "sn": "70484592",
+                "version": "15.2(20170809:194209)"
+            },
+            "L49R3": {
+                "ansible_host": "10.49.255.103",
+                "ansible_connection": "telnet",
+                "sn": "81795075",
+                "version": "15.2(4)M1"
+            },
+            "L43AC93": {
+                "ansible_host": "10.43.139.172",
+                "ansible_connection": "ssh",
+                "sn": "70466151",
+                "version": "15.2(20170809:194209)"
+            },
+            "L35AC85": {
+                "ansible_host": "10.35.189.194",
+                "ansible_connection": "ssh",
+                "sn": "91634375",
+                "version": "15.2(20170809:194209)"
+            },
+            "L38AC14": {
+                "ansible_host": "10.38.119.159",
+                "ansible_connection": "telnet",
+                "sn": "72419873",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39EXR8": {
+                "ansible_host": "10.39.255.108",
+                "ansible_connection": "ssh",
+                "sn": "77611016",
+                "version": "15.2(4)M1"
+            },
+            "L39AC109": {
+                "ansible_host": "10.39.5.101",
+                "ansible_connection": "ssh",
+                "sn": "79067855",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39H106": {
+                "ansible_host": "10.39.3.102",
+                "ansible_connection": "telnet",
+                "sn": "77811818",
+                "version": "12.4(20090407:185408)"
+            },
+            "L51AR43": {
+                "ansible_host": "10.51.143.143",
+                "ansible_connection": "ssh",
+                "sn": "83974187",
+                "version": "15.2(4)M1"
+            },
+            "L43AC56": {
+                "ansible_host": "10.43.159.182",
+                "ansible_connection": "ssh",
+                "sn": "70486641",
+                "version": "15.2(20170809:194209)"
+            },
+            "L48AC14": {
+                "ansible_host": "10.48.139.142",
+                "ansible_connection": "ssh",
+                "sn": "81244918",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43AC43": {
+                "ansible_host": "10.43.149.204",
+                "ansible_connection": "ssh",
+                "sn": "70531719",
+                "version": "15.2(20170809:194209)"
+            },
+            "L68R3": {
+                "ansible_host": "10.68.255.103",
+                "ansible_connection": "telnet",
+                "sn": "85989379",
+                "version": "15.2(4)M1"
+            },
+            "L36AC6": {
+                "ansible_host": "10.36.159.101",
+                "ansible_connection": "telnet",
+                "sn": "82815477",
+                "version": "15.2(20170809:194209)"
+            },
+            "L35AC171": {
+                "ansible_host": "10.35.179.185",
+                "ansible_connection": "telnet",
+                "sn": "91611836",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43SD85": {
+                "ansible_host": "10.43.253.154",
+                "ansible_connection": "ssh",
+                "sn": "70447710",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39EXR17": {
+                "ansible_host": "10.39.255.117",
+                "ansible_connection": "telnet",
+                "sn": "77629457",
+                "version": "15.2(4)M1"
+            },
+            "L37EXR2": {
+                "ansible_host": "10.37.254.6",
+                "ansible_connection": "telnet",
+                "sn": "96473090",
+                "version": "15.4(2)T4"
+            },
+            "L51AR61": {
+                "ansible_host": "10.51.255.161",
+                "ansible_connection": "ssh",
+                "sn": "84011069",
+                "version": "15.2(4)M1"
+            },
+            "L39H138": {
+                "ansible_host": "10.39.27.102",
+                "ansible_connection": "telnet",
+                "sn": "77877386",
+                "version": "12.4(20090407:185408)"
+            },
+            "L35AC175": {
+                "ansible_host": "10.35.179.189",
+                "ansible_connection": "ssh",
+                "sn": "91620032",
+                "version": "15.2(20170809:194209)"
+            },
+            "L34CSR10": {
+                "ansible_host": "10.34.255.110",
+                "ansible_connection": "telnet",
+                "sn": "9A7P6CKPHVC",
+                "version": "03.16.00.S"
+            },
+            "L51AR67": {
+                "ansible_host": "10.51.67.167",
+                "ansible_connection": "telnet",
+                "sn": "84023363",
+                "version": "15.2(4)M1"
+            },
+            "L62SD26": {
+                "ansible_host": "10.62.255.168",
+                "ansible_connection": "telnet",
+                "sn": "95947521",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39EXR27": {
+                "ansible_host": "10.39.255.127",
+                "ansible_connection": "ssh",
+                "sn": "77649947",
+                "version": "15.2(4)M1"
+            },
+            "L72R7": {
+                "ansible_host": "10.72.93.107",
+                "ansible_connection": "telnet",
+                "sn": "69220359",
+                "version": "15.2(4)M1"
+            },
+            "L62R13": {
+                "ansible_host": "10.62.255.113",
+                "ansible_connection": "ssh",
+                "sn": "94398477",
+                "version": "15.4(2)T"
+            },
+            "L35EXR13": {
+                "ansible_host": "10.35.255.113",
+                "ansible_connection": "ssh",
+                "sn": "90204173",
+                "version": "15.2(4)M1"
+            },
+            "L37SD7": {
+                "ansible_host": "10.37.255.150",
+                "ansible_connection": "telnet",
+                "sn": "98132780",
+                "version": "15.2(20170809:194209)"
+            },
+            "L48AC11": {
+                "ansible_host": "10.48.139.139",
+                "ansible_connection": "telnet",
+                "sn": "81238771",
+                "version": "15.2(20170809:194209)"
+            },
+            "L51AR58": {
+                "ansible_host": "10.51.255.158",
+                "ansible_connection": "telnet",
+                "sn": "84004922",
+                "version": "15.2(4)M1"
+            },
+            "L37R3": {
+                "ansible_host": "10.37.5.3",
+                "ansible_connection": "ssh",
+                "sn": "96475139",
+                "version": "15.2(4)M5.3"
+            },
+            "L35AC87": {
+                "ansible_host": "10.35.189.196",
+                "ansible_connection": "ssh",
+                "sn": "91638473",
+                "version": "15.2(20170809:194209)"
+            },
+            "L71EXR1": {
+                "ansible_host": "10.71.255.101",
+                "ansible_connection": "telnet",
+                "sn": "88082433",
+                "version": "15.2(4)M1"
+            },
+            "L48ACC10": {
+                "ansible_host": "10.48.139.138",
+                "ansible_connection": "ssh",
+                "sn": "81236722",
+                "version": "15.2(20170809:194209)"
+            },
+            "L34ACC22": {
+                "ansible_host": "10.34.119.133",
+                "ansible_connection": "telnet",
+                "sn": "78987944",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L39EXR22": {
+                "ansible_host": "10.39.255.122",
+                "ansible_connection": "ssh",
+                "sn": "77639702",
+                "version": "15.2(4)M1"
+            },
+            "L51AR39": {
+                "ansible_host": "10.51.255.139",
+                "ansible_connection": "ssh",
+                "sn": "83965991",
+                "version": "15.2(4)M1"
+            },
+            "L35AC92": {
+                "ansible_host": "10.35.189.92",
+                "ansible_connection": "ssh",
+                "sn": "91624130",
+                "version": "15.2(20170809:194209)"
+            },
+            "L71R4": {
+                "ansible_host": "10.71.100.104",
+                "ansible_connection": "ssh",
+                "sn": "88088580",
+                "version": "15.2(4)M1"
+            },
+            "L68AC13": {
+                "ansible_host": "10.68.129.172",
+                "ansible_connection": "ssh",
+                "sn": "87610138",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L36AC32": {
+                "ansible_host": "10.36.139.121",
+                "ansible_connection": "ssh",
+                "sn": "82860555",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39EXR23": {
+                "ansible_host": "10.39.255.123",
+                "ansible_connection": "ssh",
+                "sn": "77641751",
+                "version": "15.2(4)M1"
+            },
+            "L62R12": {
+                "ansible_host": "10.62.255.112",
+                "ansible_connection": "ssh",
+                "sn": "94396428",
+                "version": "15.4(2)T"
+            },
+            "L51AR47": {
+                "ansible_host": "10.51.255.147",
+                "ansible_connection": "telnet",
+                "sn": "83982383",
+                "version": "15.2(4)M1"
+            },
+            "L49R5": {
+                "ansible_host": "10.49.255.105",
+                "ansible_connection": "telnet",
+                "sn": "81799173",
+                "version": "15.2(4)M1"
+            },
+            "L48SD3": {
+                "ansible_host": "10.48.255.148",
+                "ansible_connection": "ssh",
+                "sn": "81230575",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39AC111": {
+                "ansible_host": "10.39.6.101",
+                "ansible_connection": "telnet",
+                "sn": "79069904",
+                "version": "15.2(20170809:194209)"
+            },
+            "L47AC14": {
+                "ansible_host": "10.47.119.125",
+                "ansible_connection": "ssh",
+                "sn": "77011683",
+                "version": "15.2(20170809:194209)"
+            },
+            "L48ACC135": {
+                "ansible_host": "10.48.139.135",
+                "ansible_connection": "telnet",
+                "sn": "81222379",
+                "version": "15.2(20170809:194209)"
+            },
+            "L49EXR2": {
+                "ansible_host": "10.49.255.102",
+                "ansible_connection": "telnet",
+                "sn": "81793026",
+                "version": "15.2(4)M1"
+            },
+            "L1R3": {
+                "ansible_host": "10.241.1.3",
+                "ansible_connection": "ssh",
+                "sn": "9PTW74ER239",
+                "version": "03.16.00.S"
+            },
+            "L43AC42": {
+                "ansible_host": "10.43.149.203",
+                "ansible_connection": "ssh",
+                "sn": "70529670",
+                "version": "15.2(20170809:194209)"
+            },
+            "L47AC9": {
+                "ansible_host": "10.47.119.141",
+                "ansible_connection": "ssh",
+                "sn": "77001438",
+                "version": "15.2(20170809:194209)"
+            },
+            "L38AC10": {
+                "ansible_host": "10.38.119.155",
+                "ansible_connection": "ssh",
+                "sn": "72411677",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43AC28": {
+                "ansible_host": "10.43.129.192",
+                "ansible_connection": "ssh",
+                "sn": "70507131",
+                "version": "15.2(20170809:194209)"
+            },
+            "L33R9": {
+                "ansible_host": "10.33.255.109",
+                "ansible_connection": "ssh",
+                "sn": "71321609",
+                "version": "15.2(4)M1"
+            },
+            "L45R5": {
+                "ansible_host": "10.45.109.105",
+                "ansible_connection": "ssh",
+                "sn": "73410565",
+                "version": "15.2(4)M1"
+            },
+            "L45AC13": {
+                "ansible_host": "10.45.159.150",
+                "ansible_connection": "ssh",
+                "sn": "74738317",
+                "version": "15.2(20170809:194209)"
+            },
+            "L1FW3": {
+                "ansible_host": "10.241.14.3",
+                "ansible_connection": "ssh",
+                "sn": "FGVM00UNLICENSED",
+                "version": "5.2.3,build0670"
+            },
+            "L36AC33": {
+                "ansible_host": "10.36.139.122",
+                "ansible_connection": "telnet",
+                "sn": "82862604",
+                "version": "15.2(20170809:194209)"
+            },
+            "L1R7": {
+                "ansible_host": "10.241.80.11",
+                "ansible_connection": "ssh",
+                "sn": "VM5B39CD955C",
+                "version": "17.2R1.13"
+            },
+            "L36AC47": {
+                "ansible_host": "10.36.149.133",
+                "ansible_connection": "telnet",
+                "sn": "82885143",
+                "version": "15.2(20170809:194209)"
+            },
+            "L1SW2": {
+                "ansible_host": "10.241.255.102",
+                "ansible_connection": "telnet",
+                "sn": "9YSWGK4AUYO",
+                "version": "15.2(4.0.55)E"
+            },
+            "HWLAB": {
+                "ansible_host": "192.168.110.1",
+                "ansible_connection": "ssh",
+                "sn": "3RK4-20R2",
+                "version": "6.45.3"
+            },
+            "L39AC127": {
+                "ansible_host": "10.39.17.101",
+                "ansible_connection": "ssh",
+                "sn": "79084247",
+                "version": "15.2(20170809:194209)"
+            },
+            "L51AR40": {
+                "ansible_host": "10.51.140.140",
+                "ansible_connection": "telnet",
+                "sn": "83968040",
+                "version": "15.2(4)M1"
+            },
+            "L43AC59": {
+                "ansible_host": "10.43.159.185",
+                "ansible_connection": "telnet",
+                "sn": "70492788",
+                "version": "15.2(20170809:194209)"
+            },
+            "L63AC3": {
+                "ansible_host": "10.63.129.142",
+                "ansible_connection": "telnet",
+                "sn": "93870859",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43AC41": {
+                "ansible_host": "10.43.149.202",
+                "ansible_connection": "ssh",
+                "sn": "70527621",
+                "version": "15.2(20170809:194209)"
+            },
+            "L66JFW9": {
+                "ansible_host": "10.66.255.109",
+                "ansible_connection": "telnet",
+                "sn": "3f1ad806b970",
+                "version": "12.1X46-D25.7"
+            },
+            "L1EOS3": {
+                "ansible_host": "10.241.255.23",
+                "ansible_connection": "telnet",
+                "sn": "FAB81C00003",
+                "version": "4.14.5F"
+            },
+            "L1R6.lab.ipfabric.io": {
+                "ansible_host": "10.241.7.6",
+                "ansible_connection": "ssh",
+                "sn": "TM00060000B_1",
+                "version": "7.3(0)D1(1)"
+            },
+            "L43AC48": {
+                "ansible_host": "10.43.149.108",
+                "ansible_connection": "ssh",
+                "sn": "70539915",
+                "version": "15.2(20170809:194209)"
+            },
+            "L35ACC83": {
+                "ansible_host": "10.35.189.192",
+                "ansible_connection": "telnet",
+                "sn": "91630277",
+                "version": "15.2(20170809:194209)"
+            },
+            "L51EXR2": {
+                "ansible_host": "10.51.255.102",
+                "ansible_connection": "ssh",
+                "sn": "83890178",
+                "version": "15.2(4)M1"
+            },
+            "L47R4": {
+                "ansible_host": "10.47.107.104",
+                "ansible_connection": "telnet",
+                "sn": "75505668",
+                "version": "15.2(4)M1"
+            },
+            "L38AC12": {
+                "ansible_host": "10.38.119.157",
+                "ansible_connection": "ssh",
+                "sn": "72415775",
+                "version": "15.2(20170809:194209)"
+            },
+            "L38AC8": {
+                "ansible_host": "10.38.119.153",
+                "ansible_connection": "ssh",
+                "sn": "72407579",
+                "version": "15.2(20170809:194209)"
+            },
+            "L72R9": {
+                "ansible_host": "10.72.255.109",
+                "ansible_connection": "ssh",
+                "sn": "69224457",
+                "version": "15.2(4)M1"
+            },
+            "L77R11-LEAF5": {
+                "ansible_host": "10.77.255.11",
+                "ansible_connection": "telnet",
+                "sn": "9PP06RHS9ZA",
+                "version": "16.06.05"
+            },
+            "L71FW10": {
+                "ansible_host": "10.71.106.111",
+                "ansible_connection": "ssh",
+                "sn": "FOSVM1IOG8X2WUC4",
+                "version": "6.2.3,build1066"
+            },
+            "L51AR46": {
+                "ansible_host": "10.51.255.146",
+                "ansible_connection": "telnet",
+                "sn": "83980334",
+                "version": "15.2(4)M1"
+            },
+            "L62R14": {
+                "ansible_host": "10.62.10.114",
+                "ansible_connection": "telnet",
+                "sn": "94400526",
+                "version": "15.4(2)T"
+            },
+            "L33SW1": {
+                "ansible_host": "10.33.242.2",
+                "ansible_connection": "ssh",
+                "sn": "FAB81C00331",
+                "version": "4.21.1.1F"
+            },
+            "L39H112": {
+                "ansible_host": "10.39.6.102",
+                "ansible_connection": "telnet",
+                "sn": "77824112",
+                "version": "12.4(20090407:185408)"
+            },
+            "L66AC2111": {
+                "ansible_host": "10.66.129.121",
+                "ansible_connection": "telnet",
+                "sn": "72907535",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L43AC46": {
+                "ansible_host": "10.43.149.106",
+                "ansible_connection": "telnet",
+                "sn": "70535817",
+                "version": "15.2(20170809:194209)"
+            },
+            "HWLAB-MTIK-DHCPC 123": {
+                "ansible_host": "192.168.110.253",
+                "ansible_connection": "ssh",
+                "sn": "Y396-MB4U",
+                "version": "6.32.4"
+            },
+            "L51AR24": {
+                "ansible_host": "10.51.255.124",
+                "ansible_connection": "ssh",
+                "sn": "83935256",
+                "version": "15.2(4)M1"
+            },
+            "L47R5": {
+                "ansible_host": "10.47.255.105",
+                "ansible_connection": "ssh",
+                "sn": "75507717",
+                "version": "15.2(4)M1"
+            },
+            "L38AC20": {
+                "ansible_host": "10.38.119.165",
+                "ansible_connection": "ssh",
+                "sn": "72432167",
+                "version": "15.2(20170809:194209)"
+            },
+            "L35AC115": {
+                "ansible_host": "10.35.119.175",
+                "ansible_connection": "ssh",
+                "sn": "91591346",
+                "version": "15.2(20170809:194209)"
+            },
+            "L35AC143": {
+                "ansible_host": "10.35.149.181",
+                "ansible_connection": "ssh",
+                "sn": "91603640",
+                "version": "15.2(20170809:194209)"
+            },
+            "L35AC121": {
+                "ansible_host": "10.35.129.176",
+                "ansible_connection": "telnet",
+                "sn": "91593395",
+                "version": "15.2(20170809:194209)"
+            },
+            "L72AC23": {
+                "ansible_host": "10.72.119.134",
+                "ansible_connection": "ssh",
+                "sn": "70849314",
+                "version": "15.2(20170809:194209)"
+            },
+            "L48SD4": {
+                "ansible_host": "10.48.255.149",
+                "ansible_connection": "ssh",
+                "sn": "81232624",
+                "version": "15.2(20170809:194209)"
+            },
+            "L1SW3": {
+                "ansible_host": "10.241.255.103",
+                "ansible_connection": "ssh",
+                "sn": "70861608",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L43AC58": {
+                "ansible_host": "10.43.159.184",
+                "ansible_connection": "telnet",
+                "sn": "70490739",
+                "version": "15.2(20170809:194209)"
+            },
+            "L52DHCP1": {
+                "ansible_host": "10.52.98.1",
+                "ansible_connection": "ssh",
+                "sn": "XjNElhM1HPA",
+                "version": "6.45.6"
+            },
+            "L47AC15": {
+                "ansible_host": "10.47.119.134",
+                "ansible_connection": "telnet",
+                "sn": "77013732",
+                "version": "15.2(20170809:194209)"
+            },
+            "L72AC26": {
+                "ansible_host": "10.72.119.131",
+                "ansible_connection": "telnet",
+                "sn": "70843167",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43SD74": {
+                "ansible_host": "10.43.253.42",
+                "ansible_connection": "ssh",
+                "sn": "70457955",
+                "version": "15.2(20170809:194209)"
+            },
+            "L34ACC21": {
+                "ansible_host": "10.34.119.132",
+                "ansible_connection": "ssh",
+                "sn": "78985895",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L51AR64": {
+                "ansible_host": "10.51.64.164",
+                "ansible_connection": "ssh",
+                "sn": "84017216",
+                "version": "15.2(4)M1"
+            },
+            "L62R6": {
+                "ansible_host": "10.62.255.106",
+                "ansible_connection": "ssh",
+                "sn": "94384134",
+                "version": "15.4(2)T"
+            },
+            "L33EXR1": {
+                "ansible_host": "10.33.255.101",
+                "ansible_connection": "telnet",
+                "sn": "71305217",
+                "version": "15.2(4)M1"
+            },
+            "L36AC59": {
+                "ansible_host": "10.36.159.111",
+                "ansible_connection": "ssh",
+                "sn": "82840065",
+                "version": "15.2(20170809:194209)"
+            },
+            "L51EXR1": {
+                "ansible_host": "10.51.254.2",
+                "ansible_connection": "telnet",
+                "sn": "83888129",
+                "version": "15.2(4)M1"
+            },
+            "L49CR7": {
+                "ansible_host": "10.49.31.107",
+                "ansible_connection": "telnet",
+                "sn": "81803271",
+                "version": "15.2(4)M1"
+            },
+            "L62EXR1": {
+                "ansible_host": "10.62.254.2",
+                "ansible_connection": "ssh",
+                "sn": "94373889",
+                "version": "15.4(2)T"
+            },
+            "L72R10": {
+                "ansible_host": "10.72.94.110",
+                "ansible_connection": "telnet",
+                "sn": "69226506",
+                "version": "15.2(4)M1"
+            },
+            "L39H126": {
+                "ansible_host": "10.39.15.102",
+                "ansible_connection": "telnet",
+                "sn": "77852798",
+                "version": "12.4(20090407:185408)"
+            },
+            "L71R3": {
+                "ansible_host": "10.71.255.103",
+                "ansible_connection": "ssh",
+                "sn": "88086531",
+                "version": "15.2(4)M1"
+            },
+            "L1SW4": {
+                "ansible_host": "10.241.255.104",
+                "ansible_connection": "ssh",
+                "sn": "70863657",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L38AC18": {
+                "ansible_host": "10.38.119.163",
+                "ansible_connection": "ssh",
+                "sn": "72428069",
+                "version": "15.2(20170809:194209)"
+            },
+            "L72AC12": {
+                "ansible_host": "10.72.129.163",
+                "ansible_connection": "telnet",
+                "sn": "70855461",
+                "version": "15.2(20170809:194209)"
+            },
+            "L51CR8": {
+                "ansible_host": "10.51.153.108",
+                "ansible_connection": "telnet",
+                "sn": "83902472",
+                "version": "15.2(4)M1"
+            },
+            "L39AC103": {
+                "ansible_host": "10.39.2.101",
+                "ansible_connection": "ssh",
+                "sn": "79061708",
+                "version": "15.2(20170809:194209)"
+            },
+            "L34AC25": {
+                "ansible_host": "10.34.119.105",
+                "ansible_connection": "telnet",
+                "sn": "78981797",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L63RFW": {
+                "ansible_host": "10.63.255.104",
+                "ansible_connection": "ssh",
+                "sn": "92282884",
+                "version": "15.4(2)T"
+            },
+            "L1R2": {
+                "ansible_host": "10.241.2.2",
+                "ansible_connection": "telnet",
+                "sn": "69210114",
+                "version": "15.5(2)T"
+            },
+            "L62R11": {
+                "ansible_host": "10.62.255.111",
+                "ansible_connection": "ssh",
+                "sn": "94394379",
+                "version": "15.4(2)T"
+            },
+            "L62SD23": {
+                "ansible_host": "10.62.255.165",
+                "ansible_connection": "telnet",
+                "sn": "95941374",
+                "version": "15.2(CML_NIGHTLY_20151103)FLO_DSGS7"
+            },
+            "L66AC22": {
+                "ansible_host": "10.66.129.122",
+                "ansible_connection": "telnet",
+                "sn": "72909584",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L37AC16": {
+                "ansible_host": "10.37.119.137",
+                "ansible_connection": "telnet",
+                "sn": "98145074",
+                "version": "15.2(20170809:194209)"
+            },
+            "HWLAB-WLC-C4400": {
+                "ansible_host": "192.168.109.3",
+                "ansible_connection": "ssh",
+                "sn": "FOC1227F076",
+                "version": "7.0.252.0"
+            },
+            "L68ACC22": {
+                "ansible_host": "10.68.119.167",
+                "ansible_connection": "telnet",
+                "sn": "87599893",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L68EXR2": {
+                "ansible_host": "10.68.255.102",
+                "ansible_connection": "telnet",
+                "sn": "85987330",
+                "version": "15.2(4)M1"
+            },
+            "L35SD82": {
+                "ansible_host": "10.35.255.199",
+                "ansible_connection": "ssh",
+                "sn": "91628228",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L68AC23": {
+                "ansible_host": "10.68.119.168",
+                "ansible_connection": "telnet",
+                "sn": "87601942",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L49AR33": {
+                "ansible_host": "10.49.33.133",
+                "ansible_connection": "telnet",
+                "sn": "81856545",
+                "version": "15.2(4)M1"
+            },
+            "L64R3": {
+                "ansible_host": "10.64.104.103",
+                "ansible_connection": "ssh",
+                "sn": "zmf+rPukVJB",
+                "version": "6.45.6"
+            },
+            "L1fw8": {
+                "ansible_host": "10.241.1.120",
+                "ansible_connection": "ssh",
+                "sn": "5000.0100.0300",
+                "version": "R80.10"
+            },
+            "L35SD81": {
+                "ansible_host": "10.35.255.198",
+                "ansible_connection": "ssh",
+                "sn": "91626179",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L51AR52": {
+                "ansible_host": "10.51.255.152",
+                "ansible_connection": "telnet",
+                "sn": "83992628",
+                "version": "15.2(4)M1"
+            },
+            "L43AC57": {
+                "ansible_host": "10.43.159.183",
+                "ansible_connection": "telnet",
+                "sn": "70488690",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43AC36": {
+                "ansible_host": "10.43.139.198",
+                "ansible_connection": "telnet",
+                "sn": "70519425",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43SD84": {
+                "ansible_host": "10.43.253.142",
+                "ansible_connection": "ssh",
+                "sn": "70460004",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43FWR4": {
+                "ansible_host": "10.43.255.104",
+                "ansible_connection": "ssh",
+                "sn": "69214212",
+                "version": "15.2(4)M1"
+            },
+            "L39H128": {
+                "ansible_host": "10.39.17.102",
+                "ansible_connection": "telnet",
+                "sn": "77856896",
+                "version": "12.4(20090407:185408)"
+            },
+            "L39H114": {
+                "ansible_host": "10.39.7.102",
+                "ansible_connection": "telnet",
+                "sn": "77828210",
+                "version": "12.4(20090407:185408)"
+            },
+            "L48SD6": {
+                "ansible_host": "10.48.253.82",
+                "ansible_connection": "ssh",
+                "sn": "81228526",
+                "version": "15.2(20170809:194209)"
+            },
+            "L35AC86": {
+                "ansible_host": "10.35.189.195",
+                "ansible_connection": "telnet",
+                "sn": "91636424",
+                "version": "15.2(20170809:194209)"
+            },
+            "L47AC20": {
+                "ansible_host": "10.47.119.151",
+                "ansible_connection": "ssh",
+                "sn": "77023977",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39AC115": {
+                "ansible_host": "10.39.8.101",
+                "ansible_connection": "ssh",
+                "sn": "79074002",
+                "version": "15.2(20170809:194209)"
+            },
+            "L35AC162": {
+                "ansible_host": "10.35.169.184",
+                "ansible_connection": "ssh",
+                "sn": "91609787",
+                "version": "15.2(20170809:194209)"
+            },
+            "L66JR6": {
+                "ansible_host": "10.66.255.106",
+                "ansible_connection": "ssh",
+                "sn": "VM5BE443518A",
+                "version": "14.1R4.8"
+            },
+            "L64R8": {
+                "ansible_host": "10.64.109.108",
+                "ansible_connection": "ssh",
+                "sn": "+hWeedDBWfK",
+                "version": "6.45.6"
+            },
+            "L35AC131": {
+                "ansible_host": "10.35.139.178",
+                "ansible_connection": "ssh",
+                "sn": "91597493",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39EXR15": {
+                "ansible_host": "10.39.255.115",
+                "ansible_connection": "telnet",
+                "sn": "77625359",
+                "version": "15.2(4)M1"
+            },
+            "L43EXR1": {
+                "ansible_host": "10.43.255.101",
+                "ansible_connection": "telnet",
+                "sn": "69208065",
+                "version": "15.2(4)M1"
+            },
+            "L39EXR16": {
+                "ansible_host": "10.39.255.116",
+                "ansible_connection": "ssh",
+                "sn": "77627408",
+                "version": "15.2(4)M1"
+            },
+            "L37AC15": {
+                "ansible_host": "10.37.119.136",
+                "ansible_connection": "telnet",
+                "sn": "98143025",
+                "version": "15.2(20170809:194209)"
+            },
+            "L36AC48": {
+                "ansible_host": "10.36.149.134",
+                "ansible_connection": "telnet",
+                "sn": "82887192",
+                "version": "15.2(20170809:194209)"
+            },
+            "L31R15": {
+                "ansible_host": "10.31.255.115",
+                "ansible_connection": "telnet",
+                "sn": "69236751",
+                "version": "15.2(4)M1"
+            },
+            "L43AC32": {
+                "ansible_host": "10.43.139.195",
+                "ansible_connection": "ssh",
+                "sn": "70513278",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39AC131": {
+                "ansible_host": "10.39.21.101",
+                "ansible_connection": "ssh",
+                "sn": "79086296",
+                "version": "15.2(20170809:194209)"
+            },
+            "L36AC26": {
+                "ansible_host": "10.36.129.116",
+                "ansible_connection": "ssh",
+                "sn": "82850310",
+                "version": "15.2(20170809:194209)"
+            },
+            "L51AR49": {
+                "ansible_host": "10.51.149.149",
+                "ansible_connection": "ssh",
+                "sn": "83986481",
+                "version": "15.2(4)M1"
+            },
+            "L72AC25": {
+                "ansible_host": "10.72.119.130",
+                "ansible_connection": "ssh",
+                "sn": "70841118",
+                "version": "15.2(20170809:194209)"
+            },
+            "L1Quagga1": {
+                "ansible_host": "10.241.255.34",
+                "ansible_connection": "ssh",
+                "sn": "10.241.255.34",
+                "version": "1.2.4"
+            },
+            "L43AC38": {
+                "ansible_host": "10.43.139.100",
+                "ansible_connection": "ssh",
+                "sn": "70523523",
+                "version": "15.2(20170809:194209)"
+            },
+            "L35AC122": {
+                "ansible_host": "10.35.129.177",
+                "ansible_connection": "ssh",
+                "sn": "91595444",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39EXR18": {
+                "ansible_host": "10.39.255.118",
+                "ansible_connection": "telnet",
+                "sn": "77631506",
+                "version": "15.2(4)M1"
+            },
+            "L43AC5": {
+                "ansible_host": "10.43.149.205",
+                "ansible_connection": "ssh",
+                "sn": "70441563",
+                "version": "15.2(20170809:194209)"
+            },
+            "L36AC39": {
+                "ansible_host": "10.36.139.127",
+                "ansible_connection": "telnet",
+                "sn": "82872849",
+                "version": "15.2(20170809:194209)"
+            },
+            "L66EXR2": {
+                "ansible_host": "10.66.104.102",
+                "ansible_connection": "ssh",
+                "sn": "71307266",
+                "version": "15.2(4)M1"
+            },
+            "L38ACC19": {
+                "ansible_host": "10.38.119.164",
+                "ansible_connection": "telnet",
+                "sn": "72430118",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43AC39": {
+                "ansible_host": "10.43.139.201",
+                "ansible_connection": "ssh",
+                "sn": "70525572",
+                "version": "15.2(20170809:194209)"
+            },
+            "L35EXR2": {
+                "ansible_host": "10.35.255.102",
+                "ansible_connection": "telnet",
+                "sn": "90181634",
+                "version": "15.2(4)M1"
+            },
+            "L43SD75": {
+                "ansible_host": "10.43.253.54",
+                "ansible_connection": "ssh",
+                "sn": "70445661",
+                "version": "15.2(20170809:194209)"
+            },
+            "L51AR35": {
+                "ansible_host": "10.51.35.135",
+                "ansible_connection": "ssh",
+                "sn": "83957795",
+                "version": "15.2(4)M1"
+            },
+            "L38AC17": {
+                "ansible_host": "10.38.119.162",
+                "ansible_connection": "telnet",
+                "sn": "72426020",
+                "version": "15.2(20170809:194209)"
+            },
+            "L48AC22": {
+                "ansible_host": "10.48.139.144",
+                "ansible_connection": "ssh",
+                "sn": "81249016",
+                "version": "15.2(20170809:194209)"
+            },
+            "L47R3": {
+                "ansible_host": "10.47.105.103",
+                "ansible_connection": "ssh",
+                "sn": "75503619",
+                "version": "15.2(4)M1"
+            },
+            "L71EXR2": {
+                "ansible_host": "10.71.103.102",
+                "ansible_connection": "ssh",
+                "sn": "88084482",
+                "version": "15.2(4)M1"
+            },
+            "L66R3": {
+                "ansible_host": "10.66.100.103",
+                "ansible_connection": "telnet",
+                "sn": "71309315",
+                "version": "15.2(4)M1"
+            },
+            "L35EXR5": {
+                "ansible_host": "10.35.255.105",
+                "ansible_connection": "ssh",
+                "sn": "90187781",
+                "version": "15.2(4)M1"
+            },
+            "L77R3-CORE1": {
+                "ansible_host": "10.77.13.3",
+                "ansible_connection": "telnet",
+                "sn": "75511815",
+                "version": "15.5(2)T"
+            },
+            "L34EXR1": {
+                "ansible_host": "10.34.255.101",
+                "ansible_connection": "ssh",
+                "sn": "77596673",
+                "version": "15.2(4)M1"
+            },
+            "L51AR63": {
+                "ansible_host": "10.51.255.163",
+                "ansible_connection": "ssh",
+                "sn": "84015167",
+                "version": "15.2(4)M1"
+            },
+            "L62R15": {
+                "ansible_host": "10.62.11.115",
+                "ansible_connection": "telnet",
+                "sn": "94402575",
+                "version": "15.4(2)T"
+            },
+            "L62R4": {
+                "ansible_host": "10.62.255.104",
+                "ansible_connection": "ssh",
+                "sn": "94380036",
+                "version": "15.4(2)T"
+            },
+            "L35EXR14": {
+                "ansible_host": "10.35.255.114",
+                "ansible_connection": "ssh",
+                "sn": "90206222",
+                "version": "15.2(4)M1"
+            },
+            "L47AC7": {
+                "ansible_host": "10.47.119.122",
+                "ansible_connection": "telnet",
+                "sn": "76997340",
+                "version": "15.2(20170809:194209)"
+            },
+            "L62SD18": {
+                "ansible_host": "10.62.255.161",
+                "ansible_connection": "telnet",
+                "sn": "95933178",
+                "version": "15.2(CML_NIGHTLY_20151103)FLO_DSGS7"
+            },
+            "L35EXR6": {
+                "ansible_host": "10.35.255.106",
+                "ansible_connection": "telnet",
+                "sn": "90189830",
+                "version": "15.2(4)M1"
+            },
+            "L36AC41": {
+                "ansible_host": "10.36.149.128",
+                "ansible_connection": "telnet",
+                "sn": "82874898",
+                "version": "15.2(20170809:194209)"
+            },
+            "L45R9": {
+                "ansible_host": "10.45.255.109",
+                "ansible_connection": "telnet",
+                "sn": "73418761",
+                "version": "15.2(4)M1"
+            },
+            "HWLAB-C3750-STACK": {
+                "ansible_host": "192.168.110.3",
+                "ansible_connection": "ssh",
+                "sn": "FDO1607Y2W8",
+                "version": "12.2(55)SE12"
+            },
+            "L35EXR11": {
+                "ansible_host": "10.35.255.111",
+                "ansible_connection": "telnet",
+                "sn": "90200075",
+                "version": "15.2(4)M1"
+            },
+            "L51R4": {
+                "ansible_host": "10.51.16.104",
+                "ansible_connection": "ssh",
+                "sn": "83894276",
+                "version": "15.2(4)M1"
+            },
+            "L35AC114": {
+                "ansible_host": "10.35.119.174",
+                "ansible_connection": "ssh",
+                "sn": "91589297",
+                "version": "15.2(20170809:194209)"
+            },
+            "L38AC13": {
+                "ansible_host": "10.38.119.158",
+                "ansible_connection": "telnet",
+                "sn": "72417824",
+                "version": "15.2(20170809:194209)"
+            },
+            "L47R6": {
+                "ansible_host": "10.47.109.106",
+                "ansible_connection": "ssh",
+                "sn": "75509766",
+                "version": "15.2(4)M1"
+            },
+            "L1FW5": {
+                "ansible_host": "10.241.21.5",
+                "ansible_connection": "ssh",
+                "sn": "BF42C4AD-AE5F-4350-9CD3-349EE7FC4772",
+                "version": "8.0.5"
+            },
+            "L36AC44": {
+                "ansible_host": "10.36.149.131",
+                "ansible_connection": "ssh",
+                "sn": "82881045",
+                "version": "15.2(20170809:194209)"
+            },
+            "L51R3": {
+                "ansible_host": "10.51.11.103",
+                "ansible_connection": "telnet",
+                "sn": "83892227",
+                "version": "15.2(4)M1"
+            },
+            "L51AR48": {
+                "ansible_host": "10.51.255.148",
+                "ansible_connection": "telnet",
+                "sn": "83984432",
+                "version": "15.2(4)M1"
+            },
+            "L43AC24": {
+                "ansible_host": "10.43.129.189",
+                "ansible_connection": "telnet",
+                "sn": "70500984",
+                "version": "15.2(20170809:194209)"
+            },
+            "L72ACC22": {
+                "ansible_host": "10.72.119.133",
+                "ansible_connection": "ssh",
+                "sn": "70847265",
+                "version": "15.2(20170809:194209)"
+            },
+            "L48SD5": {
+                "ansible_host": "10.48.255.146",
+                "ansible_connection": "ssh",
+                "sn": "81226477",
+                "version": "15.2(20170809:194209)"
+            },
+            "L36AC43": {
+                "ansible_host": "10.36.149.130",
+                "ansible_connection": "telnet",
+                "sn": "82878996",
+                "version": "15.2(20170809:194209)"
+            },
+            "L1FW56": {
+                "ansible_host": "10.241.255.56",
+                "ansible_connection": "ssh",
+                "sn": "458d4209b53d",
+                "version": "12.1X46-D25.7"
+            },
+            "L47AC11": {
+                "ansible_host": "10.47.119.153",
+                "ansible_connection": "ssh",
+                "sn": "77005536",
+                "version": "15.2(20170809:194209)"
+            },
+            "L68AC25": {
+                "ansible_host": "10.68.119.164",
+                "ansible_connection": "ssh",
+                "sn": "87593746",
+                "version": "15.2(CML_NIGHTLY_20150703)FLO_DSGS7"
+            },
+            "L43AC33": {
+                "ansible_host": "10.43.139.196",
+                "ansible_connection": "telnet",
+                "sn": "70515327",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43AC31": {
+                "ansible_host": "10.43.139.194",
+                "ansible_connection": "ssh",
+                "sn": "70511229",
+                "version": "15.2(20170809:194209)"
+            },
+            "L36AC58": {
+                "ansible_host": "10.36.159.110",
+                "ansible_connection": "telnet",
+                "sn": "82838016",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43AC95": {
+                "ansible_host": "10.43.159.176",
+                "ansible_connection": "telnet",
+                "sn": "70474347",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39EXR6": {
+                "ansible_host": "10.39.255.106",
+                "ansible_connection": "telnet",
+                "sn": "77606918",
+                "version": "15.2(4)M1"
+            },
+            "L47EXR2": {
+                "ansible_host": "10.47.255.102",
+                "ansible_connection": "ssh",
+                "sn": "75501570",
+                "version": "15.2(4)M1"
+            },
+            "L35AC142": {
+                "ansible_host": "10.35.149.180",
+                "ansible_connection": "ssh",
+                "sn": "91601591",
+                "version": "15.2(20170809:194209)"
+            },
+            "L35EXR7": {
+                "ansible_host": "10.35.255.107",
+                "ansible_connection": "ssh",
+                "sn": "90191879",
+                "version": "15.2(4)M1"
+            },
+            "L43AC37": {
+                "ansible_host": "10.43.139.199",
+                "ansible_connection": "ssh",
+                "sn": "70521474",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39AC105": {
+                "ansible_host": "10.39.3.101",
+                "ansible_connection": "telnet",
+                "sn": "79063757",
+                "version": "15.2(20170809:194209)"
+            },
+            "L43SD72": {
+                "ansible_host": "10.43.253.22",
+                "ansible_connection": "telnet",
+                "sn": "70449759",
+                "version": "15.2(20170809:194209)"
+            },
+            "L39AC125": {
+                "ansible_host": "10.39.15.101",
+                "ansible_connection": "telnet",
+                "sn": "79082198",
+                "version": "15.2(20170809:194209)"
+            },
+            "L36AC21": {
+                "ansible_host": "10.36.129.112",
+                "ansible_connection": "ssh",
+                "sn": "82842114",
+                "version": "15.2(20170809:194209)"
+            },
+            "L37AC12": {
+                "ansible_host": "10.37.119.125",
+                "ansible_connection": "telnet",
+                "sn": "98136878",
+                "version": "15.2(20170809:194209)"
+            },
+            "L51AR27": {
+                "ansible_host": "10.51.27.127",
+                "ansible_connection": "telnet",
+                "sn": "83941403",
+                "version": "15.2(4)M1"
+            }
+        }
     }
-]
+}
