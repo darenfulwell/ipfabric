@@ -24,3 +24,52 @@ INFO:root:2020-07-30 01:35:32.601590 YAML format inventory successfully written 
 INFO:root:2020-07-30 01:35:50.537652 User authenticated successfully
 INFO:root:2020-07-30 01:35:50.656109 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
 INFO:root:2020-07-30 01:35:50.873361 JSON format inventory successfully written to stdout
+INFO:root:2020-08-01 23:56:48.043156 User authenticated successfully
+INFO:root:2020-08-01 23:56:48.128928 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-01 23:56:48.293493 JSON format inventory successfully written to stdout
+INFO:root:2020-08-01 23:56:59.121510 User authenticated successfully
+INFO:root:2020-08-01 23:56:59.212269 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-01 23:56:59.391790 JSON format inventory successfully written to stdout
+INFO:root:2020-08-01 23:57:17.142286 User authenticated successfully
+INFO:root:2020-08-01 23:57:17.263961 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-01 23:57:24.175466 JSON format inventory successfully written to stdout
+INFO:root:2020-08-01 23:58:12.740598 User authenticated successfully
+INFO:root:2020-08-01 23:58:12.821380 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-01 23:58:12.830356 JSON format inventory successfully written to stdout
+INFO:root:2020-08-02 00:00:41.916711 User authenticated successfully
+INFO:root:2020-08-02 00:00:42.055337 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 00:00:53.199516 JSON format inventory successfully written to stdout
+INFO:root:2020-08-02 00:01:20.486060 User authenticated successfully
+INFO:root:2020-08-02 00:01:20.565848 Unable to get data from: https://192.168.1.174/api/v1/tables/inventory/devices
+  Error: {"code":"API_VALIDATION_FAILED","message":"Invalid Input","errors":[{"code":"invalid","message":"\"5\" must be one of [id, configReg, devType, family, hostname, image, taskKey, loginIp, loginType, mac, memoryTotalBytes, memoryUsedBytes, memoryUtilization, platform, processor, rd, reload, siteKey, siteName, sn, stpDomain, uptime, vendor, version, numberOfAclInt, numberOfAcls, numberOfArps, numberOfFhrp, numberOfHosts, numberOfInterfaces, numberOfMacs, numberOfManagedIps, numberOfPolicyMaps, numberOfPortChannels, numberOfRoutes, numberOfSwitchports, numberOfVlans, numberOfWirelessAps, numberOfWirelessClients, numberOfZoneFws, numberOfMpls, numberOfMRoutes]","field":["columns",5]}]}
+INFO:root:2020-08-02 00:01:20.565848 API request failed
+INFO:root:2020-08-02 00:01:20.705473 JSON format inventory successfully written to stdout
+INFO:root:2020-08-02 00:01:53.132240 User authenticated successfully
+INFO:root:2020-08-02 00:01:53.216016 Unable to get data from: https://192.168.1.174/api/v1/tables/inventory/devices
+  Error: {"code":"API_VALIDATION_FAILED","message":"Invalid Input","errors":[{"code":"invalid","message":"\"5\" must be one of [id, configReg, devType, family, hostname, image, taskKey, loginIp, loginType, mac, memoryTotalBytes, memoryUsedBytes, memoryUtilization, platform, processor, rd, reload, siteKey, siteName, sn, stpDomain, uptime, vendor, version, numberOfAclInt, numberOfAcls, numberOfArps, numberOfFhrp, numberOfHosts, numberOfInterfaces, numberOfMacs, numberOfManagedIps, numberOfPolicyMaps, numberOfPortChannels, numberOfRoutes, numberOfSwitchports, numberOfVlans, numberOfWirelessAps, numberOfWirelessClients, numberOfZoneFws, numberOfMpls, numberOfMRoutes]","field":["columns",5]}]}
+INFO:root:2020-08-02 00:01:53.216016 API request failed
+INFO:root:2020-08-02 00:01:53.222998 JSON format inventory successfully written to stdout
+INFO:root:2020-08-02 01:17:04.022575 User NOT authenticated: Unauthorized,  
+  Error: {"code":"API_INVALID_CREDENTIALS","message":"Invalid Credentials"}
+INFO:root:2020-08-02 01:17:04.023574 Parameter error calling getIPFInventory
+INFO:root:2020-08-02 01:18:18.315471 User NOT authenticated: Unauthorized,  
+  Error: {"code":"API_INVALID_CREDENTIALS","message":"Invalid Credentials"}
+INFO:root:2020-08-02 01:19:48.257245 Parameter error calling getIPFInventory
+INFO:root:2020-08-02 01:21:01.840628 User authenticated successfully
+INFO:root:2020-08-02 01:21:02.008240 Unable to get data from: https://192.168.1.174/api/v1/tables/inventory/devices
+  Error: {"code":"API_VALIDATION_FAILED","message":"Invalid Input","errors":[{"code":"invalid","message":"\"5\" must be one of [id, configReg, devType, family, hostname, image, taskKey, loginIp, loginType, mac, memoryTotalBytes, memoryUsedBytes, memoryUtilization, platform, processor, rd, reload, siteKey, siteName, sn, stpDomain, uptime, vendor, version, numberOfAclInt, numberOfAcls, numberOfArps, numberOfFhrp, numberOfHosts, numberOfInterfaces, numberOfMacs, numberOfManagedIps, numberOfPolicyMaps, numberOfPortChannels, numberOfRoutes, numberOfSwitchports, numberOfVlans, numberOfWirelessAps, numberOfWirelessClients, numberOfZoneFws, numberOfMpls, numberOfMRoutes]","field":["columns",5]}]}
+INFO:root:2020-08-02 01:21:02.009135 API request failed
+INFO:root:2020-08-02 01:22:46.932851 User authenticated successfully
+INFO:root:2020-08-02 01:22:47.210668 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 01:23:42.610920 JSON format inventory successfully written to stdout
+INFO:root:2020-08-02 01:43:21.626673 User authenticated successfully
+INFO:root:2020-08-02 01:43:21.749344 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 01:43:26.335596 JSON format inventory successfully written to stdout
+INFO:root:2020-08-02 01:44:43.288596 User authenticated successfully
+INFO:root:2020-08-02 01:44:43.395888 Unable to get data from: https://192.168.1.174/api/v1/tables/inventory/devices
+  Error: {"code":"API_VALIDATION_FAILED","message":"Invalid Input","errors":[{"code":"invalid","message":"\"5\" must be one of [id, configReg, devType, family, hostname, image, taskKey, loginIp, loginType, mac, memoryTotalBytes, memoryUsedBytes, memoryUtilization, platform, processor, rd, reload, siteKey, siteName, sn, stpDomain, uptime, vendor, version, numberOfAclInt, numberOfAcls, numberOfArps, numberOfFhrp, numberOfHosts, numberOfInterfaces, numberOfMacs, numberOfManagedIps, numberOfPolicyMaps, numberOfPortChannels, numberOfRoutes, numberOfSwitchports, numberOfVlans, numberOfWirelessAps, numberOfWirelessClients, numberOfZoneFws, numberOfMpls, numberOfMRoutes]","field":["columns",5]}]}
+INFO:root:2020-08-02 01:44:43.395888 API request failed
+INFO:root:2020-08-02 01:45:42.424884 User authenticated successfully
+INFO:root:2020-08-02 01:45:42.509657 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-02 01:48:20.197783 User authenticated successfully
+INFO:root:2020-08-02 01:48:35.255980 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices

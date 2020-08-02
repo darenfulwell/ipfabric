@@ -1,8 +1,14 @@
 #!/usr/bin/env python3
 
-"""
-Simple module to handle IP Fabric inventories
-"""
+'''
+Module to expose IP Fabric APIs as functions to other Python scripts:
+
+def pyIPFLog (msg):  Function to write a log message using logging module
+def fetchIPFAccessToken (IPFServer, userAndPass):  Function to authenticate a user and fetch the token for API calls
+def refreshIPFToken (IPFServer, refreshToken):  Function to refresh the access token for API calls
+def getIPFData(apiEndpoint, dataHeaders, dataPayload):  Function to fetch arbitrary data from IP Fabric server
+def getIPFInventory(IPFServer, username, password, snapshotId, columns, filters):  Function to retrieve IP Fabric inventory details
+'''
 
 # Built-in/Generic Imports
 import json
@@ -17,6 +23,13 @@ requests.packages.urllib3.disable_warnings()
 
 # Defining main functions
 def pyIPFLog (msg):
+    '''
+    Function to write a log message using logging module
+
+    msg = text for the message to be logged
+
+    Returns:  True if message logged  
+    '''
     if (msg!=''):
         logging.basicConfig(filename='./pyIPF.log',level=logging.INFO)
         logging.info(str(datetime.now())+' '+msg)
@@ -26,6 +39,22 @@ def pyIPFLog (msg):
     return retVal
 
 def fetchIPFAccessToken (IPFServer, userAndPass):
+    '''
+    Function to authenticate a user and fetch the token for API calls
+
+    IPFServer = IP address or DNS name of IP Fabric server
+    userAndPass = dictionary containing GUI login credentials in the form:
+        {
+            'username':<username>,
+            'password':<password>
+        }
+
+    Returns:    dictionary containing access token (which lasts 30 minutes) and refresh token (24 hour life span) in the form:
+        {
+            'accessToken':<token>,
+            'refreshToken':<token>
+        }
+    '''
     authPost = requests.post('https://' + IPFServer + '/api/v1/auth/login', json=userAndPass, verify=False)
     if authPost.ok: 
         pyIPFLog('User authenticated successfully')
@@ -34,6 +63,17 @@ def fetchIPFAccessToken (IPFServer, userAndPass):
     return authPost
 
 def refreshIPFToken (IPFServer, refreshToken):
+    '''
+    Function to refresh the access token for API calls
+
+    IPFServer = IP address or DNS name of IP Fabric server
+    refreshToken = refresh token from fetchIPFAccessToken response
+
+    Returns:    dictionary containing new access token in the form:
+        {
+            'accessToken':<token>
+        }
+    '''
     refreshPost = requests.post('https://' + IPFServer + '/api/v1/auth/token', json={'refreshToken': refreshToken}, verify=False)
     if refreshPost.ok:
         pyIPFLog('Token refreshed successfully')
@@ -42,6 +82,15 @@ def refreshIPFToken (IPFServer, refreshToken):
     return refreshPost
 
 def getIPFData(apiEndpoint, dataHeaders, dataPayload):
+    '''
+    Function to fetch arbitrary data from IP Fabric server
+
+    apiEndpoint = Full URL of API endnpoint
+    dataHeaders = http headers for request (including authorisation token)
+    dataPayload = dictionary with JSON representation of request parameters
+
+    Returns:    dictionary containing JSON representation of response
+    '''
     dataPost = requests.post(apiEndpoint, headers=dataHeaders, json=dataPayload, verify=False)
     if dataPost.ok:
         pyIPFLog('Successfully gathered data from: ' + apiEndpoint)
@@ -50,6 +99,17 @@ def getIPFData(apiEndpoint, dataHeaders, dataPayload):
     return dataPost
 
 def getIPFInventory(IPFServer, username, password, snapshotId, columns, filters):
+    '''
+    Function to retrieve IP Fabric inventory details
+
+    IPFServer = IP address or DNS name of IP Fabric server to query
+    username / password = GUI credentials for IP Fabric server
+    snapshotId = full ID of the snapshot for the inventory request *or* '$last', '$prev'
+    columns = list of columns required from the inventory table
+    filters = field filters as defined in the Table Description window
+
+    Returns:    dictionary containing device information from IP Fabric to meet the criteria defined above. 
+    '''
     retVal={}
     if (len(IPFServer)>0):
         if (username!='') and (password!=''):
@@ -95,10 +155,21 @@ def getIPFInventory(IPFServer, username, password, snapshotId, columns, filters)
     return retVal
 
 def writeAnsibleInventory (filename, format, grouping, devs):
+    '''
+    Function to output inventory from getIPFInventory function and output it in a format suitable for use as an Ansible inventory
+
+    filename = file to output or '' for stdout
+    format = "yaml" or "json"
+    grouping = list of group categories for inventory output - valid values are "site", "vendor", "access"
+    devs = dictionary of devices from getIPFInventory
+
+    Returns:    True if written OK to file or stdout / False if write failed
+    '''
     inventory={}
     writeToFile=False
     RetVal=False
 
+    # if filename passed, open the file to write to it
     if len(filename)>0:
         f=open(filename,'w')
         writeToFile=True
@@ -143,8 +214,8 @@ def writeAnsibleInventory (filename, format, grouping, devs):
             inventory[c]['hosts'][h]['ansible_host']=i
             inventory[c]['hosts'][h]['ansible_connection']=c
 
+    # Prepare output in correct format
     if (format.upper()=='YAML'):
-        # write inventory in YAML to text file and close
         output=yaml.dump({'all':{'children':inventory}})
     elif (format.upper()=='JSON'):
         output=json.dumps({'all':{'children':inventory}},indent=4)
@@ -152,6 +223,7 @@ def writeAnsibleInventory (filename, format, grouping, devs):
         output=''
 
     if writeToFile:
+        # write output to file
         try:
             print(output,file=f)
             f.close()
@@ -160,6 +232,7 @@ def writeAnsibleInventory (filename, format, grouping, devs):
         except:
             pyIPFLog("Error writing "+format.upper()+ " format inventory to "+filename)
     else:
+        # write output to stdout
         try:
             print(output)
             retVal=True
@@ -168,9 +241,13 @@ def writeAnsibleInventory (filename, format, grouping, devs):
             pyIPFLog("Error writing "+format.upper()+ " format inventory to stdout")
 
 def main():
-    # Extract device info from JSON returned from API
-    devs=getIPFInventory('192.168.1.174','admin','netHero!123','$last',['hostname','siteName','loginIp','loginType','vendor'],{'vendor':["like","arista"]})
-    writeAnsibleInventory('','json',['access',"site"],devs)
+    # Run test extraction
+    try:
+        devs=getIPFInventory('192.168.1.174','admin','netHero!123','$last',['hostname','siteName','loginIp','loginType','vendor'],'')
+        if len(devs)>0:
+            writeAnsibleInventory('','json',['access',"site"],devs)
+    except:
+        pyIPFLog("Parameter error calling getIPFInventory")
 
 
 if __name__ == "__main__":
