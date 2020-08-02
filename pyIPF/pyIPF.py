@@ -8,6 +8,7 @@ def fetchIPFAccessToken (IPFServer, userAndPass):  Function to authenticate a us
 def refreshIPFToken (IPFServer, refreshToken):  Function to refresh the access token for API calls
 def getIPFData(apiEndpoint, dataHeaders, dataPayload):  Function to fetch arbitrary data from IP Fabric server
 def getIPFInventory(IPFServer, username, password, snapshotId, columns, filters):  Function to retrieve IP Fabric inventory details
+def writeAnsibleInventory (devices, format, destination, grouping, variables): Function to write Ansible format inventory
 '''
 
 # Built-in/Generic Imports
@@ -105,9 +106,9 @@ def getIPFInventory(IPFServer, username, password, snapshotId='$last', columns=[
 
     IPFServer = IP address or DNS name of IP Fabric server to query
     username / password = GUI credentials for IP Fabric server
-    snapshotId [optional]= full ID of the snapshot for the inventory request *or* '$last', '$prev'
-    columns [optional]= list of columns required from the inventory table
-    filters [optional]= field filters as defined in the Table Description window
+    snapshotId [optional] = full ID of the snapshot for the inventory request *or* '$last', '$prev' (default='$last')
+    columns [optional] = list of columns required from the inventory table (default=["hostname","siteName","loginIp","loginType","vendor","platform","family","version","sn","devType"])
+    filters [optional] = dictionary containing field filters as defined in the Table Description window in the Web UI (default={})
 
     Returns:    dictionary containing device information from IP Fabric to meet the criteria defined above. 
     '''
@@ -116,14 +117,6 @@ def getIPFInventory(IPFServer, username, password, snapshotId='$last', columns=[
         if (username!='') and (password!=''):
             # assemble authentication data for token request
             authData = {'username':username, 'password':password}
-
-            # set defaults if parameters are null
-            #if (snapshotId==''):
-            #    snapshotId='$last'
-            #if (len(columns)==0):
-            #    columns=["hostname","siteName","loginIp","loginType","vendor","platform","family","version","sn","devType"]
-            #if (len(filters)==0):
-            #    filters={}
 
             #assemble inventory request to IPF
             devicesEndpoint = 'https://'+ IPFServer + '/api/v1/tables/inventory/devices'
@@ -155,20 +148,19 @@ def getIPFInventory(IPFServer, username, password, snapshotId='$last', columns=[
 
     return retVal
 
-def writeAnsibleInventory (filename, devs, format, grouping=[], variables=[]):
+def writeAnsibleInventory (devs, format, filename='', grouping=[], variables=[]):
     '''
-    Function to output inventory from getIPFInventory function and output it in a format suitable for use as an Ansible inventory
-    ***ADD IN HOST VARIABLES***
-
-    filename = file to output or '' for stdout
-    format = "yaml" or "json"
-    grouping = list of group categories for inventory output - valid values are "site", "access", "vendor", "platform", "model", "devType"
-    variables = additional hostvars
+    Function to output inventory from getIPFInventory function in a format suitable for use as an Ansible inventory
+    
     devs = dictionary of devices from getIPFInventory
-
+    format = "yaml" or "json"
+    filename [optional] = file to output or '' for stdout (default is '')
+    grouping [optional] = list of group categories for inventory output - valid values are "site", "access", "vendor", "platform", "model", "devType" (default is ungrouped)
+    variables [optional] = additional hostvars (default is just ansible_host and ansible_connection)
+    
     Returns:    True if written OK to file or stdout / False if write failed
     '''
-    wholeInventory={"all":{"children":{"ungrouped":{}}},"_meta":{"hostvars":{}}}
+    wholeInventory={"all":{"children":{"ungrouped":{"hosts":[]}}},"_meta":{"hostvars":{}}}
     writeToFile=False
     RetVal=False
 
@@ -200,47 +192,51 @@ def writeAnsibleInventory (filename, devs, format, grouping=[], variables=[]):
         for var in variables:
             wholeInventory['_meta']['hostvars'][h][var]=dev[var]
  
-        if ("vendor" in grouping):
-            # Create vendor grouping if needed
-            if not (v in wholeInventory['all']['children']):
-                wholeInventory['all']['children'][v]={'hosts':[]}
-            # Add device to vendor group
-            wholeInventory['all']['children'][v]['hosts'].append(h)
+        if len(grouping)==0:
+            # if no groups specified, put host in 'ungrouped'
+            wholeInventory['all']['children']['ungrouped']['hosts'].append(h)
+        else:
+            if ("vendor" in grouping):
+                # Create vendor grouping if needed
+                if not (v in wholeInventory['all']['children']):
+                    wholeInventory['all']['children'][v]={'hosts':[]}
+                # Add device to vendor group
+                wholeInventory['all']['children'][v]['hosts'].append(h)
 
-        if ("site" in grouping):
-            # Create site grouping
-            if not (s in wholeInventory['all']['children']):
-                wholeInventory['all']['children'][s]={'hosts':[]}
-            # Add device to site group
-            wholeInventory['all']['children'][s]['hosts'].append(h)
+            if ("site" in grouping):
+                # Create site grouping
+                if not (s in wholeInventory['all']['children']):
+                    wholeInventory['all']['children'][s]={'hosts':[]}
+                # Add device to site group
+                wholeInventory['all']['children'][s]['hosts'].append(h)
 
-        if ("access" in grouping):
-            # Create access method grouping
-            if not (c in wholeInventory['all']['children']):
-                wholeInventory['all']['children'][c]={'hosts':[]}
-            # Add device to access group
-            wholeInventory['all']['children'][c]['hosts'].append(h)
+            if ("access" in grouping):
+                # Create access method grouping
+                if not (c in wholeInventory['all']['children']):
+                    wholeInventory['all']['children'][c]={'hosts':[]}
+                # Add device to access group
+                wholeInventory['all']['children'][c]['hosts'].append(h)
 
-        if ("platform" in grouping):
-            # Create platform grouping
-            if not (p in wholeInventory['all']['children']):
-                wholeInventory['all']['children'][p]={'hosts':[]}
-            # Add device to platform group
-            wholeInventory['all']['children'][p]['hosts'].append(h)
+            if ("platform" in grouping):
+                # Create platform grouping
+                if not (p in wholeInventory['all']['children']):
+                    wholeInventory['all']['children'][p]={'hosts':[]}
+                # Add device to platform group
+                wholeInventory['all']['children'][p]['hosts'].append(h)
             
-        if ("family" in grouping):
-            # Create model grouping
-            if not (c in wholeInventory['all']['children']):
-                wholeInventory['all']['children'][f]={'hosts':[]}
-            # Add device to model group
-            wholeInventory['all']['children'][f]['hosts'].append(h)
+            if ("family" in grouping):
+                # Create model grouping
+                if not (c in wholeInventory['all']['children']):
+                    wholeInventory['all']['children'][f]={'hosts':[]}
+                # Add device to model group
+                wholeInventory['all']['children'][f]['hosts'].append(h)
 
-        if ("devType" in grouping):
-            # Create device type grouping
-            if not (c in wholeInventory['all']['children']):
-                wholeInventory['all']['children'][y]={'hosts':[]}
-            # Add device to device type group
-            wholeInventory['all']['children'][y]['hosts'].append(h)
+            if ("devType" in grouping):
+                # Create device type grouping
+                if not (c in wholeInventory['all']['children']):
+                    wholeInventory['all']['children'][y]={'hosts':[]}
+                # Add device to device type group
+                wholeInventory['all']['children'][y]['hosts'].append(h)
 
     # Prepare output in correct format
     if (format.upper()=='YAML'):
@@ -276,7 +272,7 @@ def main():
     try:
         devs=getIPFInventory('192.168.1.174','admin','netHero!123')
         if len(devs)>0:
-            writeAnsibleInventory('hosts.json',devs,'json',["site","vendor"],['sn','version'])
+            writeAnsibleInventory(devs,'json')
     except:
         pyIPFLog("Parameter error calling getIPFInventory")
 
