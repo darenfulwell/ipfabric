@@ -10,3 +10,4 @@ Python module for importing inventory, filtering and exporting detail to other p
 * getIPFData(apiEndpoint, dataHeaders, dataPayload):  Function to fetch arbitrary data from IP Fabric server
 * getIPFInventory(IPFServer, username, password, snapshotId, columns, filters):  Function to retrieve IP Fabric inventory details
 * writeAnsibleInventory (devices, format, destination, grouping, variables): Function to write Ansible format inventory
+* writeAnsibleHostVars (devices, hostName, format, filename, variables): Function to write Ansible format host variables

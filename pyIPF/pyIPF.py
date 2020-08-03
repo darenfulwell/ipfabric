@@ -9,6 +9,7 @@ def refreshIPFToken (IPFServer, refreshToken):  Function to refresh the access t
 def getIPFData(apiEndpoint, dataHeaders, dataPayload):  Function to fetch arbitrary data from IP Fabric server
 def getIPFInventory(IPFServer, username, password, snapshotId, columns, filters):  Function to retrieve IP Fabric inventory details
 def writeAnsibleInventory (devices, format, destination, grouping, variables): Function to write Ansible format inventory
+def writeAnsibleHostVars (devices, hostName, format, filename, variables): Function to write Ansible format host variables
 '''
 
 # Built-in/Generic Imports
@@ -343,8 +344,8 @@ def writeAnsibleHostVars (devs, hostName, format, filename='', variables=[]):
 
 
 def main():
-    opts=["--host"]
-    args=["L39AC107"]
+    opts = [opt for opt in sys.argv[1:] if opt.startswith("--")]
+    args = [arg for arg in sys.argv[1:] if not arg.startswith("--")]
     
     try:
         devs=getIPFInventory('165.120.82.52:2443','admin','netHero!123')

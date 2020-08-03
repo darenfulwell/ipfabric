@@ -38,3 +38,24 @@ INFO:root:2020-08-03 22:49:28.471601 JSON format inventory successfully written 
 INFO:root:2020-08-03 22:49:46.480395 User authenticated successfully
 INFO:root:2020-08-03 22:49:47.299884 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
 INFO:root:2020-08-03 22:49:47.305922 JSON format variables successfully written to stdout
+INFO:root:2020-08-03 23:04:13.899678 User authenticated successfully
+INFO:root:2020-08-03 23:04:14.305356 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-03 23:04:14.311624 JSON format variables successfully written to stdout
+INFO:root:2020-08-03 23:05:00.974244 User authenticated successfully
+INFO:root:2020-08-03 23:05:01.346110 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-03 23:05:01.359663 JSON format variables successfully written to stdout
+INFO:root:2020-08-03 23:05:39.054121 User authenticated successfully
+INFO:root:2020-08-03 23:05:39.413027 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-03 23:05:40.881618 JSON format inventory successfully written to stdout
+INFO:root:2020-08-03 23:13:04.298158 User authenticated successfully
+INFO:root:2020-08-03 23:13:04.751021 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-03 23:13:06.313422 JSON format inventory successfully written to stdout
+INFO:root:2020-08-03 23:13:24.554005 User authenticated successfully
+INFO:root:2020-08-03 23:13:24.947251 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-03 23:13:24.983910 JSON format variables successfully written to stdout
+INFO:root:2020-08-03 23:32:21.207408 User authenticated successfully
+INFO:root:2020-08-03 23:32:21.524789 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-03 23:32:21.633739 JSON format inventory successfully written to stdout
+INFO:root:2020-08-03 23:32:50.962481 User authenticated successfully
+INFO:root:2020-08-03 23:32:51.347999 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-03 23:32:51.375721 JSON format variables successfully written to stdout
