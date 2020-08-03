@@ -183,7 +183,7 @@ def writeAnsibleInventory (devs, format, filename='', grouping=[], variables=[])
         s=dev['siteName']
         y=dev['devType']
     
-        inventory=wholeInventory['all']['children']
+        # inventory=wholeInventory['all']['children']
 
         # Add device hostvars
         wholeInventory['_meta']['hostvars'][h]={}
@@ -267,12 +267,93 @@ def writeAnsibleInventory (devs, format, filename='', grouping=[], variables=[])
         except:
             pyIPFLog("Error writing "+format.upper()+ " format inventory to stdout")
 
+def writeAnsibleHostVars (devs, hostName, format, filename='', variables=[]):
+    '''
+    Function to output hostvars from inventory for specific host in a format suitable for use as an Ansible dynamic inventory
+    
+    devs = dictionary of devices from getIPFInventory
+    hostName = hostname of specific device in inventory
+    format = "yaml" or "json"
+    filename [optional] = file to output or '' for stdout (default is '')
+    variables [optional] = additional hostvars (default is just ansible_host and ansible_connection)
+    
+    Returns:    True if written OK to file or stdout / False if write failed
+    '''
+    vars={}
+    writeToFile=False
+    RetVal=False
+
+    # default set of additional hostvars = empty
+    if len(variables)<1:
+        variables=[]
+
+    # Loop through passed devices
+    for dev in devs:
+
+        # Extract data for inventory
+        h=dev['hostname']['data']
+
+        if h.upper()==hostName.upper():
+            i=dev['loginIp']
+            v=dev['vendor']
+            p=dev['platform']
+            f=dev['family']
+            o=dev['version']
+            n=dev['sn']
+            c=dev['loginType']
+            s=dev['siteName']
+            y=dev['devType']
+    
+            # Assemble hostvars
+            vars['ansible_host']=i
+            vars['ansible_connection']=c
+            for var in variables:
+                vars[var]=dev[var]
+ 
+            break
+        
+    # Prepare output in correct format
+    if (format.upper()=='YAML'):
+        output=yaml.dump(vars)
+    elif (format.upper()=='JSON'):
+        output=json.dumps(vars,indent=4)
+    else:
+        output=''
+
+    # if filename passed, open the file to write to it
+    if len(filename)>0:
+        f=open(filename,'w')
+        
+        # write output to file
+        try:
+            print(output,file=f)
+            f.close()
+            retVal=True
+            pyIPFLog(format.upper()+" format variables successfully written to "+filename)
+        except:
+            pyIPFLog("Error writing "+format.upper()+ " format variables to "+filename)
+    else:
+        # write output to stdout
+        try:
+            print(output)
+            retVal=True
+            pyIPFLog(format.upper()+" format variables successfully written to stdout")
+        except:
+            pyIPFLog("Error writing "+format.upper()+ " format variables to stdout")
+
+
 def main():
-    # Run test extraction
+    opts=["--host"]
+    args=["L39AC107"]
+    
     try:
-        devs=getIPFInventory('192.168.1.174','admin','netHero!123')
-        if len(devs)>0:
-            writeAnsibleInventory(devs,'json')
+        devs=getIPFInventory('165.120.82.52:2443','admin','netHero!123')
+        if '--list' in opts:
+            if len(devs)>0:
+                writeAnsibleInventory(devs,'json')
+        elif '--host' in opts:
+            if len(devs)>0:
+                writeAnsibleHostVars(devs,args[0],'json')
     except:
         pyIPFLog("Parameter error calling getIPFInventory")
 
