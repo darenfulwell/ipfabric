@@ -59,3 +59,95 @@ INFO:root:2020-08-03 23:32:21.633739 JSON format inventory successfully written 
 INFO:root:2020-08-03 23:32:50.962481 User authenticated successfully
 INFO:root:2020-08-03 23:32:51.347999 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
 INFO:root:2020-08-03 23:32:51.375721 JSON format variables successfully written to stdout
+INFO:root:2020-08-06 00:21:43.381515 User authenticated successfully
+INFO:root:2020-08-06 00:21:44.891717 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 00:21:45.031865 JSON format inventory successfully written to stdout
+INFO:root:2020-08-06 00:22:00.604756 User authenticated successfully
+INFO:root:2020-08-06 00:22:01.177541 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 00:22:01.570935 YAML format inventory successfully written to stdout
+INFO:root:2020-08-06 00:26:48.313563 User authenticated successfully
+INFO:root:2020-08-06 00:26:48.683460 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 00:26:49.018227 YAML format inventory successfully written to stdout
+INFO:root:2020-08-06 00:28:02.663018 User authenticated successfully
+INFO:root:2020-08-06 00:28:03.172317 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 00:28:03.404805 YAML format inventory successfully written to stdout
+INFO:root:2020-08-06 00:47:35.605930 User authenticated successfully
+INFO:root:2020-08-06 00:47:35.938356 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 00:47:36.299611 YAML format inventory successfully written to stdout
+INFO:root:2020-08-06 00:47:45.253417 User authenticated successfully
+INFO:root:2020-08-06 00:47:45.619851 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 00:47:45.718144 JSON format inventory successfully written to stdout
+INFO:root:2020-08-06 00:48:31.717047 User authenticated successfully
+INFO:root:2020-08-06 00:48:32.591194 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 00:48:32.603161 JSON format variables successfully written to stdout
+INFO:root:2020-08-06 00:51:33.675610 No hostname specified on command line
+INFO:root:2020-08-06 00:51:34.264832 User authenticated successfully
+INFO:root:2020-08-06 00:51:34.795424 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 00:51:34.799329 Parameter error calling getIPFInventory
+INFO:root:2020-08-06 00:52:21.614126 No hostname specified on command line
+INFO:root:2020-08-06 00:52:22.490306 User authenticated successfully
+INFO:root:2020-08-06 00:52:22.819137 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 00:52:22.824372 Parameter error calling getIPFInventory
+INFO:root:2020-08-06 00:52:56.764393 User authenticated successfully
+INFO:root:2020-08-06 00:52:57.425568 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 00:52:57.433768 JSON format variables successfully written to stdout
+INFO:root:2020-08-06 00:54:47.434605 No valid server, username or password
+INFO:root:2020-08-06 00:56:14.066336 User authenticated successfully
+INFO:root:2020-08-06 00:56:14.380601 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 00:56:14.387551 YAML format variables successfully written to stdout
+INFO:root:2020-08-06 00:56:31.052089 User authenticated successfully
+INFO:root:2020-08-06 00:56:31.982464 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 00:56:32.438077 YAML format inventory successfully written to stdout
+INFO:root:2020-08-06 00:58:39.101773 No hostname specified on command line
+INFO:root:2020-08-06 00:58:39.649608 User authenticated successfully
+INFO:root:2020-08-06 00:58:39.962345 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 00:58:39.969630 Parameter error calling getIPFInventory
+INFO:root:2020-08-06 00:59:22.832663 No server specified on command line
+INFO:root:2020-08-06 00:59:23.458388 User authenticated successfully
+INFO:root:2020-08-06 00:59:23.882595 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 01:00:02.509242 No username specified on command line
+INFO:root:2020-08-06 01:00:03.724491 User NOT authenticated: Service Unavailable,  
+  Error: {"code":"API_MAINTENANCE_IN_PROGRESS","message":"Maintenance In Progress"}
+INFO:root:2020-08-06 01:00:03.724491 Parameter error calling getIPFInventory
+INFO:root:2020-08-06 01:00:09.780037 No password specified on command line
+INFO:root:2020-08-06 01:00:10.629920 User authenticated successfully
+INFO:root:2020-08-06 01:00:11.469177 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 01:02:59.461585 No password specified on command line
+INFO:root:2020-08-06 01:02:59.980106 User authenticated successfully
+INFO:root:2020-08-06 01:03:00.346135 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 01:05:15.265237 No password specified on command line
+INFO:root:2020-08-06 01:05:33.653900 No username specified on command line
+INFO:root:2020-08-06 01:05:40.171111 No password specified on command line
+INFO:root:2020-08-06 01:06:00.914034 User authenticated successfully
+INFO:root:2020-08-06 01:06:01.354329 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 01:07:26.971167 User authenticated successfully
+INFO:root:2020-08-06 01:07:28.209745 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 01:07:28.381257 JSON format inventory successfully written to stdout
+INFO:root:2020-08-06 01:07:41.865695 User authenticated successfully
+INFO:root:2020-08-06 01:07:42.190505 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 01:07:42.843108 YAML format inventory successfully written to stdout
+INFO:root:2020-08-06 01:08:00.514037 User NOT authenticated: Unauthorized,  
+  Error: {"code":"API_INVALID_CREDENTIALS","message":"Invalid Credentials"}
+INFO:root:2020-08-06 01:08:00.515034 Parameter error calling getIPFInventory
+INFO:root:2020-08-06 01:08:18.486687 User authenticated successfully
+INFO:root:2020-08-06 01:08:18.822720 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 01:08:19.136799 YAML format inventory successfully written to stdout
+INFO:root:2020-08-06 01:08:35.346038 User authenticated successfully
+INFO:root:2020-08-06 01:08:35.711747 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 01:08:36.252950 YAML format inventory successfully written to stdout
+INFO:root:2020-08-06 01:09:44.664507 No server specified on command line
+INFO:root:2020-08-06 01:09:51.247584 User authenticated successfully
+INFO:root:2020-08-06 01:09:51.623690 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 01:09:51.915385 YAML format inventory successfully written to stdout
+INFO:root:2020-08-06 01:23:10.526778 User authenticated successfully
+INFO:root:2020-08-06 01:23:10.866987 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 01:23:11.548280 YAML format inventory successfully written to stdout
+INFO:root:2020-08-06 01:23:25.585737 User authenticated successfully
+INFO:root:2020-08-06 01:23:26.026195 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 01:23:26.070364 JSON format inventory successfully written to stdout
+INFO:root:2020-08-06 01:23:40.597068 User authenticated successfully
+INFO:root:2020-08-06 01:23:40.961521 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 01:23:41.348135 YAML format inventory successfully written to stdout
+INFO:root:2020-08-06 01:23:49.842063 User authenticated successfully
+INFO:root:2020-08-06 01:23:50.557024 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
+INFO:root:2020-08-06 01:23:50.584985 JSON format inventory successfully written to stdout

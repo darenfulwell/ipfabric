@@ -222,3 +222,5 @@ INFO:root:2020-08-03 22:44:51.672259 Parameter error calling getIPFInventory
 INFO:root:2020-08-03 22:46:17.352627 User authenticated successfully
 INFO:root:2020-08-03 22:46:17.743150 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
 INFO:root:2020-08-03 22:47:08.912286 JSON format variables successfully written to stdout
+INFO:root:2020-08-06 00:08:19.384400 User authenticated successfully
+INFO:root:2020-08-06 00:08:34.011669 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices

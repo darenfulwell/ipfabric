@@ -19,6 +19,7 @@ from time import sleep
 from datetime import datetime
 import requests
 import logging
+import sys
 
 # Suppressing SSL certificate warnings if needed
 requests.packages.urllib3.disable_warnings()
@@ -351,10 +352,10 @@ def main():
         devs=getIPFInventory('165.120.82.52:2443','admin','netHero!123')
         if '--list' in opts:
             if len(devs)>0:
-                writeAnsibleInventory(devs,'json')
+                writeAnsibleInventory(devs,'yaml')
         elif '--host' in opts:
             if len(devs)>0:
-                writeAnsibleHostVars(devs,args[0],'json')
+                writeAnsibleHostVars(devs,args[0],'yaml')
     except:
         pyIPFLog("Parameter error calling getIPFInventory")
 
