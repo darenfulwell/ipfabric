@@ -150,13 +150,15 @@ def getIPFInventory(IPFServer, username, password, snapshotId='$last', columns=[
 
     return retVal
 
-def writeAnsibleInventory (devs, format, filename='', grouping=[], variables=[]):
+def writeAnsibleInventory (devs, format, filename='', sshUser='admin', sshPass='admin', grouping=[], variables=[]):
     '''
     Function to output inventory from getIPFInventory function in a format suitable for use as an Ansible inventory
     
     devs = dictionary of devices from getIPFInventory
     format = "yaml" or "json"
     filename [optional] = file to output or '' for stdout (default is '')
+    sshUser = default username for SSH sessions
+    sshPass = default password for SSH sessions
     grouping [optional] = list of group categories for inventory output - valid values are "site", "access", "vendor", "platform", "model", "devType" (default is ungrouped)
     variables [optional] = additional hostvars (default is just ansible_host and ansible_connection)
     
@@ -164,7 +166,7 @@ def writeAnsibleInventory (devs, format, filename='', grouping=[], variables=[])
     '''
     #wholeInventory={"all":{"children":{"ungrouped":{"hosts":[]}}},"_meta":{"hostvars":{}}}
     #wholeInventory={"all":{"children":{"ungrouped":[]}},"_meta":{"hostvars":{}}}
-    wholeInventory={"all":{"children":["ungrouped"],"hosts":[]},"ungrouped":{"hosts":[]},"_meta":{"hostvars":{}}}
+    wholeInventory={"all":{"children":["ungrouped"],"hosts":[],"vars":{"ansible_user":sshUser,"ansible_password":sshPass}},"ungrouped":{"hosts":[]},"_meta":{"hostvars":{}}}
     writeToFile=False
     RetVal=False
 
@@ -187,8 +189,6 @@ def writeAnsibleInventory (devs, format, filename='', grouping=[], variables=[])
         s=dev['siteName']
         y=dev['devType']
     
-        # inventory=wholeInventory['all']['children']
-
         # Add device hostvars
         wholeInventory['_meta']['hostvars'][h]={}
         wholeInventory['_meta']['hostvars'][h]['ansible_host']=i
@@ -201,92 +201,66 @@ def writeAnsibleInventory (devs, format, filename='', grouping=[], variables=[])
 
         if len(grouping)==0:
             # if no groups specified, put host in 'ungrouped'
-            # wholeInventory['all']['children']['ungrouped']['hosts'].append(h)
-            # wholeInventory['all']['children']['ungrouped'].append(h)
             wholeInventory['ungrouped']['hosts'].append(h)
         else:
             if ("vendor" in grouping):
                 # Create vendor grouping if needed
                 if not (v in wholeInventory['all']['children']):
-                    #wholeInventory['all']['children'][v]={'hosts':[]}
-                    #wholeInventory['all']['children'][v]=[]
                     wholeInventory['all']['children'].append(v)
                     wholeInventory[v]={}
                     wholeInventory[v]['hosts']=[]
                 
                 # Add device to vendor group
-                #wholeInventory['all']['children'][v]['hosts'].append(h)
-                #wholeInventory['all']['children'][v].append(h)
                 wholeInventory[v]['hosts'].append(h)
 
             if ("site" in grouping):
                 # Create site grouping
                 if not (s in wholeInventory['all']['children']):
-                    #wholeInventory['all']['children'][s]={'hosts':[]}
-                    #wholeInventory['all']['children'][s]=[]
                     wholeInventory['all']['children'].append(s)
                     wholeInventory[s]={}
                     wholeInventory[s]['hosts']=[]
 
                 # Add device to site group
-                #wholeInventory['all']['children'][s]['hosts'].append(h)
-                #wholeInventory['all']['children'][s].append(h)
                 wholeInventory[s]['hosts'].append(h)
 
             if ("access" in grouping):
                 # Create access method grouping
                 if not (c in wholeInventory['all']['children']):
-                    #wholeInventory['all']['children'][c]={'hosts':[]}
-                    #wholeInventory['all']['children'][c]=[]
                     wholeInventory['all']['children'].append(c)
                     wholeInventory[c]={}
                     wholeInventory[c]['hosts']=[]
 
                 # Add device to access group
-                #wholeInventory['all']['children'][c]['hosts'].append(h)
-                #wholeInventory['all']['children'][c].append(h)
                 wholeInventory[c]['hosts'].append(h)
 
             if ("platform" in grouping):
                 # Create platform grouping
                 if not (p in wholeInventory['all']['children']):
-                    #wholeInventory['all']['children'][p]={'hosts':[]}
-                    #wholeInventory['all']['children'][p]=[]
                     wholeInventory['all']['children'].append(p)
                     wholeInventory[p]={}
                     wholeInventory[p]['hosts']=[]
 
                 # Add device to platform group
-                #wholeInventory['all']['children'][p]['hosts'].append(h)
-                #wholeInventory['all']['children'][p].append(h)
                 wholeInventory[p]['hosts'].append(h)
             
             if ("family" in grouping):
                 # Create model grouping
                 if not (c in wholeInventory['all']['children']):
-                    #wholeInventory['all']['children'][f]={'hosts':[]}
-                    #wholeInventory['all']['children'][f]=[]
                     wholeInventory['all']['children'].append(f)
                     wholeInventory[f]={}
                     wholeInventory[f]['hosts']=[]
                 
                 # Add device to model group
-                #wholeInventory['all']['children'][f]['hosts'].append(h)
-                #wholeInventory['all']['children'][f].append(h)
                 wholeInventory[f]['hosts'].append(h)
 
             if ("devType" in grouping):
                 # Create device type grouping
                 if not (c in wholeInventory['all']['children']):
-                    #wholeInventory['all']['children'][y]={'hosts':[]}
-                    #wholeInventory['all']['children'][y]=[]
                     wholeInventory['all']['children'].append(y)
                     wholeInventory[y]={}
                     wholeInventory[y]['hosts']=[]
 
                 # Add device to device type group
-                #wholeInventory['all']['children'][y]['hosts'].append(h)
-                #wholeInventory['all']['children'][y].append(h)
                 wholeInventory[y]['hosts'].append(h)
 
     # Prepare output in correct format

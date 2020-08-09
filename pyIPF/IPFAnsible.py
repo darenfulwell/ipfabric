@@ -33,8 +33,6 @@ from dotenv import load_dotenv
 
 def main():
     # fetch options and arguments before processing
-    opts = [opt for opt in sys.argv[1:] if opt.startswith("--")]
-    args = [arg for arg in sys.argv[1:] if not arg.startswith("--")]
 
     IPFServer = ''
     IPFUser = ''
@@ -42,6 +40,8 @@ def main():
     IPFGrouping = ''
     IPFVars = ''
     IPFFilter = ''
+    devUsername = ''
+    devPassword = ''
 
     format="json"
     writeInv=False
@@ -96,6 +96,18 @@ def main():
             except:
                 excRaised=True
                 print("No filter specified")
+        elif ("--sshuser" in opt):
+            try:
+                devUsername=sys.argv[index+1]
+            except:
+                excRaised=True
+                print("No SSH username specified")
+        elif ("--sshpass" in opt):
+            try:
+                devPassword=sys.argv[index+1]
+            except:
+                excRaised=True
+                print("No SSH password specified")
         index+=1
 
     # Load .env if present to refer to if environment variables not set
@@ -114,6 +126,10 @@ def main():
         IPFVars = os.getenv('IPF_VARS')
     if not IPFFilter:
         IPFFilter = os.getenv('IPF_FILTER')
+    if not devUsername:
+        devUsername = os.getenv('IPF_SSH_USER')
+    if not devPassword:
+        devPassword = os.getenv('IPF_SSH_PASS')
 
     # Translate strings for grouping, variables and filter to lists and dictionary
     if IPFGrouping:
@@ -140,7 +156,7 @@ def main():
                 devs=getIPFInventory(IPFServer,IPFUser,IPFPassword,filters=IPFFilter)
                 if writeInv:
                     if len(devs)>0:
-                        writeAnsibleInventory(devs,format,grouping=IPFGrouping,variables=IPFVars)
+                        writeAnsibleInventory(devs,format,sshUser=devUsername,sshPass=devPassword,grouping=IPFGrouping,variables=IPFVars)
                 elif writeVars:
                     if len(devs)>0:
                         writeAnsibleHostVars(devs,args[0],format,variables=IPFVars)
