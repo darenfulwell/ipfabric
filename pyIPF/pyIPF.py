@@ -163,7 +163,8 @@ def writeAnsibleInventory (devs, format, filename='', grouping=[], variables=[])
     Returns:    True if written OK to file or stdout / False if write failed
     '''
     #wholeInventory={"all":{"children":{"ungrouped":{"hosts":[]}}},"_meta":{"hostvars":{}}}
-    wholeInventory={"all":{"children":{"ungrouped":[]}},"_meta":{"hostvars":{}}}
+    #wholeInventory={"all":{"children":{"ungrouped":[]}},"_meta":{"hostvars":{}}}
+    wholeInventory={"all":{"children":["ungrouped"],"hosts":[]},"ungrouped":{"hosts":[]},"_meta":{"hostvars":{}}}
     writeToFile=False
     RetVal=False
 
@@ -195,65 +196,98 @@ def writeAnsibleInventory (devs, format, filename='', grouping=[], variables=[])
         for var in variables:
             wholeInventory['_meta']['hostvars'][h][var]=dev[var]
  
+        # Add device to "all" group
+        wholeInventory['all']['hosts'].append(h)
+
         if len(grouping)==0:
             # if no groups specified, put host in 'ungrouped'
             # wholeInventory['all']['children']['ungrouped']['hosts'].append(h)
-            wholeInventory['all']['children']['ungrouped'].append(h)
+            # wholeInventory['all']['children']['ungrouped'].append(h)
+            wholeInventory['ungrouped']['hosts'].append(h)
         else:
             if ("vendor" in grouping):
                 # Create vendor grouping if needed
                 if not (v in wholeInventory['all']['children']):
                     #wholeInventory['all']['children'][v]={'hosts':[]}
-                    wholeInventory['all']['children'][v]=[]
+                    #wholeInventory['all']['children'][v]=[]
+                    wholeInventory['all']['children'].append(v)
+                    wholeInventory[v]={}
+                    wholeInventory[v]['hosts']=[]
                 
                 # Add device to vendor group
                 #wholeInventory['all']['children'][v]['hosts'].append(h)
-                wholeInventory['all']['children'][v].append(h)
+                #wholeInventory['all']['children'][v].append(h)
+                wholeInventory[v]['hosts'].append(h)
 
             if ("site" in grouping):
                 # Create site grouping
                 if not (s in wholeInventory['all']['children']):
                     #wholeInventory['all']['children'][s]={'hosts':[]}
-                    wholeInventory['all']['children'][s]=[]
+                    #wholeInventory['all']['children'][s]=[]
+                    wholeInventory['all']['children'].append(s)
+                    wholeInventory[s]={}
+                    wholeInventory[s]['hosts']=[]
+
                 # Add device to site group
                 #wholeInventory['all']['children'][s]['hosts'].append(h)
-                wholeInventory['all']['children'][s].append(h)
+                #wholeInventory['all']['children'][s].append(h)
+                wholeInventory[s]['hosts'].append(h)
 
             if ("access" in grouping):
                 # Create access method grouping
                 if not (c in wholeInventory['all']['children']):
                     #wholeInventory['all']['children'][c]={'hosts':[]}
-                    wholeInventory['all']['children'][c]=[]
+                    #wholeInventory['all']['children'][c]=[]
+                    wholeInventory['all']['children'].append(c)
+                    wholeInventory[c]={}
+                    wholeInventory[c]['hosts']=[]
+
                 # Add device to access group
                 #wholeInventory['all']['children'][c]['hosts'].append(h)
-                wholeInventory['all']['children'][c].append(h)
+                #wholeInventory['all']['children'][c].append(h)
+                wholeInventory[c]['hosts'].append(h)
 
             if ("platform" in grouping):
                 # Create platform grouping
                 if not (p in wholeInventory['all']['children']):
                     #wholeInventory['all']['children'][p]={'hosts':[]}
-                    wholeInventory['all']['children'][p]=[]
+                    #wholeInventory['all']['children'][p]=[]
+                    wholeInventory['all']['children'].append(p)
+                    wholeInventory[p]={}
+                    wholeInventory[p]['hosts']=[]
+
                 # Add device to platform group
                 #wholeInventory['all']['children'][p]['hosts'].append(h)
-                wholeInventory['all']['children'][p].append(h)
+                #wholeInventory['all']['children'][p].append(h)
+                wholeInventory[p]['hosts'].append(h)
             
             if ("family" in grouping):
                 # Create model grouping
                 if not (c in wholeInventory['all']['children']):
                     #wholeInventory['all']['children'][f]={'hosts':[]}
-                    wholeInventory['all']['children'][f]=[]
+                    #wholeInventory['all']['children'][f]=[]
+                    wholeInventory['all']['children'].append(f)
+                    wholeInventory[f]={}
+                    wholeInventory[f]['hosts']=[]
+                
                 # Add device to model group
                 #wholeInventory['all']['children'][f]['hosts'].append(h)
-                wholeInventory['all']['children'][f].append(h)
+                #wholeInventory['all']['children'][f].append(h)
+                wholeInventory[f]['hosts'].append(h)
 
             if ("devType" in grouping):
                 # Create device type grouping
                 if not (c in wholeInventory['all']['children']):
                     #wholeInventory['all']['children'][y]={'hosts':[]}
-                    wholeInventory['all']['children'][y]=[]
+                    #wholeInventory['all']['children'][y]=[]
+                    wholeInventory['all']['children'].append(y)
+                    wholeInventory[y]={}
+                    wholeInventory[y]['hosts']=[]
+
                 # Add device to device type group
                 #wholeInventory['all']['children'][y]['hosts'].append(h)
-                wholeInventory['all']['children'][y].append(h)
+                #wholeInventory['all']['children'][y].append(h)
+                wholeInventory[y]['hosts'].append(h)
 
     # Prepare output in correct format
     if (format.upper()=='YAML'):
@@ -364,13 +398,13 @@ def main():
     args = [arg for arg in sys.argv[1:] if not arg.startswith("--")]
     
     try:
-        devs=getIPFInventory('165.120.82.52:2443','admin','netHero!123')
-        if '--list' in opts:
-            if len(devs)>0:
-                writeAnsibleInventory(devs,'yaml')
-        elif '--host' in opts:
-            if len(devs)>0:
-                writeAnsibleHostVars(devs,args[0],'yaml')
+        devs=getIPFInventory('192.168.1.174','admin','netHero!123',filters={'siteName':['like','L1']})
+        #if '--list' in opts:
+        if len(devs)>0:
+            writeAnsibleInventory(devs,'json',grouping=['vendor'])
+        #elif '--host' in opts:
+        #if len(devs)>0:
+            #writeAnsibleHostVars(devs,args[0],'yaml')
     except:
         pyIPFLog("Parameter error calling getIPFInventory")
 
