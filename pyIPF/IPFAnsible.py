@@ -133,9 +133,6 @@ def main():
     else:
         IPFFilter={}
 
-    print(IPFVars,IPFFilter,IPFGrouping,IPFServer,IPFUser,IPFPassword)
-    input('Paused')
-
     # Pull data and write it in the right format
     try:
         if not excRaised and (writeInv or writeVars) and len(IPFServer)>0 and len(IPFUser)>0 and len(IPFPassword)>0:
