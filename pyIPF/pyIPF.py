@@ -164,8 +164,6 @@ def writeAnsibleInventory (devs, format, filename='', sshUser='admin', sshPass='
     
     Returns:    True if written OK to file or stdout / False if write failed
     '''
-    #wholeInventory={"all":{"children":{"ungrouped":{"hosts":[]}}},"_meta":{"hostvars":{}}}
-    #wholeInventory={"all":{"children":{"ungrouped":[]}},"_meta":{"hostvars":{}}}
     wholeInventory={"all":{"children":["ungrouped"],"hosts":[],"vars":{"ansible_user":sshUser,"ansible_password":sshPass}},"ungrouped":{"hosts":[]},"_meta":{"hostvars":{}}}
     writeToFile=False
     RetVal=False
@@ -192,7 +190,7 @@ def writeAnsibleInventory (devs, format, filename='', sshUser='admin', sshPass='
         # Add device hostvars
         wholeInventory['_meta']['hostvars'][h]={}
         wholeInventory['_meta']['hostvars'][h]['ansible_host']=i
-        wholeInventory['_meta']['hostvars'][h]['ansible_connection']=c
+        wholeInventory['_meta']['hostvars'][h]['ansible_connection']="network_cli"
         for var in variables:
             wholeInventory['_meta']['hostvars'][h][var]=dev[var]
  
