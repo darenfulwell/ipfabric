@@ -151,3 +151,84 @@ INFO:root:2020-08-06 01:23:41.348135 YAML format inventory successfully written 
 INFO:root:2020-08-06 01:23:49.842063 User authenticated successfully
 INFO:root:2020-08-06 01:23:50.557024 Successfully gathered data from: https://165.120.82.52:2443/api/v1/tables/inventory/devices
 INFO:root:2020-08-06 01:23:50.584985 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 10:24:53.181628 User authenticated successfully
+INFO:root:2020-08-09 10:24:53.368726 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 10:24:53.598718 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 10:33:21.770173 User authenticated successfully
+INFO:root:2020-08-09 10:33:21.987766 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 10:33:22.009526 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 10:35:37.782389 User authenticated successfully
+INFO:root:2020-08-09 10:35:37.905320 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 10:35:37.924272 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 10:36:12.469974 User authenticated successfully
+INFO:root:2020-08-09 10:36:12.914087 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 10:36:12.997488 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 10:39:24.149719 User authenticated successfully
+INFO:root:2020-08-09 10:39:24.276004 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 10:39:24.378761 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 10:42:54.855951 User authenticated successfully
+INFO:root:2020-08-09 10:42:55.057363 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 10:42:55.066339 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 10:44:44.455989 User authenticated successfully
+INFO:root:2020-08-09 10:44:44.579904 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 10:44:44.599653 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 10:46:37.621807 User authenticated successfully
+INFO:root:2020-08-09 10:46:37.991998 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 10:46:38.010092 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 10:47:02.439470 User authenticated successfully
+INFO:root:2020-08-09 10:47:02.526242 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 10:47:02.543666 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 10:47:58.004214 User authenticated successfully
+INFO:root:2020-08-09 10:47:58.113975 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 10:47:58.135918 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 10:50:38.991991 User authenticated successfully
+INFO:root:2020-08-09 10:50:39.121582 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 10:50:39.137545 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 10:52:33.871430 User authenticated successfully
+INFO:root:2020-08-09 10:52:34.025012 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 10:52:34.033566 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 10:53:20.905333 User authenticated successfully
+INFO:root:2020-08-09 10:53:21.036299 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 10:53:21.053454 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 10:53:49.142354 User authenticated successfully
+INFO:root:2020-08-09 10:53:49.289859 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 10:53:49.302472 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 10:54:18.169897 User authenticated successfully
+INFO:root:2020-08-09 10:54:18.316813 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 10:54:18.346769 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 10:55:20.584506 User authenticated successfully
+INFO:root:2020-08-09 10:55:20.700546 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 10:55:20.708527 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 10:55:54.633609 User authenticated successfully
+INFO:root:2020-08-09 10:55:54.949073 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 10:55:55.041581 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 10:56:46.697741 User authenticated successfully
+INFO:root:2020-08-09 10:56:46.851589 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 10:56:46.932993 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 10:57:50.436721 User authenticated successfully
+INFO:root:2020-08-09 10:57:50.573736 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 10:57:50.587240 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 10:58:52.965517 User authenticated successfully
+INFO:root:2020-08-09 10:58:53.131174 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 10:58:53.141464 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 10:59:13.252896 User authenticated successfully
+INFO:root:2020-08-09 10:59:13.405197 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 10:59:13.418777 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 14:15:29.248610 User authenticated successfully
+INFO:root:2020-08-09 14:15:29.383032 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 14:15:29.408924 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 14:38:35.122119 User authenticated successfully
+INFO:root:2020-08-09 14:38:35.192931 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 14:38:35.198913 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 14:39:37.540523 User authenticated successfully
+INFO:root:2020-08-09 14:39:37.679624 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 14:39:37.694590 JSON format inventory successfully written to stdout
+INFO:root:2020-08-09 14:40:26.026137 User authenticated successfully
+INFO:root:2020-08-09 14:40:26.183713 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 14:40:26.185708 JSON format variables successfully written to stdout
+INFO:root:2020-08-09 14:41:47.779072 User authenticated successfully
+INFO:root:2020-08-09 14:41:47.926676 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 14:41:47.928694 JSON format variables successfully written to stdout
+INFO:root:2020-08-09 14:43:26.844842 User authenticated successfully
+INFO:root:2020-08-09 14:43:26.925625 Successfully gathered data from: https://192.168.1.174/api/v1/tables/inventory/devices
+INFO:root:2020-08-09 14:43:26.943161 JSON format inventory successfully written to stdout
