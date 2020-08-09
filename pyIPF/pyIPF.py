@@ -191,6 +191,8 @@ def writeAnsibleInventory (devs, format, filename='', sshUser='admin', sshPass='
         wholeInventory['_meta']['hostvars'][h]={}
         wholeInventory['_meta']['hostvars'][h]['ansible_host']=i
         wholeInventory['_meta']['hostvars'][h]['ansible_connection']="network_cli"
+        wholeInventory['_meta']['hostvars'][h]['ansible_network_os']=f
+        
         for var in variables:
             wholeInventory['_meta']['hostvars'][h][var]=dev[var]
  
