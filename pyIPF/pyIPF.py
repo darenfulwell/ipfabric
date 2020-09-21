@@ -20,6 +20,8 @@ from datetime import datetime
 import requests
 import logging
 import sys
+from rich.table import Table
+from rich.console import Console
 
 # Suppressing SSL certificate warnings if needed
 requests.packages.urllib3.disable_warnings()
@@ -149,6 +151,24 @@ def getIPFInventory(IPFServer, username, password, snapshotId='$last', columns=[
         pyIPFLog('Invalid IPF Server parameter')
 
     return retVal
+
+def writeInventoryTable (devs, title='IP Fabric Inventory'):
+    '''
+    Function to output inventory from getIPFInventory function in a "rich" formatted table
+
+    devs = dictionary of devices from getIPFInventory
+    filename [optional] = file to output or '' for stdout (default is '')
+
+    Returns:    True if written OK to file or stdout / False if write failed
+    '''
+
+    table=Table("Site","Host name","IP address","Vendor",title=title)
+    for dev in devs:
+        table.add_row(dev['siteName'],dev['hostname']['data'],dev['loginIp'],dev['vendor'])
+
+    console = Console()
+    console.print(table, justify="center")
+
 
 def writeAnsibleInventory (devs, format, filename='', sshUser='admin', sshPass='admin', grouping=[], variables=[]):
     '''
@@ -368,6 +388,7 @@ def writeAnsibleHostVars (devs, hostName, format, filename='', variables=[]):
 
 
 def main():
+    breakpoint()
     opts = [opt for opt in sys.argv[1:] if opt.startswith("--")]
     args = [arg for arg in sys.argv[1:] if not arg.startswith("--")]
     

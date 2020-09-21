@@ -11,6 +11,8 @@ IPF_PASSWORD = API user password
 IPF_FILTER = Filter to apply to inventory - in IP Fabric format {'column':['operator','value']}
 IPF_GROUP = List of categories for groups - "site", "access", "vendor", "platform", "model", "devType" (default is ungrouped)
 IPF_VARS = List of additional host variables (column names)
+IPF_SSH_USER = Default device username
+IPF_SSH_PASS = Default device password
 
 Command line options:
 --list = produce full Ansible dynamic inventory dictionary
@@ -22,6 +24,8 @@ Command line options:
 --filter {Filter} = Filter to apply to inventory - in IP Fabric format {'column':['operator','value']}
 --group [Group List] = List of categories for groups - "site", "access", "vendor", "platform", "model", "devType" (default is ungrouped)
 --vars [Var List] = List of additional host variables (column names)
+--sshuser [Device Username] = SSH session username
+--sshpass [Device Password] = SSH session password 
 
 '''
 
