@@ -8,6 +8,7 @@ def fetchIPFAccessToken (IPFServer, userAndPass):  Function to authenticate a us
 def refreshIPFToken (IPFServer, refreshToken):  Function to refresh the access token for API calls
 def getIPFData(apiEndpoint, dataHeaders, dataPayload):  Function to fetch arbitrary data from IP Fabric server
 def getIPFInventory(IPFServer, username, password, snapshotId, columns, filters):  Function to retrieve IP Fabric inventory details
+def writeInventoryTable (devices): Function to print formatted inventory table
 def writeAnsibleInventory (devices, format, destination, grouping, variables): Function to write Ansible format inventory
 def writeAnsibleHostVars (devices, hostName, format, filename, variables): Function to write Ansible format host variables
 '''
@@ -163,12 +164,15 @@ def writeInventoryTable (devs, title='IP Fabric Inventory'):
     '''
 
     table=Table("Site","Host name","IP address","Vendor",title=title)
+    count=0
     for dev in devs:
         table.add_row(dev['siteName'],dev['hostname']['data'],dev['loginIp'],dev['vendor'])
-
+        count+=1
+    
     console = Console()
-    console.print(table, justify="center")
-
+    console.print(table)
+    print(count,"records")
+    
 
 def writeAnsibleInventory (devs, format, filename='', sshUser='admin', sshPass='admin', grouping=[], variables=[]):
     '''
