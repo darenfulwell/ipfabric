@@ -58,7 +58,7 @@ def fetchIPFRoutes(IPFServer,hostName,snapshot,APIToken='',IPFUser='',IPFPasswor
             "snapshot":snapshot,
             "reports":"/technology/routing/routes"
         }
-        routesEndpoint='http://'+IPFServer+'/v1/tables/networks/routes'
+        routesEndpoint='https://'+IPFServer+'/api/v1/tables/networks/routes'
         routes=getIPFData(routesEndpoint,headers,routesPayload)
     else:
         #assume version lower than 3.7
