@@ -48,7 +48,7 @@ def fetchIPFRoutes(IPFServer,hostName,snapshot,APIToken='',IPFUser='',IPFPasswor
     Returns dictionary of routing entries
 
     '''
-    
+
     if APIToken != '':
         #assume v3.7 or above
         headers = {'X-API-Token' : APIToken, 'Content-type':'application/json'}
@@ -120,7 +120,5 @@ def main():
     print("\nDeleted routes:")
     print_table(diff[1])
 
-    
-    
 if __name__ == "__main__":
     main()
