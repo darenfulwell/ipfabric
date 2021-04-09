@@ -9,6 +9,7 @@ from pyIPF import getIPFInventory, writeInventoryTable, fetchIPFAccessToken, get
 import sys
 import json
 import os
+
 from dotenv import load_dotenv
 from rich.table import Table
 from rich.console import Console
@@ -63,7 +64,6 @@ def fetchIPFRoutes(IPFServer,hostName,snapshot,APIToken='',IPFUser='',IPFPasswor
     else:
         #assume version lower than 3.7
         routes={}
-
     return (routes)
 
 def routeEntries(IPFRoutes):
@@ -76,12 +76,10 @@ def routeEntries(IPFRoutes):
     '''
 
     routeEntryList=[('hostname','network','protocol','vrf','next hop','int','AD')]
-    
     for routeEntry in IPFRoutes.json()['data']: 
         for nextHop in routeEntry['nexthop']:
             newEntry=(routeEntry['hostname'],routeEntry['network'],routeEntry['protocol'],routeEntry['vrf'],nextHop['ip'],nextHop['intName'],nextHop['ad'])
             routeEntryList.append(newEntry)
-
     return routeEntryList
 
 def diffRoutes (oldRoutes,newRoutes):
@@ -110,9 +108,10 @@ def main():
     IPFFilter = os.getenv('IPF_FILTER')
     IPFToken = os.getenv('IPF_TOKEN')
 
-    lastRoutes=routeEntries(fetchIPFRoutes(IPFServer,'L45EXR1','$last',APIToken=IPFToken))
-    prevRoutes=routeEntries(fetchIPFRoutes(IPFServer,'L45EXR1','$prev',APIToken=IPFToken))
-
+    lastRoutes=routeEntries(fetchIPFRoutes(IPFServer,'L68EXR1','$last',APIToken=IPFToken))
+    prevRoutes=routeEntries(fetchIPFRoutes(IPFServer,'L68EXR1','$prev',APIToken=IPFToken))
+    print(f'number of last routes: {len(lastRoutes)}')
+    print(f'number of prev routes: {len(prevRoutes)}')
     diff=diffRoutes(prevRoutes,lastRoutes)
 
     print("Added routes:")
