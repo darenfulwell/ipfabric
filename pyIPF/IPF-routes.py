@@ -48,7 +48,7 @@ def fetchIPFRoutes(IPFServer,hostName,snapshot,APIToken='',IPFUser='',IPFPasswor
     Returns dictionary of routing entries
 
     '''
-
+    
     if APIToken != '':
         #assume v3.7 or above
         headers = {'X-API-Token' : APIToken, 'Content-type':'application/json'}
